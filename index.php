@@ -1,0 +1,561 @@
+<?php require("./header.php"); ?>
+	<!-- <div class="container-fluid text-white  d-flex cookie_bar">
+		<p class="text-wrap">The site uses its own technical cookies, anonymous third party analytic cookies and
+			third-party cookies that could be used in profiling: in accessing any element/area of the site outside of
+			this banner, you consent to receiving cookies. If you want to know more or refuse consent to cookies, click
+			here.</p>
+		<button type=" button" class="btn accept_btn">Accept</button>
+	</div> -->
+
+
+
+	<!-- Img slider start -->
+
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+		<div class="carousel-inner index_slider">
+			<div class="carousel-item active">
+				<img src="./img/product1.jpg" class="d-block w-100" alt="this is slider">
+				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+					<h1>Keep Your Body &#38; <span>Shape Your Body</span></h1>
+					<h3>Fit & Refresh & Strong</h3>
+					<p class="mb-5">
+						it represents a common area where people, from all ranges of experience, exercise and work out
+						their muscles. You can also usually find people doing cardio exercises or pilates.
+
+					</p>
+					<a class="getstartbtn" href="login.php">Get started</a>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="./img/product2.jpg" class="d-block w-100" alt="this is slider">
+				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+					<h1><span>improves</span> mood</h1>
+					<p class="mb-5">
+						Need an emotional lift? Or need to destress after a stressful day? A gym session or brisk walk
+						can help. Physical activity stimulates various brain chemicals that may leave you feeling
+						happier, more relaxed and less anxious.
+
+						You may also feel better about your appearance and yourself when you exercise regularly, which
+						can boost your confidence and improve your self-esteem.
+					</p>
+					<a class="getstartbtn" href="login.php">Get started</a>
+
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="./img/product3.jpg" class="d-block w-100" alt="this is slider">
+				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+					<h1>boosts <span>energy</span></h1>
+					<p class="mb-5">
+						Winded by grocery shopping or household chores? Regular physical activity can improve your
+						muscle strength and boost your endurance.
+
+						Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work
+						more efficiently. And when your heart and lung health improve, you have more energy to tackle
+						daily chores.
+					</p>
+					<a class="getstartbtn" href="login.php">Get started</a>
+
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="./img/product4.jpg" class="d-block w-100" alt="this is slider">
+				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+					<h1>promotes better <span>sleep</span></h1>
+					<p class="mb-5">
+						Struggling to snooze? Regular physical activity can help you fall asleep faster, get better
+						sleep and deepen your sleep. Just don't exercise too close to bedtime, or you may be too
+						energized to go to sleep.
+					</p>
+					<a class="getstartbtn" href="login.php">Get started</a>
+				</div>
+			</div>
+
+			<div class="carousel-item">
+				<img src="./img/product5.jpg" class="d-block w-100" alt="this is slider">
+				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+					<h1>can be <span>fun</span> … and <span>social!</span></h1>
+					<p class="mb-5">
+						Exercise and physical activity can be enjoyable. They give you a chance to unwind, enjoy the
+						outdoors or simply engage in activities that make you happy. Physical activity can also help you
+						connect with family or friends in a fun social setting.
+					</p>
+					<a class="getstartbtn" href="login.php">Get started</a>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+				aria-label="Slide 4"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+				aria-label="Slide 5"></button>
+		</div>
+
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	<!-- Img slider End -->
+
+
+	<div class="container-fluid">
+
+		<!-- Search bar start -->
+		<div class="row">
+			<div class="col-md-12 search_section py-5">
+				<form>
+					<fieldset>
+						<legend class="">Discover Your Products</legend>
+					</fieldset>
+					<div class="search_box rounded-3">
+						<div class="input-field first-wrap">
+							<input class="rounded-3" id="search" type="text" placeholder="What are you looking for?" />
+						</div>
+						<div class="input-field second-wrap">
+							<input class="rounded-3" id="location" type="text" placeholder="Category" />
+						</div>
+						<div class="input-field third-wrap">
+							<button class="btn-search rounded-3" type="button">Search</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- Search bar End -->
+
+		<!-- Marquee start -->
+		<div class="row">
+			<div class="col-lg-12 text-white bg-dark">
+				<marquee class="slide_text" direction="" scrollamount="15">Create Your Own Modern Private Gym</marquee>
+
+			</div>
+		</div>
+		<!-- marquee End -->
+
+
+		<!-- Products start -->
+		<div class="row">
+			<section class="section-products">
+				<div class="container-fluid">
+					<div class="row justify-content-center text-center">
+						<div class="col-md-8 col-lg-6">
+							<div class="header">
+								<h3>ESSENTIAL GYM EQUIPMENT YOU NEED IN YOUR HOME GYM</h3>
+								<h2 class="fs-2 ">Popular Products</h2>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3 product_container text-center">
+							<div id="product-1" class="single-product">
+								<div class="part-1">
+									
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Body-Solid 3 Tier Dumbbell Rack GDR363</h3>
+									<p class="product-price ">$600</p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fas fa-star-half-alt"></i></li>
+											<li class="list-inline-item"><i class="far fa-star"></i></li>
+										</ul>
+									</div>
+									<p class="btn product_btn ">See More</p>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
+							<div id="product-2" class="single-product">
+								<div class="part-1">
+									
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Epic Fitness 100-Pound Hex Dumbbell Set with Heavy Duty
+										A-Frame Rack</h3>
+									<p class="product-price ">$300</p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+										</ul>
+									</div>
+									<p class="btn product_btn ">See More</p>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
+							<div id="product-3" class="single-product">
+								<div class="part-1">
+									
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Advanced Home Gym Equipment for the Fitness Enthusiast
+									</h3>
+									<p class="product-price ">$600</p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fas fa-star-half-alt"></i></li>
+											<li class="list-inline-item"><i class="far fa-star"></i></li>
+										</ul>
+									</div>
+									<p class="btn product_btn ">See More</p>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
+							<div id="product-4" class="single-product">
+								<div class="part-1">
+									
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Matrix Fitness S-Force </h3>
+									<p class="product-price ">$950</p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="far fa-star"></i></li>
+										</ul>
+									</div>
+									<p class="btn product_btn ">See More</p>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
+							<div id="product-5" class="single-product">
+								<div class="part-1">
+									
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Elliptical machine (aka cross trainer)
+									</h3>
+									<p class="product-price ">$1300</p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fas fa-star-half-alt"></i></li>
+										</ul>
+									</div>
+									<p class="btn product_btn ">See More</p>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
+							<div id="product-6" class="single-product">
+								<div class="part-1">
+									
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">STEP MILL 7000 PT</h3>
+									<p class="product-price ">$1750</p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+										</ul>
+									</div>
+									<p class="btn product_btn ">See More</p>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
+							<div id="product-7" class="single-product">
+								<div class="part-1">
+									
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Sunny Health & Fitness P8700 Pink Treadmill</h3>
+									<p class="product-price ">$750</p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fas fa-star-half-alt"></i></li>
+											<li class="list-inline-item"><i class="far fa-star"></i></li>
+										</ul>
+									</div>
+									<p class="btn product_btn ">See More</p>
+								</div>
+							</div>
+						</div>
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
+							<div id="product-8" class="single-product">
+								<div class="part-1">
+									
+								</div>
+								<div class="part-2">
+									<h3 class="product-title">Creatine Monohydrate - Raspberry Lemonade Drink Mix</h3>
+									<p class="product-price ">$50.99</p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="far fa-star"></i></li>
+										</ul>
+									</div>
+									<p class="btn product_btn ">See More</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- Products End -->
+
+		<!-- Brand Start -->
+		<div class="row">
+			<div class="container-fluid brand_section">
+				<div class="row">
+					<div class="col-lg-3 brand_card col-md-6 text-center mt-5">
+						<i class="fas fa-arrow-alt-circle-down "></i>
+						<div class="brand_content">
+							<h1 class="fs-1">Weight Loss</h1>
+							<p>Lose It. Keep it off.</p>
+							<p class="my-4">
+								Scientifically formulated nutritional products and dietary supplements design to help
+								you lose
+								weight and reduce body fat.
+							</p>
+							<a class="rounded-pill" href="./gallery.php">Buy Now</a>
+						</div>
+					</div>
+
+					<div class="col-lg-3 brand_card col-md-6 text-center mt-5">
+						<i class="fas fa-tachometer-alt"></i>
+						<div class="brand_content">
+							<h1 class="fs-1">Performance</h1>
+							<p>maximize your results.</p>
+							<p class="my-4">
+								Bump up your intensity and support strength, performance, and muscle gain.
+								Scientifically formulated, and NSF Certified for Sport.
+							</p>
+							<a class="rounded-pill" href="./gallery.php">Buy Now</a>
+						</div>
+					</div>
+
+					<div class="col-lg-3 brand_card col-md-6 text-center mt-5">
+						<i class="fas fa-plus-circle"></i>
+						<div class="brand_content">
+							<h1 class="fs-1">Health</h1>
+							<p>live life better.</p>
+							<p class="my-4">
+								Improve your health and support your active PlaySpan. Scientifically formulated,
+								third-party tested, and NSF Certified for Sport.
+							</p>
+							<a class="rounded-pill" href="./gallery.php">Buy Now</a>
+						</div>
+					</div>
+
+					<div class="col-lg-3 brand_card col-md-6 text-center mt-5">
+						<i class="fab fa-nutritionix"></i>
+						<div class="brand_content">
+							<h1 class="fs-1">Nutrition</h1>
+							<p>fuel your passion.</p>
+							<p class="my-4">
+								Delicious and healthy meal replacements, bars, and cookies. Packed with whey or vegan
+								protein to support your healthy lifestyle.
+							</p>
+							<a class="rounded-pill" href="./gallery.php">Buy Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Brand End -->
+
+
+		<!-- Video Start -->
+		<div class="row">
+			<div class="container-fluid video_section">
+				<h1 class="col-lg-12 fs-1 text-center text-white "><span>Who</span> we are</h1>
+				<div class="col-lg-12 video_container">
+					<img src="./img/bg1.jpg" class="img-fluid col-md-10 offset-md-1 video_img "
+						alt="this is video image">
+					<div class="play">
+						<a href="https://youtu.be/kXptPzKNMq4" target="_blank"><i class="fas fa-play"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Video End -->
+
+		<!-- Vision Start -->
+		<div class="row">
+			<div class="container-fluid vision_section">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class=" fs-1 text-center text-white my-3">Our <span>Vision</span></h1>
+					</div>
+
+					<div class="col-lg-6 text-white">
+						<p class="my-5">
+						To help you achieve your objectives, we developed this gym shpp just outside your door. Through our fitness philosophy, facilities, programmes, and products, we aim to improve the quality of life in the communities in which we operate and to inculcate the importance of health and fitness in the lives of people worldwide."
+						<br />
+						<span class="text-center d-block  mt-2 mx-0">Your vision, our vision, and the gym's vision.</span>
+						</p>
+						<a class="readmorebtn offset-md-4 offset-sm-5 my-5" href="./information.php">Read More</a>
+
+
+					</div>
+
+					<div class="col-lg-6 text-white ">
+						<iframe class="w-100" src="https://www.youtube.com/embed/8jdJU7L7MMg"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen>
+						</iframe>
+					</div>
+				</div>
+
+				<div class="row ">
+					<div class="col-lg-12">
+						<h1 class=" fs-1 text-center text-white my-3">Our <span>Mission</span></h1>
+					</div>
+					<div class="col-lg-6  ">
+						<iframe class="w-100" src="https://www.youtube.com/embed/yHDoK930Hr4"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</div>
+					<div class="col-lg-6 text-white  ">
+						<p class="my-5">
+							We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff and
+							premier exercise equipment, which supports our members in meeting their individual fitness
+							goals. We provide these with dedication to the highest quality of customer satisfaction
+							delivered with a sense of friendliness, individual pride and company spirit. The strength of
+							our heart-felt identity is utilized to inspire every person that steps foot into our gyms to
+							better themselves.
+						</p>
+						<a class="readmorebtn read2 offset-md-4  offset-sm-5" href="./information.php">Read More</a>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Vision End -->
+
+
+		<!-- Contact Start -->
+		<div class="row">
+			<div class="content_contact">
+				<div class="container-fluid p-0">
+					<div class="row align-items-stretch no-gutters contact-wrap">
+						<div class="col-lg-12 fs-1  text-center mb-5 contact_header">Get in Touch with us</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="form h-100">
+								<h2>Send us a message</h2>
+								<form class="mb-5" method="post" id="contactForm" name="contactForm">
+									<div class="row">
+										<div class="col-md-6 form-group mb-5">
+											<label for="" class="col-form-label">Name *</label>
+											<input type="text" class="form-control" name="name" id="name"
+												placeholder="Your name" autocomplete="off">
+										</div>
+										<div class="col-md-6 form-group mb-5">
+											<label for="" class="col-form-label">Email *</label>
+											<input type="text" class="form-control" name="email" id="email"
+												placeholder="Your email" autocomplete="off">
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-6 form-group mb-5">
+											<label for="" class="col-form-label">Phone</label>
+											<input type="text" class="form-control" name="phone" id="phone"
+												placeholder="Phone #" autocomplete="off">
+										</div>
+										<div class="col-md-6 form-group mb-5">
+											<label for="" class="col-form-label">Company</label>
+											<input type="text" class="form-control" name="company" id="company"
+												placeholder="Company  name" autocomplete="off">
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-12 form-group mb-5">
+											<label for="message" class="col-form-label">Message *</label>
+											<textarea class="form-control" name="message" id="message" cols="30"
+												rows="4" placeholder="Write your message" autocomplete="off"></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12 form-group">
+											<input type="submit" value="Send Message"
+												class="btn rounded-0 py-2 px-4 contact_btn">
+											<span class="submitting"></span>
+										</div>
+									</div>
+								</form>
+
+								<div id="form-message-warning mt-4"></div>
+								<div id="form-message-success">
+									Your message was sent, thank you!
+								</div>
+
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15277.40535394682!2d96.1420956479855!3d16.808917679683788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19356f250c83b%3A0xf26c0629fdbec99!2sPower%20House%20Fitness%20Club!5e0!3m2!1sen!2ssg!4v1642386467291!5m2!1sen!2ssg"
+								class="w-100 h-100 contact-info" allowfullscreen="" loading="lazy"></iframe>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Contact End -->
+
+	</div>
+
+<?php require_once("./footer.php"); ?>

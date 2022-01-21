@@ -23,8 +23,8 @@
 				<div class="col-xs-6 col-lg-3">
 					<h6>Quick Links</h6>
 					<ul class="footer-links">
-						<li><a href="./information.php">Information</a></li>
-						<li><a href="./gallery.php">Gallery</a></li>
+						<li><a href="./about.php">About</a></li>
+						<li><a href="./product.php">Product</a></li>
 						<li><a href="./featured.php">Featured</a></li>
 						<li><a href="./contact.php">Contact Us</a></li>
 					</ul>

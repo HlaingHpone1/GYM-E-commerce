@@ -1,8 +1,8 @@
 <?php require("./header.php"); ?>
 
-	<div class="banner" id="gallerbanner">
-		<h1 class="fs-1">Information</h1>
-		<p>Home / Pages / Information</p>
+	<div class="banner" id="aboutbanner">
+		<h1 class="fs-1">About Us</h1>
+		<p>Home / Pages / About Us</p>
 	</div>
 
 	<div class="container-fluid bg-dark ">
@@ -513,8 +513,7 @@
 			<div
 				id="carouselExampleCaptions"
 				class="carousel slide customer_slider"
-				data-bs-ride="carousel"
-			>
+				data-bs-ride="carousel" >
 				<div class="carousel-indicators">
 					<button
 						type="button"
@@ -540,7 +539,7 @@
 				<div class="carousel-inner customer_slider_inner">
 					<div class="carousel-item active">
 						<img src="./img/bg3.jpg" class="d-block" alt="..." />
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption  d-md-block">
 							<h5>First slide label</h5>
 							<p>Some representative placeholder content for the first slide.</p>
 						</div>
@@ -548,7 +547,7 @@
 
 					<div class="carousel-item">
 						<img src="./img/bg2.jpg" class="d-block" alt="..." />
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption  d-md-block">
 							<h5>Second slide label</h5>
 							<p>Some representative placeholder content for the second slide.</p>
 						</div>
@@ -556,7 +555,7 @@
 
 					<div class="carousel-item">
 						<img src="./img/bg1.jpg" class="d-block" alt="..." />
-						<div class="carousel-caption d-none d-md-block">
+						<div class="carousel-caption d-md-block">
 							<h5>Third slide label</h5>
 							<p>Some representative placeholder content for the third slide.</p>
 						</div>
@@ -586,32 +585,34 @@
 
 		<div class="row py-3 info_row">
 			<h1 class="fs-1 col-md-12 text-center fw-bolder text-white mb-5">News & Events</h1>
-			<div class="col-lg-6 col-md-12">
+			<div class="col-lg-6 col-md-12 mb-5">
 				<img class="w-100" src="./img/bg1.jpg" alt="" />
-				<div class="info_new_content text-white">
-					<h3 class="fs-3 my-4">
-						Lorem ipsum dolor sit amet.
-					</h3>
-					<p>22hours</p>
+				<div class="info_event_content text-white">
+					<h2  class="fs-2 my-3">
+						Summer Special Discount Event in Mandalay
+					</h2>
+					<p class="text-muted"><i class="fas fa-map-marked-alt me-2"></i> Ocean Supercenter - Mingalar Mandalay</p>
+					<p class="text-muted"><i class="fas fa-stopwatch me-2"></i> 9:00AM</p>
+					
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12">
-				<div class="info_event1 mb-5 d-lg-flex ">
+				<div class="info_new1 mb-5 d-flex ">
 					<img class="w-50" src="./img/bg1.jpg" alt="" />
-					<div class="info_new_content text-white ms-lg-3 ms-md-0 mt-lg-0 mt-md-3 ">
-						<h3 class="fs-3 mb-4 ">
+					<div class=" text-white ms-3 mt-lg-0 mt-md-5 ">
+						<p class="mb-3 info_new_text">
 							For Summer Holiday Discount Event
-						</h3>
-						<p>22hours</p>
+						</p>
+						<p class="text-muted">3 Days ago</p>
 					</div>
 				</div>
-				<div class="info_event1 mb-5 d-lg-flex">
+				<div class="info_new2 mb-5 d-flex">
 					<img class="w-50" src="./img/bg1.jpg" alt="" />
-					<div class="info_new_content text-white ms-lg-3 ms-md-0 mt-lg-0 mt-md-3">
-						<h3 class="fs-3 mb-4 ">
+					<div class=" text-white ms-3 mt-lg-0 mt-md-5">
+						<p class="mb-4 info_new_text">
 							Happy thingyan festival Event in Yangon
-						</h3>
-						<p>22hours</p>
+						</p>
+						<p class="muted">22hours</p>
 					</div>
 				</div>
 			</div>

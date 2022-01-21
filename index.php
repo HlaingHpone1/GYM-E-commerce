@@ -24,7 +24,7 @@
 						their muscles. You can also usually find people doing cardio exercises or pilates.
 
 					</p>
-					<a class="getstartbtn" href="login.php">Get started</a>
+					<a class="getstartbtn"  role="button" href="login.php">Get started</a>
 				</div>
 			</div>
 
@@ -154,200 +154,176 @@
 
 
 		<!-- Products start -->
-		<div class="row">
-			<section class="section-products">
-				<div class="container-fluid">
-					<div class="row justify-content-center text-center">
-						<div class="col-md-8 col-lg-6">
-							<div class="header">
-								<h3>ESSENTIAL GYM EQUIPMENT YOU NEED IN YOUR HOME GYM</h3>
-								<h2 class="fs-2 ">Popular Products</h2>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3 product_container text-center">
-							<div id="product-1" class="single-product">
-								<div class="part-1">
-									
-								</div>
-								<div class="part-2">
-									<h3 class="product-title">Body-Solid 3 Tier Dumbbell Rack GDR363</h3>
-									<p class="product-price ">$600</p>
-									<div class="star-rating">
-										<ul class="list-inline">
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fas fa-star-half-alt"></i></li>
-											<li class="list-inline-item"><i class="far fa-star"></i></li>
-										</ul>
-									</div>
-									<p class="btn product_btn ">See More</p>
-								</div>
-							</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
-							<div id="product-2" class="single-product">
-								<div class="part-1">
-									
-								</div>
-								<div class="part-2">
-									<h3 class="product-title">Epic Fitness 100-Pound Hex Dumbbell Set with Heavy Duty
-										A-Frame Rack</h3>
-									<p class="product-price ">$300</p>
-									<div class="star-rating">
-										<ul class="list-inline">
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-										</ul>
-									</div>
-									<p class="btn product_btn ">See More</p>
-								</div>
-							</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
-							<div id="product-3" class="single-product">
-								<div class="part-1">
-									
-								</div>
-								<div class="part-2">
-									<h3 class="product-title">Advanced Home Gym Equipment for the Fitness Enthusiast
-									</h3>
-									<p class="product-price ">$600</p>
-									<div class="star-rating">
-										<ul class="list-inline">
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fas fa-star-half-alt"></i></li>
-											<li class="list-inline-item"><i class="far fa-star"></i></li>
-										</ul>
-									</div>
-									<p class="btn product_btn ">See More</p>
-								</div>
-							</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
-							<div id="product-4" class="single-product">
-								<div class="part-1">
-									
-								</div>
-								<div class="part-2">
-									<h3 class="product-title">Matrix Fitness S-Force </h3>
-									<p class="product-price ">$950</p>
-									<div class="star-rating">
-										<ul class="list-inline">
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="far fa-star"></i></li>
-										</ul>
-									</div>
-									<p class="btn product_btn ">See More</p>
-								</div>
-							</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
-							<div id="product-5" class="single-product">
-								<div class="part-1">
-									
-								</div>
-								<div class="part-2">
-									<h3 class="product-title">Elliptical machine (aka cross trainer)
-									</h3>
-									<p class="product-price ">$1300</p>
-									<div class="star-rating">
-										<ul class="list-inline">
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fas fa-star-half-alt"></i></li>
-										</ul>
-									</div>
-									<p class="btn product_btn ">See More</p>
-								</div>
-							</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
-							<div id="product-6" class="single-product">
-								<div class="part-1">
-									
-								</div>
-								<div class="part-2">
-									<h3 class="product-title">STEP MILL 7000 PT</h3>
-									<p class="product-price ">$1750</p>
-									<div class="star-rating">
-										<ul class="list-inline">
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-										</ul>
-									</div>
-									<p class="btn product_btn ">See More</p>
-								</div>
-							</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
-							<div id="product-7" class="single-product">
-								<div class="part-1">
-									
-								</div>
-								<div class="part-2">
-									<h3 class="product-title">Sunny Health & Fitness P8700 Pink Treadmill</h3>
-									<p class="product-price ">$750</p>
-									<div class="star-rating">
-										<ul class="list-inline">
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fas fa-star-half-alt"></i></li>
-											<li class="list-inline-item"><i class="far fa-star"></i></li>
-										</ul>
-									</div>
-									<p class="btn product_btn ">See More</p>
-								</div>
-							</div>
-						</div>
-						<!-- Single Product -->
-						<div class="col-md-6 col-lg-4 col-xl-3 text-center">
-							<div id="product-8" class="single-product">
-								<div class="part-1">
-									
-								</div>
-								<div class="part-2">
-									<h3 class="product-title">Creatine Monohydrate - Raspberry Lemonade Drink Mix</h3>
-									<p class="product-price ">$50.99</p>
-									<div class="star-rating">
-										<ul class="list-inline">
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="fa fa-star"></i></li>
-											<li class="list-inline-item"><i class="far fa-star"></i></li>
-										</ul>
-									</div>
-									<p class="btn product_btn ">See More</p>
-								</div>
-							</div>
-						</div>
+		<div class="row pb-5 mybg-dark">
+			<h1 class="fs-1 text-center text-white product_header mb-5">Best Selling <span>Products</span></h1>
+			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+				<!-- Card-->
+				<div class="card rounded-3 shadow-sm border-0 card_background">
+					<div class="card-body p-4">
+						<img
+							src="./img/product8.png"
+							alt=""
+							class=" d-block mx-auto mb-3"
+						/>
+						<h5>
+							<a href="#" class="text-dark text-decoration-none"
+								>Advanced Home Gym Equipment</a
+							>
+						</h5>
+						<p class="small text-muted font-italic">
+							Brand 2XU
+						</p>
+						<ul class="list-inline small">
+							<li class="list-inline-item m-0 text-muted">
+								(4.12)
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="far fa-star text-success"></i>
+							</li>
+						</ul>
+
+						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
 					</div>
 				</div>
-			</section>
+			</div>
+
+			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+				<!-- Card-->
+				<div class="card rounded shadow-sm border-0 card_background">
+					<div class="card-body p-4">
+						<img
+							src="./img/product9.jpg"
+							alt=""
+							class=" d-block mx-auto mb-3"
+						/>
+						<h5>
+							<a href="#" class="text-dark text-decoration-none"
+								>Matrix Fitness S-Force</a
+							>
+						</h5>
+						<p class="small text-muted font-italic">
+							Brand Reebok
+						</p>
+						<ul class="list-inline small">
+							<li class="list-inline-item m-0 text-muted">
+								(4.45)
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fas fa-star-half-alt text-success"></i>
+							</li>
+						</ul>
+						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+				<!-- Card-->
+				<div class="card rounded shadow-sm border-0 card_background">
+					<div class="card-body p-4">
+						<img
+							src="./img/product10.jpg"
+							alt=""
+							class=" d-block mx-auto mb-3"
+						/>
+						<h5>
+							<a href="#" class="text-dark text-decoration-none"
+								>Elliptical machine </a
+							>
+						</h5>
+						<p class="small text-muted font-italic">
+							Brand Puma
+						</p>
+						<ul class="list-inline small">
+							<li class="list-inline-item m-0 text-muted">
+								(4.85)
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+						</ul>
+						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+				<!-- Card-->
+				<div class="card rounded shadow-sm border-0 card_background">
+					<div class="card-body p-4">
+						<img
+							src="./img/product12.png"
+							alt=""
+							class=" d-block mx-auto mb-3"
+						/>
+						<h5>
+							<a href="#" class="text-dark text-decoration-none"
+								>Sunny Health & Fitness P8700 Pink</a
+							>
+						</h5>
+						<p class="small text-muted font-italic">
+							Brand Nike
+						</p>
+						<ul class="list-inline small">
+							<li class="list-inline-item m-0 text-muted">
+								(4.3)
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star text-success"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="far fa-star text-success"></i>
+							</li>
+						</ul>
+						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- Products End -->
 
@@ -365,7 +341,7 @@
 								you lose
 								weight and reduce body fat.
 							</p>
-							<a class="rounded-pill" href="./gallery.php">Buy Now</a>
+							<a class="rounded-pill" role="button" href="./gallery.php">Buy Now</a>
 						</div>
 					</div>
 
@@ -378,7 +354,7 @@
 								Bump up your intensity and support strength, performance, and muscle gain.
 								Scientifically formulated, and NSF Certified for Sport.
 							</p>
-							<a class="rounded-pill" href="./gallery.php">Buy Now</a>
+							<a class="rounded-pill"  role="button"  href="./gallery.php">Buy Now</a>
 						</div>
 					</div>
 
@@ -391,7 +367,7 @@
 								Improve your health and support your active PlaySpan. Scientifically formulated,
 								third-party tested, and NSF Certified for Sport.
 							</p>
-							<a class="rounded-pill" href="./gallery.php">Buy Now</a>
+							<a class="rounded-pill"  role="button"  href="./gallery.php">Buy Now</a>
 						</div>
 					</div>
 
@@ -404,14 +380,13 @@
 								Delicious and healthy meal replacements, bars, and cookies. Packed with whey or vegan
 								protein to support your healthy lifestyle.
 							</p>
-							<a class="rounded-pill" href="./gallery.php">Buy Now</a>
+							<a class="rounded-pill"  role="button"  href="./gallery.php">Buy Now</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- Brand End -->
-
 
 		<!-- Video Start -->
 		<div class="row">
@@ -442,7 +417,7 @@
 						<br />
 						<span class="text-center d-block  mt-2 mx-0">Your vision, our vision, and the gym's vision.</span>
 						</p>
-						<a class="readmorebtn offset-md-4 offset-sm-5 my-5" href="./information.php">Read More</a>
+						<a class="readmorebtn offset-md-4 offset-sm-5 my-5"  role="button" href="./information.php">Read More</a>
 
 
 					</div>
@@ -475,7 +450,7 @@
 							our heart-felt identity is utilized to inspire every person that steps foot into our gyms to
 							better themselves.
 						</p>
-						<a class="readmorebtn read2 offset-md-4  offset-sm-5" href="./information.php">Read More</a>
+						<a class="readmorebtn read2 offset-md-4  offset-sm-5"  role="button" href="./information.php">Read More</a>
 
 					</div>
 				</div>

@@ -95,6 +95,12 @@
 	}
 }
 
+@media (max-width: 992px) {
+	.info_row .info_event_text {
+		font-size: clamp(1rem, 3.5vw, 4rem) !important;
+	}
+}
+
 @media (max-width: 990px) {
 	.content_contact {
 		padding: 5rem 0;
@@ -116,6 +122,21 @@
 
 	.footer-links li {
 		text-align: left;
+	}
+}
+
+@media (min-width: 60em) {
+	.productcard.featured {
+		grid-row: span 2;
+		grid-column: span 2;
+	}
+
+	.productcard.featured .card__img {
+		aspect-ratio: 1 / 1.25;
+	}
+
+	.productcard.featured .card__title {
+		font-size: 1.75rem;
 	}
 }
 

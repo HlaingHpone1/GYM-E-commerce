@@ -3,8 +3,8 @@
 
 
 	<div class="banner" id="gallerbanner">
-		<h1 class="fs-1">Gallery</h1>
-		<p>Home / Pages / Gallery</p>
+		<h1 class="fs-1">Product</h1>
+		<p>Home / Pages / Product</p>
 	</div>
 
 	<!-- Gallery start -->

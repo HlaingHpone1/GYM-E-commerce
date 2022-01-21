@@ -50,19 +50,19 @@
 						<a class="nav-link active" aria-current="page" href="./index.php">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./information.php">Information</a>
+						<a class="nav-link" href="./product.php">Products</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./wanted.php">Wanted</a>
+						<a class="nav-link" href="./review.php">Review</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./workshop.php">Workshop</a>
+						<a class="nav-link" href="./customerservice.php">Customer Service</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./gallery.php">Gallery</a>
+						<a class="nav-link" href="./about.php">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./contact.php">Contact</a>
+						<a class="nav-link" href="./contact.php">Contact Us</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./featured.php">Featured</a>

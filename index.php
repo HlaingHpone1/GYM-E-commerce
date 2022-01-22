@@ -1,10 +1,10 @@
-<?php require("./header.php"); ?>
-	<div class="container-fluid text-white  d-flex cookie_bar">
+<?php require("header.php"); ?>
+	<div class="container-fluid text-white  d-flex cookie_bar" id="cookieinfo">
 		<p class="text-wrap">The site uses its own technical cookies, anonymous third party analytic cookies and
 			third-party cookies that could be used in profiling: in accessing any element/area of the site outside of
 			this banner, you consent to receiving cookies. If you want to know more or refuse consent to cookies, click
 			here.</p>
-		<button type=" button" class="btn accept_btn">Accept</button>
+		<button type="button" class="btn accept_btn" id="hide-cookie">Accept</button>
 	</div>
 
 
@@ -531,4 +531,4 @@
 
 	</div>
 
-<?php require_once("./footer.php"); ?>
+<?php require_once("footer.php"); ?>

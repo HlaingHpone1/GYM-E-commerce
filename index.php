@@ -1,11 +1,11 @@
 <?php require("./header.php"); ?>
-	<!-- <div class="container-fluid text-white  d-flex cookie_bar">
+	<div class="container-fluid text-white  d-flex cookie_bar">
 		<p class="text-wrap">The site uses its own technical cookies, anonymous third party analytic cookies and
 			third-party cookies that could be used in profiling: in accessing any element/area of the site outside of
 			this banner, you consent to receiving cookies. If you want to know more or refuse consent to cookies, click
 			here.</p>
 		<button type=" button" class="btn accept_btn">Accept</button>
-	</div> -->
+	</div>
 
 
 
@@ -158,7 +158,7 @@
 			<h1 class="fs-1 text-center text-white product_header mb-5">Best Selling <span>Products</span></h1>
 			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
 				<!-- Card-->
-				<div class="card rounded-3 shadow-sm border-0 card_background">
+				<div class="card rounded-3 h-100 shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
 							src="./img/product8.png"
@@ -201,7 +201,7 @@
 
 			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
 				<!-- Card-->
-				<div class="card rounded shadow-sm border-0 card_background">
+				<div class="card rounded h-100  shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
 							src="./img/product9.jpg"
@@ -243,7 +243,7 @@
 
 			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
 				<!-- Card-->
-				<div class="card rounded shadow-sm border-0 card_background">
+				<div class="card rounded h-100 shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
 							src="./img/product10.jpg"
@@ -285,7 +285,7 @@
 
 			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
 				<!-- Card-->
-				<div class="card rounded shadow-sm border-0 card_background">
+				<div class="card rounded h-100 shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
 							src="./img/product12.png"
@@ -520,9 +520,7 @@
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-12">
-							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15277.40535394682!2d96.1420956479855!3d16.808917679683788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19356f250c83b%3A0xf26c0629fdbec99!2sPower%20House%20Fitness%20Club!5e0!3m2!1sen!2ssg!4v1642386467291!5m2!1sen!2ssg"
-								class="w-100 h-100 contact-info" allowfullscreen="" loading="lazy"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.7751607159335!2d96.15543307660556!3d16.837506620189238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1935921531903%3A0x80e39d53ce1c6ee3!2s9%20Kabar%20Aye%20Pagoda%20Rd%2C%20Yangon!5e0!3m2!1sen!2smm!4v1642820652854!5m2!1sen!2smm" class="w-100 h-100 contact-info" allowfullscreen="" loading="lazy"></iframe>
 						</div>
 					</div>
 				</div>

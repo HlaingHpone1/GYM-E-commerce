@@ -290,7 +290,7 @@ body {
 }
 
 .card_background .card-body > img {
-	height: 300px;
+	/* height: 300px; */
 
 	object-fit: cover;
 }
@@ -570,14 +570,6 @@ body {
 	border-radius: 0;
 }
 
-.content_contact .btn.btn-primary {
-	padding: 15px 20px;
-
-	color: #fff;
-
-	background: #08df85;
-}
-
 .content_contact .btn:hover {
 	color: #fff;
 }
@@ -615,28 +607,17 @@ body {
 	padding: 40px;
 }
 
-.contact-wrap .contact-info {
-	color: rgba(255, 255, 255, 0.5);
-}
-.contact-wrap .contact-info ul li {
-	margin-bottom: 15px;
-
-	color: rgba(255, 255, 255, 0.5);
-}
-.contact-wrap .contact-info ul li .wrap-icon {
-	margin-top: 5px;
-
-	font-size: 20px;
-
-	color: #fff;
-}
-
 .contact-wrap .form {
 	background: #fff;
 }
 
+.contact-wrap .form input:active,
+.contact-wrap .form textarea:active {
+	background: #fff;
+}
+
 .contact-wrap .form input:focus,
-.contact-wrap .form textarea {
+.contact-wrap .form textarea:focus {
 	background: #fff;
 }
 
@@ -654,21 +635,6 @@ body {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-}
-.contact-wrap .contact-info a {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-
-.contact-wrap .contact-info h3 {
-	margin-bottom: 30px;
-
-	font-size: 20px;
-
-	color: #fff;
 }
 
 label.error {
@@ -710,11 +676,6 @@ label.error {
 	color: #000;
 
 	float: left;
-}
-
-.loading::-webkit-scrollbar {
-	height: 0;
-	width: 0;
 }
 
 ::-webkit-scrollbar {
@@ -770,7 +731,7 @@ picture {
 }
 
 .gallery_container {
-	max-width: 100rem;
+	max-width: 100%;
 	margin-inline: auto;
 	padding-inline: 2rem;
 

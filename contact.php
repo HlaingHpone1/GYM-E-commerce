@@ -53,12 +53,8 @@
             <div class="col-md-12 location_section">
                 <h1 class="pt-5">Dragon World Shopping Center</h1>
 
-                <iframe
-                    class="google_map mt-5"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.1754958769425!2d96.12755391495067!3d16.817647688422415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ebc708ad3293%3A0xb4d6e22c28826f30!2sData%20Land%20Technology%20Co.%2CLtd!5e0!3m2!1sen!2smy!4v1641048772793!5m2!1sen!2smy"
-                    allowfullscreen=""
-                    loading="lazy"
-                ></iframe>
+                <iframe class="google_map mt-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.7751607159335!2d96.15543307660556!3d16.837506620189238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1935921531903%3A0x80e39d53ce1c6ee3!2s9%20Kabar%20Aye%20Pagoda%20Rd%2C%20Yangon!5e0!3m2!1sen!2smm!4v1642820652854!5m2!1sen!2smm" allowfullscreen="" loading="lazy">
+                </iframe>
             </div>
         </div>
     </div>

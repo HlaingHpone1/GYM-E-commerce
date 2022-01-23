@@ -612,10 +612,22 @@
 						<p class="mb-4 info_new_text">
 							Happy thingyan festival Event in Yangon
 						</p>
-						<p class="muted">22hours</p>
+						<p class="text-muted">22hours</p>
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-2 text-white text-center">
+				<p class="fs-1">Trusted by companies of all sizes</p>
+			</div>
+			<div class="col-md-2 bg-dark"><img class="w-100 my-5" src="./img/partner1.png" alt="this is partner1"></div>
+			<div class="col-md-2 bg-light"><img class="w-100 my-5" src="./img/partner2.png" alt="this is partner2"></div>
+			<div class="col-md-2 mybg-dark"><img class="w-100 my-5" src="./img/partner3.png" alt="this is partner3"></div>
+			<div class="col-md-2 mybg-thircolor"><img class="w-100 my-5" src="./img/partner4.png" alt="this is partner4"></div>
+			<div class="col-md-2 bg-light"><img class="w-100 my-5" src="./img/partner5.png" alt="this is partner5"></div>
+
 		</div>
 	</div>
 

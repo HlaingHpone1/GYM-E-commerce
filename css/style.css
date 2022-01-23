@@ -13,6 +13,45 @@ body {
 	font-family: var(--primaryfont);
 }
 
+.mybg-dark {
+	padding: min(7%, 3.125rem);
+
+	background-color: var(--firstcolor);
+}
+
+.mybg-seccolor {
+	padding: min(7%, 3.125rem);
+
+	background-color: var(--seccolor);
+}
+
+.mybg-thircolor {
+	padding: min(7%, 3.125rem);
+
+	background-color: var(--thirdcolor);
+}
+
+.mypricolor {
+	color: var(--firstcolor);
+}
+
+.myseccolor {
+	color: var(--seccolor);
+}
+
+.mythircolor {
+	color: var(--thirdcolor);
+}
+
+.cookie_link.myseccolor {
+	background: none;
+	transition: all 200ms linear;
+}
+
+.cookie_link.myseccolor:hover {
+	color: rgb(255, 166, 0);
+}
+
 /* Index page Start */
 
 .cookie_bar {
@@ -52,6 +91,16 @@ body {
 .cookie_bar > .accept_btn:hover {
 	color: #000;
 	background-color: var(--seccolor);
+}
+
+.cookie_bar > p > a {
+	color: #999;
+
+	transition: all 500ms linear;
+}
+
+.cookie_bar > p > a:hover {
+	color: var(--seccolor);
 }
 
 .index_slider img {
@@ -265,12 +314,6 @@ body {
 	background: var(--thirdcolor);
 }
 
-.mybg-dark {
-	padding: min(7%, 3.125rem);
-
-	background-color: var(--firstcolor);
-}
-
 .product_header {
 	text-shadow: 3px 3px 25px #fff;
 }
@@ -426,6 +469,7 @@ body {
 	height: 100%;
 
 	border: 1px solid #999;
+
 	border-radius: 100%;
 
 	box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.75) inset;
@@ -700,7 +744,7 @@ label.error {
 
 /* index page End */
 
-/* Gallery page Start */
+/* Product page Start */
 
 img,
 picture {
@@ -846,7 +890,9 @@ picture {
 	background-color: var(--seccolor);
 }
 
-/* Gallery page End */
+/* Product page End */
+
+/* About us page start */
 
 .infoproduct_header {
 	margin: 20px 0;
@@ -1090,7 +1136,9 @@ picture {
 	height: 400px;
 }
 
-/* Contact Us */
+/* About us page End */
+
+/* Contact Us Start */
 
 .box {
 	padding: 20px 40px 40px 40px;
@@ -1219,7 +1267,7 @@ picture {
 }
 
 .google_map {
-	width: min(80%, 75rem);
+	width: min(80%, 70rem);
 	height: min(70%, 31.25rem);
 
 	margin: min(11%, 10rem);
@@ -1227,3 +1275,72 @@ picture {
 
 	border: 0;
 }
+
+/* Contact Us End */
+
+/* Log in and Sign up start */
+.divider:after,
+.divider:before {
+	content: "";
+	flex: 1;
+	height: 1px;
+	background: #eee;
+}
+
+.h-custom {
+	color: var(--thirdcolor);
+}
+
+.h-custom label,
+.h-custom .signinheader {
+	color: #000;
+}
+
+.login_btn {
+	color: #fff;
+	background-color: #1c1d20;
+
+	transition: all 500ms linear;
+}
+
+.login_btn:hover {
+	background-color: #999;
+}
+
+.singup_link {
+	color: #000;
+
+	transition: all 200ms linear;
+}
+
+.singup_link:hover {
+	color: #b90b0b;
+}
+
+@media (max-width: 450px) {
+	.h-custom {
+		height: 100%;
+	}
+}
+
+.input_phone input::-webkit-outer-spin-button,
+.input_phone input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.input_phone input[type="number"] {
+	-moz-appearance: textfield;
+}
+/* Log in and Sign up end */
+
+/* policy Start */
+
+.policy h2 {
+	text-transform: capitalize;
+}
+
+.policy_text {
+	text-align: justify;
+}
+/* policy End */

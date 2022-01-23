@@ -2,8 +2,8 @@
 	<div class="container-fluid text-white  d-flex cookie_bar" id="cookieinfo">
 		<p class="text-wrap">The site uses its own technical cookies, anonymous third party analytic cookies and
 			third-party cookies that could be used in profiling: in accessing any element/area of the site outside of
-			this banner, you consent to receiving cookies. If you want to know more or refuse consent to cookies, click
-			here.</p>
+			this banner, you consent to receiving cookies. If you want to know more or refuse consent to cookies, <a href="./cookie.php" class="text-decoration-none">click here.</a>
+		</p>
 		<button type="button" class="btn accept_btn" id="hide-cookie">Accept</button>
 	</div>
 
@@ -171,7 +171,9 @@
 							>
 						</h5>
 						<p class="small text-muted font-italic">
-							Brand 2XU
+							Brand <span>2XU</span>
+						</p>
+						<p class="small text-muted">44lbs 66lbs Coated Free Adjusted Weight Dumbbell Variable & Interchangeable Changeable Non-Slip Hand Heavy Workout for Beginners Home Gym Exercise. 66lbs weight set very suitable for body exercise and achieve any fitness goal at home without going to the gym
 						</p>
 						<ul class="list-inline small">
 							<li class="list-inline-item m-0 text-muted">
@@ -214,7 +216,10 @@
 							>
 						</h5>
 						<p class="small text-muted font-italic">
-							Brand Reebok
+							Brand <span>Reebok</span>
+						</p>
+						<p class="small text-muted">
+							Our conveniently compact elliptical design fits your home with minimal disruption, while thoughtful engineering provides smooth performance, natural movement and unmatched ergonomic comfort. Our E30 Elliptical features our exclusive Suspension Elliptical Technology.
 						</p>
 						<ul class="list-inline small">
 							<li class="list-inline-item m-0 text-muted">
@@ -256,7 +261,10 @@
 							>
 						</h5>
 						<p class="small text-muted font-italic">
-							Brand Puma
+							Brand <span>Puma</span>
+						</p>
+						<p class="small text-muted">
+						pooboo Elliptical Trainer Magnetic Elliptical Machines for Home Use Portable Elliptical Trainer with Pulse Rate and LCD Monitor (vitelline)
 						</p>
 						<ul class="list-inline small">
 							<li class="list-inline-item m-0 text-muted">
@@ -298,8 +306,12 @@
 							>
 						</h5>
 						<p class="small text-muted font-italic">
-							Brand Nike
+							Brand <span>Nike</span>
 						</p>
+						<p class="small text-muted">
+							FYC Folding Treadmill for Home - Slim Compact Running Machine Portable Electric Treadmill Foldable Treadmill Workout Exercise for Small Apartment Home Gym Fitness Jogging Walking, No Installation. Designed for the home environment, considering your performance
+						</p>
+						
 						<ul class="list-inline small">
 							<li class="list-inline-item m-0 text-muted">
 								(4.3)

@@ -59,7 +59,7 @@
                         </div>
                         
                         <div class="mb-3 d-flex justify-content-between">
-                            <a class="text-decoration-none mb-3 singup_link" href="signup.php">Already Account?</a>
+                            <a class="text-decoration-none mb-3 singup_link" href="./login.php">Already Account?</a>
                             <a class="text-decoration-none mb-3 singup_link" href="#">Forgot Password?</a>                            
                         </div>
 
@@ -68,7 +68,7 @@
                     </form>
                 </div>
                 <div class="col-md-9 col-lg-6 col-xl-5 offset-xl-1">
-                    <img src="./img/undraw_personal_trainer_ote3.svg" class="img-fluid"
+                    <img src="./img/signup.svg" class="img-fluid"
                     alt="Sample image">
                 </div>
             </div>

@@ -49,7 +49,6 @@
 				<div class="col-md-8 col-sm-6 col-xs-12">
 					<p class="copyright-text">
 						Copyright &copy; <span id="year"></span> All Rights Reserved | <a class="copyright_link" href="./privacy.php">privacy policy</a> | <a class="copyright_link" href="./cookie.php">cookie policy</a>
-						<a class="copyright_link" href="#">Scanfcode</a>.
 					</p>
 				</div>
 

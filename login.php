@@ -3,13 +3,13 @@
         <div class="container-fluid h-custom py-5">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-md-9 col-lg-6 col-xl-5">
-                    <img src="./img/undraw_personal_trainer_ote3.svg" class="img-fluid"
+                    <img src="./img/login.svg" class="img-fluid"
                     alt="Sample image">
                 </div>
                 <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
                     <form>
                         <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start mt-md-5">
-                            <p class="lead fw-normal mb-0 me-3 signinheader">Sign in with</p>
+                            <p class="lead fw-normal mb-0 me-3 signinheader">Log in with</p>
                             <ul class="social-icons">
                                 <li>
                                     <a class="facebook" href="https://www.facebook.com/POWER-ZONE-GYM-392834680840562"><i class="fab fa-facebook-f"></i></a>

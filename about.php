@@ -21,138 +21,138 @@
 						<div class="item carousel-item active">
 							<div class="row">
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
 											<img
-												src="./img/bg5.jpg"
+												src="./img/product21.jpg"
 												class="img-fluid"
 												alt="Play Station"
 											/>
 										</div>
 										<div class="thumb-content">
-											<h4>Sony Play Station</h4>
+											<h4>Body Power 3-in-1 Home Gym, Upright Compact Exercise Bike</h4>
 											<p class="item-price">
-												<strike>$289.00</strike> <span>$269.00</span>
+												<strike>$2000</strike> <span>$1750</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="fas fa-star-half-alt"></i>
+													<li class="list-inline-item m-0">
+														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="far fa-star"></i>
+													<li class="list-inline-item m-0">
+														<i class="fa fa-star"></i>
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/bg6.jpg" class="img-fluid" alt="Macbook" />
+											<img src="./img/product20.jpg" class="img-fluid" alt="Macbook" />
 										</div>
 										<div class="thumb-content">
-											<h4>Macbook Pro</h4>
+											<h4>Marcy 150lb. Stack Home Gym</h4>
 											<p class="item-price">
-												<strike>$1099.00</strike> <span>$869.00</span>
+												<span>$1200</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+												<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="far fa-star"></i>
+													<li class="list-inline-item m-0">
+														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="far fa-star"></i>
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/bg7.jpg" class="img-fluid" alt="Speaker" />
+											<img src="./img/product19.jpg" class="img-fluid" alt="Speaker" />
 										</div>
 										<div class="thumb-content">
-											<h4>Bose Speaker</h4>
+											<h4>Stamina 55-1602 Inmotion Elliptical</h4>
 											<p class="item-price">
-												<strike>$109.00</strike> <span>$99.00</span>
+												<strike>$1000</strike> <span>$850</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="fas fa-star-half-alt"></i>
+													<li class="list-inline-item m-0">
+														<i class="fa fa-star-half-alt"></i>
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/bg7.jpg" class="img-fluid" alt="Speaker" />
+											<img src="./img/product18.png" class="img-fluid" alt="Speaker" />
 										</div>
 										<div class="thumb-content">
-											<h4>Bose Speaker</h4>
+											<h4>RELIFE REBUILD YOUR LIFE Exercise Bike Indoor Cycling Bike</h4>
 											<p class="item-price">
-												<strike>$109.00</strike> <span>$99.00</span>
+												<strike>$1950</strike> <span>$1850</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="fas fa-star-half-alt"></i>
+													<li class="list-inline-item m-0">
+														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="far fa-star"></i>
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
@@ -161,31 +161,31 @@
 						<div class="item carousel-item">
 							<div class="row">
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
 											<img
-												src="./img/bg5.jpg"
+												src="./img/product17.jpg"
 												class="img-fluid"
 												alt="Play Station"
 											/>
 										</div>
 										<div class="thumb-content">
-											<h4>Sony Play Station</h4>
+											<h4>LINEAR LEG PRESS</h4>
 											<p class="item-price">
-												<strike>$289.00</strike> <span>$269.00</span>
+												<span>$4100</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+												<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
 													<li class="list-inline-item">
@@ -193,106 +193,106 @@
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/bg6.jpg" class="img-fluid" alt="Macbook" />
+											<img src="./img/product16.jpg" class="img-fluid" alt="Macbook" />
 										</div>
 										<div class="thumb-content">
-											<h4>Macbook Pro</h4>
+											<h4>VIVITORY Weights Dumbbells Set, </h4>
 											<p class="item-price">
-												<strike>$1099.00</strike> <span>$869.00</span>
+												<strike>$700</strike> <span>$650</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="fa fa-star-half-o"></i>
+													<li class="list-inline-item m-0">
+														<i class="far fa-star"></i>
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/bg7.jpg" class="img-fluid" alt="Speaker" />
+											<img src="./img/product15.jpg" class="img-fluid" alt="Speaker" />
 										</div>
 										<div class="thumb-content">
-											<h4>Bose Speaker</h4>
+											<h4>Club Quality 4-Weight Deluxe Barbell Set, 35 lbs</h4>
 											<p class="item-price">
-												<strike>$109.00</strike> <span>$99.00</span>
+												<span>$725</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="fa fa-star"></i>
+													<li class="list-inline-item m-0">
+														<i class="far fa-star"></i>
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/bg7.jpg" class="img-fluid" alt="Speaker" />
+											<img src="./img/product14.jpg" class="img-fluid" alt="Speaker" />
 										</div>
 										<div class="thumb-content">
-											<h4>Bose Speaker</h4>
+											<h4>Marcy MWM-988 Multifunction Steel Home Gym 150lb </h4>
 											<p class="item-price">
-												<strike>$109.00</strike> <span>$99.00</span>
+												<strike>$1400</strike> <span>$1315</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="fas fa-star-half-alt"></i>
+													<li class="list-inline-item m-0">
+														<i class="far fa-star"></i>
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
@@ -301,113 +301,113 @@
 						<div class="item carousel-item">
 							<div class="row">
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/bg9.jpg" class="img-fluid" alt="iPhone" />
+											<img src="./img/product13.jpg" class="img-fluid" alt="iPhone" />
 										</div>
 										<div class="thumb-content">
-											<h4>Apple iPhone</h4>
+											<h4>Pelpo Weight Bench for Full Body Exercise</h4>
 											<p class="item-price">
-												<strike>$369.00</strike> <span>$349.00</span>
+												<strike>$1575</strike> <span>$1525</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="far fa-star"></i>
+													<li class="list-inline-item m-0">
+														<i class="fas fa-star-half-alt"></i>
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/bg10.jpg" class="img-fluid" alt="Canon" />
+											<img src="./img/product12.jpg" class="img-fluid" alt="Canon" />
 										</div>
 										<div class="thumb-content">
-											<h4>Canon DSLR</h4>
+											<h4>550LBS Adjustable Folding Fitness</h4>
 											<p class="item-price">
-												<strike>$315.00</strike> <span>$250.00</span>
+												<strike>$2100</strike> <span>$2000</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="far fa-star"></i>
+													<li class="list-inline-item m-0">
+														<i class="fas fa-star-half-alt"></i>
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/bg10.jpg" class="img-fluid" alt="Pixel" />
+											<img src="./img/product11.jpg" class="img-fluid" alt="Pixel" />
 										</div>
 										<div class="thumb-content">
-											<h4>Google Pixel</h4>
+											<h4>Adjustable Dumbbells 40, 50, 52.5, 60, 105 to 200 lbs</h4>
 											<p class="item-price">
-												<strike>$450.00</strike> <span>$418.00</span>
+												<span>$1225</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
+													<li class="list-inline-item m-0">
 														<i class="fa fa-star"></i>
 													</li>
-													<li class="list-inline-item">
-														<i class="fa fa-star-half-o"></i>
+													<li class="list-inline-item m-0">
+														<i class="fas fa-star-half-alt"></i>
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
-									<div class="thumb-wrapper">
+									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/bg7.jpg" class="img-fluid" alt="Speaker" />
+											<img src="./img/product10.jpg" class="img-fluid" alt="Speaker" />
 										</div>
 										<div class="thumb-content">
-											<h4>Bose Speaker</h4>
+											<h4>Sportsroyals Stair Stepper with Resistance Band</h4>
 											<p class="item-price">
-												<strike>$109.00</strike> <span>$99.00</span>
+												<strike>$1750</strike> <span>$1550</span>
 											</p>
 											<div class="star-rating">
 												<ul class="list-inline">
@@ -428,7 +428,7 @@
 													</li>
 												</ul>
 											</div>
-											<a href="#" class="btn btn-primary" role="button">Add to Cart</a>
+											<a href="#" class="btn" role="button">Buy Now</a>
 										</div>
 									</div>
 								</div>
@@ -453,55 +453,25 @@
 			<div class="col-md-6 text-white text-justify py-5 infostory">
 				<h2 class="fs-2 mb-4 fw-bold text-center">Story of Dragon World</h2>
 				<p class="info_text">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error possimus
-					a, incidunt similique voluptates nemo nostrum culpa adipisci modi est.
-					Consequatur expedita ratione ex. Impedit perspiciatis aliquam, culpa et
-					officiis expedita! Velit quae sit, ea dolorum dicta eveniet quo natus
-					debitis, repellat omnis, praesentium aliquam. Neque, soluta aut totam
-					adipisci officia eius repellat harum tempora. Voluptatum placeat quas
-					mollitia minima dolorem doloremque labore qui laboriosam? Fugiat, nisi?
-					Impedit natus obcaecati saepe hic harum accusantium perspiciatis?
-					Suscipit consequuntur officiis tenetur. Laboriosam in deserunt
-					consectetur atque blanditiis voluptatem eos? Deleniti totam quis
-					perspiciatis sint reiciendis necessitatibus itaque aliquid, officiis est
-					molestiae voluptatum quia qui accusantium suscipit numquam ex excepturi
-					eum expedita aliquam doloremque? Illo odio enim, ratione doloribus nisi
-					quia, sint quidem voluptatem perspiciatis fugit totam eveniet ab
-					perferendis, quasi accusantium ipsum placeat explicabo voluptatum?
-					Perspiciatis, nulla! Id rem ullam itaque doloribus quibusdam enim iure
-					nobis placeat molestiae quaerat deleniti adipisci explicabo quasi, ea
-					nam blanditiis repellendus quia sunt voluptatem minus animi molestias in
-					quisquam? Quaerat quae rerum eaque numquam quas aliquid soluta?
-					Cupiditate natus ipsam quidem aspernatur vitae quod voluptatum aliquid
-					itaque odio quam corporis iste voluptate quo eligendi illum laboriosam
-					quis cum maiores, consectetur porro consequuntur expedita numquam
-					praesentium. Atque.
+				The company was created as a result of what Leo called his "regret minimization framework", which described his efforts to fend off any regrets for participating sooner in the Internet business boom during that time. In 1994, leo left his employment as vice-president of D. E. Shaw & Co., a Wall Street firm, and moved to Yangon, where he began to work on a business plan for what would become HGE.com.
+				<br />
+				On July 5, 1994, Leo initially incorporated the company in Washington state with the name Dragon, Inc. After a few months, he changed the name to HGE.com, Inc, because a lawyer misheard its original name as "Dragon". In its early days, the company was operated out of the garage of Leo's house on Northeast 28th Street in Yangon.
+				<br />
+				Leo selected the name by looking through a dictionary; he settled on "HGE" because it was a place that was "exotic and different", just as he had envisioned for his Internet enterprise. The HGE River, he noted, was the biggest river in the world, and he planned to make his store the biggest bookstore in the world. Additionally, a name that began with "A" was preferred because it would probably be at the top of an alphabetized list. Leo placed a premium on his head start in building a brand and told a reporter, "There's nothing about our model that can't be copied over time. But you know, McDonald's got copied. And it's still built a huge, multibillion-dollar company. A lot of it comes down to the brand name. Brand names are more important online than they are in the physical world."
 				</p>
 			</div>
 			<div class="col-md-6 text-white text-center py-5">
-				<h2 class="fs-2 text-center">Lorem, ipsum.</h2>
+				<h2 class="fs-2 text-center">Welcome to the HGE</h2>
 				<p class="mb-5 info_text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-					laborum exercitationem quo, assumenda itaque, recusandae facilis nostrum
-					praesentium minus et veritatis cupiditate nisi modi eveniet vero dolorum
-					fugiat odit esse debitis enim quos iure natus. Suscipit dolorem
-					molestias necessitatibus mollitia, deleniti aperiam adipisci dolore
-					incidunt ratione? Explicabo reprehenderit aperiam ad blanditiis minus,
-					eligendi cum deleniti ab eum adipisci repellendus similique accusamus
-					soluta, fuga, nesciunt quisquam impedit ratione perferendis animi at?
-					Maiores numquam quisquam amet eaque?
+				There are no judgments here – No too much or not enough. No glares of disapproval. Here we keep open minds. We are nurturers. We seek only to encourage. There is no one type. There is no one reason. There is no one way.
+
+				What we are is a diverse community; what we have is a culture of fun; what there is, is room for everyone: all kinds of people with all kinds of goals who’ve chosen to come reach them with us.
 				</p>
-				<h2 class="fs-2 ">Lorem, ipsum.</h2>
+				<h2 class="fs-2 ">COVID-19 Update</h2>
 				<p class="mb-5 info_text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-					laborum exercitationem quo, assumenda itaque, recusandae facilis nostrum
-					praesentium minus et veritatis cupiditate nisi modi eveniet vero dolorum
-					fugiat odit esse debitis enim quos iure natus. Suscipit dolorem
-					molestias necessitatibus mollitia, deleniti aperiam adipisci dolore
-					incidunt ratione? Explicabo reprehenderit aperiam ad blanditiis minus,
-					eligendi cum deleniti ab eum adipisci repellendus similique accusamus
-					soluta, fuga, nesciunt quisquam impedit ratione perferendis animi at?
-					Maiores numquam quisquam amet eaque?
+				At the end of March 2020, some workers of the Staten Island warehouse staged a walkout in protest of the poor health situation at their workplace amidst the 2020 COVID-19 pandemic. One of the organizers, Chris Smalls, was first put on quarantine without anyone else being quarantined, and soon afterwards fired from the company.
+
+				The pandemic caused a surge in online shopping and resulted in shortages of household staples both online and some brick-and-mortar stores. From March 17 to April 10, 2020, Amazon warehouses stopped accepting non-essential items from third-party sellers. The company hired approximately 175,000 additional warehouse workers and delivery contractors to deal with the surge, and temporarily raised wages by $2/hour.
 				</p>
 			</div>
 		</div>
@@ -538,26 +508,84 @@
 				</div>
 				<div class="carousel-inner customer_slider_inner">
 					<div class="carousel-item active">
-						<img src="./img/bg3.jpg" class="d-block" alt="..." />
+						<img src="./img/user/1.jpg" class="d-block" alt="..." />
 						<div class="carousel-caption  d-md-block">
-							<h5>First slide label</h5>
-							<p>Some representative placeholder content for the first slide.</p>
+							<h5>Jummy</h5>
+							<ul class="list-inline small">
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+							</ul>
+							<p>The delivery service is fast, too. And of course the quality of product is not bad.</p>
 						</div>
 					</div>
 
 					<div class="carousel-item">
-						<img src="./img/bg2.jpg" class="d-block" alt="..." />
+						<img src="./img/user/2.jpg" class="d-block mb-5" alt="..." />
 						<div class="carousel-caption  d-md-block">
-							<h5>Second slide label</h5>
-							<p>Some representative placeholder content for the second slide.</p>
+							<h5 class="pt-5 mt-5">Tom</h5>
+							<ul class="list-inline small">
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="far fa-star text-white"></i>
+								</li>
+							</ul>
+							<p>I have seen and tried different strategies and methods even
+									lost alot of money while trying. Until i was introduce to this
+									new strategy that got me back on track
+							</p>
 						</div>
 					</div>
 
 					<div class="carousel-item">
-						<img src="./img/bg1.jpg" class="d-block" alt="..." />
+						<img src="./img/user/3.jpg" class="d-block" alt="..." />
 						<div class="carousel-caption d-md-block">
-							<h5>Third slide label</h5>
-							<p>Some representative placeholder content for the third slide.</p>
+							<h5>Rose</h5>
+							<ul class="list-inline small">
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fa fa-star text-white"></i>
+								</li>
+								<li class="list-inline-item m-0">
+									<i class="fas fa-star-half-alt text-white"></i>
+								</li>
+							</ul>
+							<p>Thank you for the fantastic job you have been doing for me
+								lately. Your hard work and dedication has really helped me out
+								during difficult times . I just wanted to make sure you know how
+								much you are valued and appreciated. We know that the recent
+								round of lay-offs has been very bad for company morale.</p>
 						</div>
 					</div>
 				</div>
@@ -586,7 +614,7 @@
 		<div class="row py-3 info_row">
 			<h1 class="fs-1 col-md-12 text-center fw-bolder text-white mb-5">News & Events</h1>
 			<div class="col-lg-6 col-md-12 mb-5">
-				<img class="w-100" src="./img/bg1.jpg" alt="" />
+				<img class="w-100" src="./img/event.jpg" alt="" />
 				<div class="info_event_content text-white">
 					<h2  class="fs-2 my-3">
 						Summer Special Discount Event in Mandalay
@@ -598,7 +626,7 @@
 			</div>
 			<div class="col-lg-6 col-md-12">
 				<div class="info_new1 mb-5 d-flex ">
-					<img class="w-50" src="./img/bg1.jpg" alt="" />
+					<img class="w-50" src="./img/new.jpg" alt="" />
 					<div class=" text-white ms-3 mt-lg-0 mt-md-5 ">
 						<p class="mb-3 info_new_text">
 							For Summer Holiday Discount Event
@@ -607,7 +635,7 @@
 					</div>
 				</div>
 				<div class="info_new2 mb-5 d-flex">
-					<img class="w-50" src="./img/bg1.jpg" alt="" />
+					<img class="w-50" src="./img/new1.jpg" alt="" />
 					<div class=" text-white ms-3 mt-lg-0 mt-md-5">
 						<p class="mb-4 info_new_text">
 							Happy thingyan festival Event in Yangon

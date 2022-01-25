@@ -18,7 +18,8 @@
 				<i class="me-2 my-3 fas fa-fax"></i> <span>FAX: (123) 456-7891</span><br />
 				<i class="me-2 my-3 fas fa-clock"></i> <span>Mon - Sat 8:00 - 18:00</span><br />
 				<i class="me-2 my-3 fas fa-envelope"></i> <span>info@dragonworld.com</span
-				>
+				><br/>
+                <a href="./privacy.php" class="text-white text-decoration-none">Privacy Policy</a>
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="box">
@@ -36,7 +37,7 @@
 
                         <div>
                             <input type="text" name="" required="" />
-                            <label for="name">Subject</label>
+                            <label for="name">Phone</label>
                         </div>
 
                         <div>

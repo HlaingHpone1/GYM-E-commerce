@@ -161,7 +161,7 @@
 				<div class="card rounded-3 h-100 shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
-							src="./img/product8.png"
+							src="./img/product6.png"
 							alt=""
 							class=" d-block mx-auto mb-3"
 						/>
@@ -180,19 +180,19 @@
 								(4.12)
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="far fa-star text-success"></i>
+								<i class="far fa-star mypricolor"></i>
 							</li>
 						</ul>
 
@@ -206,7 +206,7 @@
 				<div class="card rounded h-100  shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
-							src="./img/product9.jpg"
+							src="./img/product7.jpg"
 							alt=""
 							class=" d-block mx-auto mb-3"
 						/>
@@ -226,19 +226,19 @@
 								(4.45)
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fas fa-star-half-alt text-success"></i>
+								<i class="fas fa-star-half-alt mypricolor"></i>
 							</li>
 						</ul>
 						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
@@ -251,7 +251,7 @@
 				<div class="card rounded h-100 shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
-							src="./img/product10.jpg"
+							src="./img/product8.jpg"
 							alt=""
 							class=" d-block mx-auto mb-3"
 						/>
@@ -271,19 +271,19 @@
 								(4.85)
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 						</ul>
 						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
@@ -296,7 +296,7 @@
 				<div class="card rounded h-100 shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
-							src="./img/product12.png"
+							src="./img/product9.png"
 							alt=""
 							class=" d-block mx-auto mb-3"
 						/>
@@ -317,19 +317,19 @@
 								(4.3)
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="fa fa-star text-success"></i>
+								<i class="fa fa-star mypricolor"></i>
 							</li>
 							<li class="list-inline-item m-0">
-								<i class="far fa-star text-success"></i>
+								<i class="far fa-star mypricolor"></i>
 							</li>
 						</ul>
 						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
@@ -353,7 +353,7 @@
 								you lose
 								weight and reduce body fat.
 							</p>
-							<a class="rounded-pill" role="button" href="./gallery.php">Buy Now</a>
+							<a class="rounded-pill" role="button" href="./product.php">Buy Now</a>
 						</div>
 					</div>
 
@@ -366,7 +366,7 @@
 								Bump up your intensity and support strength, performance, and muscle gain.
 								Scientifically formulated, and NSF Certified for Sport.
 							</p>
-							<a class="rounded-pill"  role="button"  href="./gallery.php">Buy Now</a>
+							<a class="rounded-pill"  role="button"  href="./product.php">Buy Now</a>
 						</div>
 					</div>
 
@@ -379,7 +379,7 @@
 								Improve your health and support your active PlaySpan. Scientifically formulated,
 								third-party tested, and NSF Certified for Sport.
 							</p>
-							<a class="rounded-pill"  role="button"  href="./gallery.php">Buy Now</a>
+							<a class="rounded-pill"  role="button"  href="./product.php">Buy Now</a>
 						</div>
 					</div>
 
@@ -392,7 +392,7 @@
 								Delicious and healthy meal replacements, bars, and cookies. Packed with whey or vegan
 								protein to support your healthy lifestyle.
 							</p>
-							<a class="rounded-pill"  role="button"  href="./gallery.php">Buy Now</a>
+							<a class="rounded-pill"  role="button"  href="./product.php">Buy Now</a>
 						</div>
 					</div>
 				</div>
@@ -424,7 +424,7 @@
 					</div>
 
 					<div class="col-lg-6 text-white">
-						<p class="my-5">
+						<p class="my-5 vision_text">
 						To help you achieve your objectives, we developed this gym shpp just outside your door. Through our fitness philosophy, facilities, programmes, and products, we aim to improve the quality of life in the communities in which we operate and to inculcate the importance of health and fitness in the lives of people worldwide."
 						<br />
 						<span class="text-center d-block  mt-2 mx-0">Your vision, our vision, and the gym's vision.</span>
@@ -454,7 +454,7 @@
 							allowfullscreen></iframe>
 					</div>
 					<div class="col-lg-6 text-white  ">
-						<p class="my-5">
+						<p class="my-5 vision_text">
 							We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff and
 							premier exercise equipment, which supports our members in meeting their individual fitness
 							goals. We provide these with dedication to the highest quality of customer satisfaction
@@ -500,11 +500,6 @@
 											<label for="" class="col-form-label">Phone</label>
 											<input type="text" class="form-control" name="phone" id="phone"
 												placeholder="Phone #" autocomplete="off">
-										</div>
-										<div class="col-md-6 form-group mb-5">
-											<label for="" class="col-form-label">Company</label>
-											<input type="text" class="form-control" name="company" id="company"
-												placeholder="Company  name" autocomplete="off">
 										</div>
 									</div>
 

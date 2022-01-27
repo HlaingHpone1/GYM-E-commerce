@@ -26,6 +26,20 @@
 	}
 }
 
+@media (max-width: 992px) {
+	.card__title {
+		font-size: clamp(1.25rem, 1.5vw, 1.75rem);
+	}
+
+	.card__price {
+		font-size: clamp(1.5rem, 2.25vw, 2.25rem);
+	}
+
+	.card__description {
+		font-size: clamp(0.9rem, 1vw, 1.25rem);
+	}
+}
+
 @media (min-width: 990px) {
 	.navbar .nav-link {
 		padding: 0;
@@ -197,6 +211,33 @@
 	.footer_section .copyright-text,
 	.footer_section .social-icons {
 		text-align: center;
+	}
+}
+
+@media (max-width: 665px) {
+	.card__title {
+		font-size: clamp(1rem, 5.5vw, 4rem);
+	}
+
+	.card__price {
+		font-size: clamp(1.5rem, 6.5vw, 4.25rem);
+	}
+
+	.card__description {
+		font-size: clamp(1rem, 4vw, 3.25rem);
+	}
+}
+
+@media (max-width: 600px) {
+	.play {
+		padding-left: 2.25rem;
+
+		width: 50px;
+		height: 50px;
+
+		font-size: 1.5rem;
+
+		top: 55%;
 	}
 }
 

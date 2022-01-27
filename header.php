@@ -38,7 +38,7 @@
 		<div class="container-fluid">
 			<a class="navbar-brand fs-1" href="./index.php">
 				<img src="./img/logo.svg" alt="" class="d-inline-block align-text-top">
-				H <span>G</span>E
+				H <span>E</span>G
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
 				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,6 +54,9 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./blog.php">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./service.php">Service</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./about.php">About Us</a>

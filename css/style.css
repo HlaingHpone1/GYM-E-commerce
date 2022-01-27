@@ -57,7 +57,7 @@ body {
 .cookie_bar {
 	padding: 1rem 5rem;
 
-	width: 100%;
+	/* width: 100%; */
 
 	background-color: rgba(28, 29, 32, 0.75);
 
@@ -134,7 +134,8 @@ body {
 
 .carousel-inner .carousel-caption .getstartbtn,
 .vision_section .readmorebtn,
-.product_load_more {
+.product_load_more,
+.service_section .readmorebtn {
 	padding: 15px 35px;
 
 	text-decoration: none;
@@ -149,7 +150,8 @@ body {
 
 .carousel-inner .carousel-caption .getstartbtn::before,
 .vision_section .readmorebtn::before,
-.product_load_more::before {
+.product_load_more::before,
+.service_section .readmorebtn::before {
 	content: "";
 
 	width: 100%;
@@ -169,13 +171,15 @@ body {
 
 .carousel-inner .carousel-caption .getstartbtn:hover::before,
 .vision_section .readmorebtn:hover::before,
-.product_load_more:hover::before {
+.product_load_more:hover::before,
+.service_section .readmorebtn:hover::before {
 	transform: scaleY(1);
 }
 
 .carousel-inner .carousel-caption .getstartbtn:hover,
 .vision_section .readmorebtn:hover,
-.product_load_more:hover {
+.product_load_more:hover,
+.service_section .readmorebtn:hover {
 	color: #000;
 }
 
@@ -469,6 +473,19 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+@media (max-width: 600px) {
+	.play {
+		padding-left: 2.25rem;
+
+		width: 50px;
+		height: 50px;
+
+		font-size: 1.5rem;
+
+		top: 55%;
+	}
+}
+
 .play a {
 	color: #fff;
 }
@@ -582,6 +599,10 @@ body {
 
 .content_contact {
 	padding: min(7%, 3.125rem);
+}
+
+.content_contact .row > * {
+	padding: 0;
 }
 
 .contact_header {
@@ -793,6 +814,27 @@ picture {
 	font-weight: 900;
 }
 
+#productbanner {
+	background-image: url("../img/bg1.jpg");
+}
+
+#aboutbanner {
+	background-size: contain;
+	background-image: url("../img/about-banner.jpg");
+}
+
+#servicebanner {
+	background-image: url("../img/servicebanner.jpg");
+}
+
+#contactbanner {
+	background-image: url("../img/contact.jpg");
+}
+
+#featurebanner {
+	background-image: url("../img/bg2.jpg");
+}
+
 .gallery_container {
 	max-width: 100%;
 	margin-inline: auto;
@@ -861,21 +903,51 @@ picture {
 
 .card__title {
 	line-height: 1.1;
-	font-size: 1.25rem;
+	font-size: clamp(0.75rem, 1.5vw, 1.25rem);
 	font-weight: 900;
 
 	color: #000;
 }
 
 .card__price {
-	font-size: 1.75rem;
+	font-size: clamp(1.75rem, 2vw, 2.5rem);
 	font-weight: 900;
 }
 
 .card__description {
 	margin-bottom: 10px;
 
+	font-size: clamp(0.6rem, 1.25vw, 1.15rem);
+
 	text-align: center;
+}
+
+@media (max-width: 992px) {
+	.card__title {
+		font-size: clamp(1.25rem, 1.5vw, 1.75rem);
+	}
+
+	.card__price {
+		font-size: clamp(1.5rem, 2.25vw, 2.25rem);
+	}
+
+	.card__description {
+		font-size: clamp(0.9rem, 1vw, 1.25rem);
+	}
+}
+
+@media (max-width: 665px) {
+	.card__title {
+		font-size: clamp(1rem, 5.5vw, 4rem);
+	}
+
+	.card__price {
+		font-size: clamp(1.5rem, 6.5vw, 4.25rem);
+	}
+
+	.card__description {
+		font-size: clamp(1rem, 4vw, 3.25rem);
+	}
 }
 
 .card__img {
@@ -1369,12 +1441,6 @@ picture {
 	color: #b90b0b;
 }
 
-@media (max-width: 450px) {
-	.h-custom {
-		height: 100%;
-	}
-}
-
 .input_phone input::-webkit-outer-spin-button,
 .input_phone input::-webkit-inner-spin-button {
 	-webkit-appearance: none;
@@ -1396,3 +1462,198 @@ picture {
 	text-align: justify;
 }
 /* policy End */
+
+/* service start */
+.service_img {
+	margin: 0 2rem 0.5rem 0;
+	width: 450px;
+	height: 450px;
+
+	float: left;
+	object-fit: cover;
+	shape-outside: circle();
+}
+
+.service_text {
+	text-align: justify;
+}
+
+/* service End */
+
+/* Admin Dashboard start*/
+
+.table tr:nth-of-type(odd) {
+	background-color: #eee;
+}
+
+.table tr:nth-of-type(even) {
+	background-color: var(--thirdcolor);
+}
+
+/* Admin Dashboard end*/
+
+/* feature or product deatail start */
+
+.card {
+	border: none;
+
+	overflow: hidden;
+}
+
+.product {
+	background-color: #eee;
+}
+
+.brand {
+	font-size: 13px;
+}
+
+.act-price {
+	color: red;
+	font-weight: 700;
+}
+
+.dis-price {
+	text-decoration: line-through;
+}
+
+.about {
+	font-size: 14px;
+}
+
+.color {
+	margin-bottom: 10px;
+}
+
+label.radio {
+	cursor: pointer;
+}
+
+label.radio input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+label.radio span {
+	padding: 2px 9px;
+	border: 2px solid #ff0000;
+	display: inline-block;
+	color: #ff0000;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+label.radio input:checked + span {
+	border-color: #ff0000;
+	background-color: #ff0000;
+	color: #fff;
+}
+
+.btn-danger {
+	background-color: #ff0000 !important;
+	border-color: #ff0000 !important;
+}
+
+.btn-danger:hover {
+	background-color: #da0606 !important;
+	border-color: #da0606 !important;
+}
+
+.btn-danger:focus {
+	box-shadow: none;
+}
+
+.cart i {
+	margin-right: 10px;
+}
+
+/* feature or product deatail End */
+
+/* Payment start */
+
+.form-control {
+	border-bottom: 2px solid #eee !important;
+	border: none;
+	font-weight: 600;
+}
+
+.form-control:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: #8bbafe;
+	outline: 0;
+	box-shadow: none;
+	border-radius: 0px;
+	border-bottom: 2px solid #1c1d20 !important;
+}
+
+.inputbox {
+	position: relative;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.inputbox span {
+	position: absolute;
+	top: 7px;
+	left: 11px;
+	transition: 0.5s;
+}
+
+.inputbox i {
+	position: absolute;
+	top: 13px;
+	right: 8px;
+	transition: 0.5s;
+	color: #1c1d20;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.inputbox input:focus ~ span {
+	transform: translateX(-0px) translateY(-15px);
+	font-size: 12px;
+}
+
+.inputbox input:valid ~ span {
+	transform: translateX(-0px) translateY(-15px);
+	font-size: 12px;
+}
+
+.hightlight {
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.decoration {
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.buy_btn {
+	color: #000;
+	background-color: var(--seccolor);
+	border-color: var(--seccolor);
+}
+
+.buy_btn:hover {
+	color: #fff;
+	background-color: var(--thirdcolor);
+	border-color: var(--thirdcolor);
+}
+
+.decoration:hover {
+	text-decoration: none;
+	color: #fdcc49;
+}
+
+/* Payment */

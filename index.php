@@ -1,11 +1,11 @@
 <?php require("header.php"); ?>
-	<div class="container-fluid text-white  d-flex cookie_bar" id="cookieinfo">
+	<!-- <div class="container-fluid text-white  d-flex cookie_bar" id="cookieinfo">
 		<p class="text-wrap">The site uses its own technical cookies, anonymous third party analytic cookies and
 			third-party cookies that could be used in profiling: in accessing any element/area of the site outside of
 			this banner, you consent to receiving cookies. If you want to know more or refuse consent to cookies, <a href="./cookie.php" class="text-decoration-none">click here.</a>
 		</p>
 		<button type="button" class="btn accept_btn" id="hide-cookie">Accept</button>
-	</div>
+	</div> -->
 
 
 
@@ -162,11 +162,11 @@
 					<div class="card-body p-4">
 						<img
 							src="./img/product6.png"
-							alt=""
+							alt="this is product photo"
 							class=" d-block mx-auto mb-3"
 						/>
 						<h5>
-							<a href="#" class="text-dark text-decoration-none"
+							<a href="./featured.php" class="text-dark text-decoration-none"
 								>Advanced Home Gym Equipment</a
 							>
 						</h5>
@@ -196,7 +196,7 @@
 							</li>
 						</ul>
 
-						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
+						<a class="btn btn-primary w-100" href="./featured.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -207,11 +207,11 @@
 					<div class="card-body p-4">
 						<img
 							src="./img/product7.jpg"
-							alt=""
+							alt="this is product photo"
 							class=" d-block mx-auto mb-3"
 						/>
 						<h5>
-							<a href="#" class="text-dark text-decoration-none"
+							<a href="./featured.php" class="text-dark text-decoration-none"
 								>Matrix Fitness S-Force</a
 							>
 						</h5>
@@ -241,7 +241,7 @@
 								<i class="fas fa-star-half-alt mypricolor"></i>
 							</li>
 						</ul>
-						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
+						<a class="btn btn-primary w-100" href="./featured.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -252,11 +252,11 @@
 					<div class="card-body p-4">
 						<img
 							src="./img/product8.jpg"
-							alt=""
+							alt="this is product photo"
 							class=" d-block mx-auto mb-3"
 						/>
 						<h5>
-							<a href="#" class="text-dark text-decoration-none"
+							<a href="./featured.php" class="text-dark text-decoration-none"
 								>Elliptical machine </a
 							>
 						</h5>
@@ -286,7 +286,7 @@
 								<i class="fa fa-star mypricolor"></i>
 							</li>
 						</ul>
-						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
+						<a class="btn btn-primary w-100" href="./featured.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -297,11 +297,11 @@
 					<div class="card-body p-4">
 						<img
 							src="./img/product9.png"
-							alt=""
+							alt="this is product photo"
 							class=" d-block mx-auto mb-3"
 						/>
 						<h5>
-							<a href="#" class="text-dark text-decoration-none"
+							<a href="./featured.php" class="text-dark text-decoration-none"
 								>Sunny Health & Fitness P8700 Pink</a
 							>
 						</h5>
@@ -332,7 +332,7 @@
 								<i class="far fa-star mypricolor"></i>
 							</li>
 						</ul>
-						<a class="btn btn-primary w-100" href="" role="button">Buy now</a>
+						<a class="btn btn-primary w-100" href="./featured.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -476,7 +476,7 @@
 		<div class="row">
 			<div class="content_contact">
 				<div class="container-fluid p-0">
-					<div class="row align-items-stretch no-gutters contact-wrap">
+					<div class="row align-items-stretch no-gutters contact-wrap m-0">
 						<div class="col-lg-12 fs-1  text-center mb-5 contact_header">Get in Touch with us</div>
 						<div class="col-lg-6 col-md-12">
 							<div class="form h-100">

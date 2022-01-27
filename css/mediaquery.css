@@ -105,7 +105,12 @@
 	.content_contact {
 		padding: 5rem 0;
 
-		background: linear-gradient(180deg, var(--firstcolor) 60%, #f4f4f4 0);
+		background: linear-gradient(
+				180deg,
+				var(--firstcolor) 60%,
+				rgba(0, 0, 0, 0.5) 0
+			),
+			url("../img/location.jpg");
 	}
 
 	.contact_header {
@@ -192,5 +197,11 @@
 	.footer_section .copyright-text,
 	.footer_section .social-icons {
 		text-align: center;
+	}
+}
+
+@media (max-width: 450px) {
+	.h-custom {
+		height: 100%;
 	}
 }

@@ -26,7 +26,7 @@
 											<img
 												src="./img/product21.jpg"
 												class="img-fluid"
-												alt="Play Station"
+												alt="this is Product photo"
 											/>
 										</div>
 										<div class="thumb-content">
@@ -60,7 +60,7 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
 									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/product20.jpg" class="img-fluid" alt="Macbook" />
+											<img src="./img/product20.jpg" class="img-fluid" alt="this is Product photo" />
 										</div>
 										<div class="thumb-content">
 											<h4>Marcy 150lb. Stack Home Gym</h4>
@@ -93,7 +93,7 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
 									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/product19.jpg" class="img-fluid" alt="Speaker" />
+											<img src="./img/product19.jpg" class="img-fluid" alt="this is Product photo" />
 										</div>
 										<div class="thumb-content">
 											<h4>Stamina 55-1602 Inmotion Elliptical</h4>
@@ -126,7 +126,7 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
 									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/product18.png" class="img-fluid" alt="Speaker" />
+											<img src="./img/product18.png" class="img-fluid" alt="this is Product photo" />
 										</div>
 										<div class="thumb-content">
 											<h4>RELIFE REBUILD YOUR LIFE Exercise Bike Indoor Cycling Bike</h4>
@@ -166,7 +166,7 @@
 											<img
 												src="./img/product17.jpg"
 												class="img-fluid"
-												alt="Play Station"
+												alt="this is Product photo"
 											/>
 										</div>
 										<div class="thumb-content">
@@ -200,7 +200,7 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
 									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/product16.jpg" class="img-fluid" alt="Macbook" />
+											<img src="./img/product16.jpg" class="img-fluid" alt="this is Product photo" />
 										</div>
 										<div class="thumb-content">
 											<h4>VIVITORY Weights Dumbbells Set, </h4>
@@ -233,7 +233,7 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
 									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/product15.jpg" class="img-fluid" alt="Speaker" />
+											<img src="./img/product15.jpg" class="img-fluid" alt="this is Product photo" />
 										</div>
 										<div class="thumb-content">
 											<h4>Club Quality 4-Weight Deluxe Barbell Set, 35 lbs</h4>
@@ -266,7 +266,7 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
 									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/product14.jpg" class="img-fluid" alt="Speaker" />
+											<img src="./img/product14.jpg" class="img-fluid" alt="this is Product photo" />
 										</div>
 										<div class="thumb-content">
 											<h4>Marcy MWM-988 Multifunction Steel Home Gym 150lb </h4>
@@ -303,7 +303,7 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
 									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/product13.jpg" class="img-fluid" alt="iPhone" />
+											<img src="./img/product13.jpg" class="img-fluid" alt="this is Product photo" />
 										</div>
 										<div class="thumb-content">
 											<h4>Pelpo Weight Bench for Full Body Exercise</h4>
@@ -336,7 +336,7 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
 									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/product12.jpg" class="img-fluid" alt="Canon" />
+											<img src="./img/product12.jpg" class="img-fluid" alt="this is Product photo" />
 										</div>
 										<div class="thumb-content">
 											<h4>550LBS Adjustable Folding Fitness</h4>
@@ -369,7 +369,7 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
 									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/product11.jpg" class="img-fluid" alt="Pixel" />
+											<img src="./img/product11.jpg" class="img-fluid" alt="this is Product photo" />
 										</div>
 										<div class="thumb-content">
 											<h4>Adjustable Dumbbells 40, 50, 52.5, 60, 105 to 200 lbs</h4>
@@ -402,7 +402,7 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 mt-5">
 									<div class="thumb-wrapper h-100">
 										<div class="img-box">
-											<img src="./img/product10.jpg" class="img-fluid" alt="Speaker" />
+											<img src="./img/product10.jpg" class="img-fluid" alt="this is Product photo" />
 										</div>
 										<div class="thumb-content">
 											<h4>Sportsroyals Stair Stepper with Resistance Band</h4>
@@ -508,7 +508,7 @@
 				</div>
 				<div class="carousel-inner customer_slider_inner">
 					<div class="carousel-item active">
-						<img src="./img/user/1.jpg" class="d-block" alt="..." />
+						<img src="./img/user/1.jpg" class="d-block" alt="this is Customer photo" />
 						<div class="carousel-caption  d-md-block">
 							<h5>Jummy</h5>
 							<ul class="list-inline small">
@@ -533,7 +533,7 @@
 					</div>
 
 					<div class="carousel-item">
-						<img src="./img/user/2.jpg" class="d-block mb-5" alt="..." />
+						<img src="./img/user/2.jpg" class="d-block mb-5" alt="this is Customer photo" />
 						<div class="carousel-caption  d-md-block">
 							<h5 class="pt-5 mt-5">Tom</h5>
 							<ul class="list-inline small">
@@ -561,7 +561,7 @@
 					</div>
 
 					<div class="carousel-item">
-						<img src="./img/user/3.jpg" class="d-block" alt="..." />
+						<img src="./img/user/3.jpg" class="d-block" alt="this is Customer photo" />
 						<div class="carousel-caption d-md-block">
 							<h5>Rose</h5>
 							<ul class="list-inline small">
@@ -614,7 +614,7 @@
 		<div class="row py-3 info_row">
 			<h1 class="fs-1 col-md-12 text-center fw-bolder text-white mb-5">News & Events</h1>
 			<div class="col-lg-6 col-md-12 mb-5">
-				<img class="w-100" src="./img/event.jpg" alt="" />
+				<img class="w-100" src="./img/event.jpg" alt="this is Event photo" />
 				<div class="info_event_content text-white">
 					<h2  class="fs-2 my-3">
 						Summer Special Discount Event in Mandalay
@@ -626,7 +626,7 @@
 			</div>
 			<div class="col-lg-6 col-md-12">
 				<div class="info_new1 mb-5 d-flex ">
-					<img class="w-50" src="./img/new.jpg" alt="" />
+					<img class="w-50" src="./img/new.jpg" alt="this is Event photo" />
 					<div class=" text-white ms-3 mt-lg-0 mt-md-5 ">
 						<p class="mb-3 info_new_text">
 							For Summer Holiday Discount Event
@@ -635,7 +635,7 @@
 					</div>
 				</div>
 				<div class="info_new2 mb-5 d-flex">
-					<img class="w-50" src="./img/new1.jpg" alt="" />
+					<img class="w-50" src="./img/new1.jpg" alt="this is Event photo" />
 					<div class=" text-white ms-3 mt-lg-0 mt-md-5">
 						<p class="mb-4 info_new_text">
 							Happy thingyan festival Event in Yangon
@@ -647,14 +647,14 @@
 		</div>
 
 		<div class="row">
-			<div class="col-md-2 text-white text-center">
-				<p class="fs-1">Trusted by companies of all sizes</p>
+			<div class="col-xl-2 col-lg-4 col-md-6 text-white text-center">
+				<p class="fs-1 mt-3">Trusted by companies of all sizes</p>
 			</div>
-			<div class="col-md-2 bg-dark"><img class="w-100 my-5" src="./img/partner1.png" alt="this is partner1"></div>
-			<div class="col-md-2 bg-light"><img class="w-100 my-5" src="./img/partner2.png" alt="this is partner2"></div>
-			<div class="col-md-2 mybg-dark"><img class="w-100 my-5" src="./img/partner3.png" alt="this is partner3"></div>
-			<div class="col-md-2 mybg-thircolor"><img class="w-100 my-5" src="./img/partner4.png" alt="this is partner4"></div>
-			<div class="col-md-2 bg-light"><img class="w-100 my-5" src="./img/partner5.png" alt="this is partner5"></div>
+			<div class="col-xl-2 col-lg-4 col-md-6 bg-dark"><img class="w-100 my-5" src="./img/partner1.png" alt="this is partner1"></div>
+			<div class="col-xl-2 col-lg-4 col-md-6 bg-light"><img class="w-100 my-5" src="./img/partner2.png" alt="this is partner2"></div>
+			<div class="col-xl-2 col-lg-4 col-md-6 mybg-dark"><img class="w-100 my-5" src="./img/partner3.png" alt="this is partner3"></div>
+			<div class="col-xl-2 col-lg-4 col-md-6 mybg-thircolor"><img class="w-100 my-5" src="./img/partner4.png" alt="this is partner4"></div>
+			<div class="col-xl-2 col-lg-4 col-md-6 bg-light"><img class="w-100 my-5" src="./img/partner5.png" alt="this is partner5"></div>
 
 		</div>
 	</div>

@@ -1,6 +1,6 @@
 <?php require("./header.php"); ?>
 
-    <div class="banner" id="aboutbanner">
+    <div class="banner" id="contactbanner">
 		<h1 class="fs-1">Contact Us</h1>
 		<p>Home / Pages / Contact Us</p>
 	</div>
@@ -21,7 +21,7 @@
 				><br/>
                 <a href="./privacy.php" class="text-white text-decoration-none">Privacy Policy</a>
             </div>
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12 mt-5 mt-lg-0">
                 <div class="box">
                     <h2 class="fs-2 text-center ">Contact Us</h2>
                     <form action="" method="">

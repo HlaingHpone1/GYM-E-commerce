@@ -30,8 +30,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
- 
-	
 }
 
 .loading {
@@ -70,7 +68,6 @@ body {
 
 	inset: 10px;
 	background: #1c1d20;
-	
 }
 
 .loading .fas {
@@ -240,6 +237,8 @@ body {
 	text-decoration: none;
 
 	color: #fff;
+
+	transition: all 500ms linear;
 }
 
 .copyright_link:hover {
@@ -437,7 +436,7 @@ body {
 .copyright-text {
 	margin: 0;
 
-	color: #000;
+	color: #fff;
 }
 
 /* Footer End */

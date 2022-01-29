@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Index page</title>
 
-	<link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+	<link rel="shortcut icon" href="./img/svg/logo.svg" type="image/x-icon">
 	<link rel="stylesheet" href="./libs/fontawesomepro/css/all.min.css">
 	<link rel="stylesheet" href="./css/bootstrap.css" />
 	<link rel="stylesheet" href="./css/swiper-bundle.min.css">
@@ -37,7 +37,7 @@
 	<nav class="navbar navbar-expand-lg py-2">
 		<div class="container-fluid">
 			<a class="navbar-brand fs-1" href="./index.php">
-				<img src="./img/logo.svg" alt="" class="d-inline-block align-text-top">
+				<img src="./img/svg/logo.svg" alt="" class="d-inline-block align-text-top">
 				H <span>E</span>G
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -53,9 +53,6 @@
 						<a class="nav-link" href="./product.php">Products</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./blog.php">Blog</a>
-					</li>
-					<li class="nav-item">
 						<a class="nav-link" href="./service.php">Service</a>
 					</li>
 					<li class="nav-item">
@@ -63,9 +60,6 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./contact.php">Contact Us</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="./featured.php">Featured</a>
 					</li>
 				</ul>
 			</div>

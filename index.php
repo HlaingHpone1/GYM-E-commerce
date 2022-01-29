@@ -15,7 +15,7 @@
 
 		<div class="carousel-inner index_slider">
 			<div class="carousel-item active">
-				<img src="./img/product1.jpg" class="d-block w-100" alt="this is slider">
+				<img src="./img/product/product1.jpg" class="d-block w-100" alt="this is slider">
 				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
 					<h1>Keep Your Body &#38; <span>Shape Your Body</span></h1>
 					<h3>Fit & Refresh & Strong</h3>
@@ -29,7 +29,7 @@
 			</div>
 
 			<div class="carousel-item">
-				<img src="./img/product2.jpg" class="d-block w-100" alt="this is slider">
+				<img src="./img/product/product2.jpg" class="d-block w-100" alt="this is slider">
 				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
 					<h1><span>improves</span> mood</h1>
 					<p class="mb-5">
@@ -46,7 +46,7 @@
 			</div>
 
 			<div class="carousel-item">
-				<img src="./img/product3.jpg" class="d-block w-100" alt="this is slider">
+				<img src="./img/product/product3.jpg" class="d-block w-100" alt="this is slider">
 				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
 					<h1>boosts <span>energy</span></h1>
 					<p class="mb-5">
@@ -63,7 +63,7 @@
 			</div>
 
 			<div class="carousel-item">
-				<img src="./img/product4.jpg" class="d-block w-100" alt="this is slider">
+				<img src="./img/product/product4.jpg" class="d-block w-100" alt="this is slider">
 				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
 					<h1>promotes better <span>sleep</span></h1>
 					<p class="mb-5">
@@ -76,7 +76,7 @@
 			</div>
 
 			<div class="carousel-item">
-				<img src="./img/product5.jpg" class="d-block w-100" alt="this is slider">
+				<img src="./img/product/product5.jpg" class="d-block w-100" alt="this is slider">
 				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
 					<h1>can be <span>fun</span> … and <span>social!</span></h1>
 					<p class="mb-5">
@@ -125,7 +125,7 @@
 			<div class="col-md-12 search_section py-5">
 				<form>
 					<fieldset>
-						<legend class="">Discover Your Products</legend>
+						<legend class="mytext_shadow_1"><span class="mytext_shadow_2">Discover</span> Your Products</legend>
 					</fieldset>
 					<div class="search_box rounded-3">
 						<div class="input-field first-wrap">
@@ -155,13 +155,13 @@
 
 		<!-- Products start -->
 		<div class="row pb-5 mybg-dark">
-			<h1 class="fs-1 text-center text-white product_header mb-5">Best Selling <span>Products</span></h1>
+			<h1 class="fs-1 text-center text-white mb-5 mytext_shadow_1 fw-bolder">Best Selling <span class="mytext_shadow_2">Products</span></h1>
 			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
 				<!-- Card-->
 				<div class="card rounded-3 h-100 shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
-							src="./img/product6.png"
+							src="./img/product/product6.png"
 							alt="this is product photo"
 							class=" d-block mx-auto mb-3"
 						/>
@@ -206,7 +206,7 @@
 				<div class="card rounded h-100  shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
-							src="./img/product7.jpg"
+							src="./img/product/product7.jpg"
 							alt="this is product photo"
 							class=" d-block mx-auto mb-3"
 						/>
@@ -251,7 +251,7 @@
 				<div class="card rounded h-100 shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
-							src="./img/product8.jpg"
+							src="./img/product/product8.jpg"
 							alt="this is product photo"
 							class=" d-block mx-auto mb-3"
 						/>
@@ -296,7 +296,7 @@
 				<div class="card rounded h-100 shadow-sm border-0 card_background">
 					<div class="card-body p-4">
 						<img
-							src="./img/product9.png"
+							src="./img/product/product9.png"
 							alt="this is product photo"
 							class=" d-block mx-auto mb-3"
 						/>
@@ -403,9 +403,9 @@
 		<!-- Video Start -->
 		<div class="row">
 			<div class="container-fluid video_section">
-				<h1 class="col-lg-12 fs-1 text-center text-white "><span>Who</span> we are</h1>
+				<h1 class="col-lg-12 fs-1 text-center text-white mytext_shadow_1"><span class="mytext_shadow_2">Who</span> we are</h1>
 				<div class="col-lg-12 video_container">
-					<img src="./img/bg1.jpg" class="img-fluid col-md-10 offset-md-1 video_img "
+					<img src="./img/bg3.jpg" class="img-fluid col-md-10 offset-md-1 video_img "
 						alt="this is video image">
 					<div class="play">
 						<a href="https://youtu.be/kXptPzKNMq4" target="_blank"><i class="fas fa-play"></i></a>
@@ -420,7 +420,7 @@
 			<div class="container-fluid vision_section">
 				<div class="row">
 					<div class="col-lg-12">
-						<h1 class=" fs-1 text-center text-white my-3">Our <span>Vision</span></h1>
+						<h1 class=" fs-1 text-center text-white my-3 mytext_shadow_1">Our <span class="mytext_shadow_2">Vision</span></h1>
 					</div>
 
 					<div class="col-lg-6 text-white">
@@ -429,7 +429,7 @@
 						<br />
 						<span class="text-center d-block  mt-2 mx-0">Your vision, our vision, and the gym's vision.</span>
 						</p>
-						<a class="readmorebtn offset-md-4 offset-sm-5 my-5"  role="button" href="./information.php">Read More</a>
+						<a class="readmorebtn offset-md-4 offset-sm-5 my-5"  role="button" href="./about.php">Read More</a>
 
 
 					</div>
@@ -443,9 +443,9 @@
 					</div>
 				</div>
 
-				<div class="row ">
+				<div class="row">
 					<div class="col-lg-12">
-						<h1 class=" fs-1 text-center text-white my-3">Our <span>Mission</span></h1>
+						<h1 class=" fs-1 text-center text-white my-3 mytext_shadow_1">Our <span class="mytext_shadow_2">Mission</span></h1>
 					</div>
 					<div class="col-lg-6  ">
 						<iframe class="w-100" src="https://www.youtube.com/embed/yHDoK930Hr4"
@@ -462,7 +462,7 @@
 							our heart-felt identity is utilized to inspire every person that steps foot into our gyms to
 							better themselves.
 						</p>
-						<a class="readmorebtn read2 offset-md-4  offset-sm-5"  role="button" href="./information.php">Read More</a>
+						<a class="readmorebtn read2 offset-md-4  offset-sm-5"  role="button" href="./about.php">Read More</a>
 
 					</div>
 				</div>

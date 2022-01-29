@@ -68,7 +68,7 @@
                     </form>
                 </div>
                 <div class="col-md-9 col-lg-6 col-xl-5 offset-xl-1">
-                    <img src="./img/signup.svg" class="img-fluid"
+                    <img src="./img/svg/signup.svg" class="img-fluid"
                     alt="Sign Up SVG image">
                 </div>
             </div>

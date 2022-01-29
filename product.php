@@ -11,7 +11,7 @@
 	<div class="gallery_container py-5">
 		<div class="product-grid">
 			<div class="productcard stacked">
-				<img src="img/product10.jpg" alt="this is product photo" class="card__img" />
+				<img src="img/product/product10.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title mb-1">Sportsroyals Stair Stepper with Resistance Band and Vertical Climber</h2>
 					<p class="card__price">$1550</p>
@@ -41,7 +41,7 @@
 			</div>
 
 			<div class="productcard stacked">
-				<img src="img/product11.jpg" alt="this is product photo" class="card__img" />
+				<img src="img/product/product11.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title">Adjustable Dumbbells 40, 50, 52.5, 60, 105 to 200 lbs with Connector Options</h2>
 					<p class="card__price">$1225</p>
@@ -72,7 +72,7 @@
 			</div>
 
 			<div class="productcard stacked">
-				<img src="img/product12.jpg" alt="this is product photo" class="card__img" />
+				<img src="img/product/product12.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title">550LBS Adjustable Folding Fitness</h2>
 					<p class="card__price">$2000</p>
@@ -103,7 +103,7 @@
 			</div>
 
 			<div class="productcard stacked">
-				<img src="img/product13.jpg" alt="this is product photo" class="card__img" />
+				<img src="img/product/product13.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title">Pelpo Weight Bench for Full Body Exercise, Adjustable Workout Bench</h2>
 					<p class="card__price">$1525</p>
@@ -135,7 +135,7 @@
 			</div>
 
 			<div class="productcard stacked">
-				<img src="img/product15.jpg" alt="this is product photo" class="card__img" />
+				<img src="img/product/product15.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<!-- 30em 50em -->
 					<h2 class="card__title text-center">Club Quality 4-Weight Deluxe Barbell Set, 35 lbs</h2>
@@ -166,7 +166,7 @@
 				</div>
 			</div>
 			<div class="productcard stacked">
-				<img src="img/product16.jpg" alt="this is product photo" class="card__img" />
+				<img src="img/product/product16.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title">VIVITORY Weights Dumbbells Set, Adjustable Dumbbell Set with Connector</h2>
 					<p class="card__price">$650</p>
@@ -196,7 +196,7 @@
 				</div>
 			</div>
 			<div class="productcard stacked">
-				<img src="img/product17.jpg" alt="this is product photo" class="card__img" />
+				<img src="img/product/product17.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title">LINEAR LEG PRESS</h2>
 					<p class="card__price">$4100</p>
@@ -228,7 +228,7 @@
 				</div>
 			</div>
 			<div class="productcard stacked">
-				<img src="img/product18.png" alt="this is product photo" class="card__img" />
+				<img src="img/product/product18.png" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title">RELIFE REBUILD YOUR LIFE Exercise Bike Indoor Cycling Bike</h2>
 					<p class="card__price">$1850</p>
@@ -258,7 +258,7 @@
 				</div>
 			</div>
 			<div class="productcard stacked">
-				<img src="img/product19.jpg" alt="this is product photo" class="card__img" />
+				<img src="img/product/product19.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title">Stamina 55-1602 Inmotion Elliptical</h2>
 					<p class="card__price">$850</p>
@@ -289,7 +289,7 @@
 			</div>
 
 			<div class="productcard stacked">
-				<img src="img/product20.jpg" alt="this is product photo" class="card__img" />
+				<img src="img/product/product20.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title">Marcy 150lb. Stack Home Gym with Pulley, Arm</h2>
 					<p class="card__price">$1200</p>
@@ -320,7 +320,7 @@
 			</div>
 
 			<div class="productcard stacked">
-				<img src="img/product21.jpg" alt="this is product photo" class="card__img" />
+				<img src="img/product/product21.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title">Body Power 3-in-1 Home Gym, Upright Compact Exercise Bike</h2>
 					<p class="card__price">$1750</p>

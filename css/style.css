@@ -9,10 +9,6 @@
 	--secondaryfont: "Crete Round", serif;
 }
 
-body {
-	font-family: var(--primaryfont);
-}
-
 .mybg-dark {
 	padding: min(7%, 3.125rem);
 
@@ -41,6 +37,20 @@ body {
 
 .mythircolor {
 	color: var(--thirdcolor);
+}
+
+.mytext_shadow_1 {
+	text-shadow: 3px 3px 25px #fff;
+}
+
+.mytext_shadow_2 {
+	color: var(--seccolor);
+
+	text-shadow: 3px 3px 35px var(--seccolor);
+}
+
+body {
+	font-family: var(--primaryfont);
 }
 
 .cookie_link.myseccolor {
@@ -330,16 +340,6 @@ body {
 	background: var(--thirdcolor);
 }
 
-.product_header {
-	text-shadow: 3px 3px 25px #fff;
-}
-
-.product_header > span {
-	color: var(--seccolor);
-
-	text-shadow: 3px 3px 25px var(--seccolor);
-}
-
 .card.card_background img {
 	transition: all 500ms linear;
 }
@@ -432,14 +432,6 @@ body {
 	margin-bottom: 25px;
 
 	font-weight: 900;
-
-	text-shadow: 3px 3px 25px #fff;
-}
-
-.video_section > h1 > span {
-	color: var(--seccolor);
-
-	text-shadow: 3px 3px 35px var(--seccolor);
 }
 
 .video_section .video_img {
@@ -552,14 +544,6 @@ body {
 	margin-bottom: 25px;
 
 	font-weight: 900;
-
-	text-shadow: 3px 3px 25px #fff;
-}
-
-.vision_section h1 > span {
-	color: var(--seccolor);
-
-	text-shadow: 3px 3px 35px var(--seccolor);
 }
 
 .vision_section .vision_text::first-letter,
@@ -676,7 +660,7 @@ body {
 
 .contact-wrap .form,
 .contact-wrap .contact-info {
-	padding: 40px;
+	padding: 0 40px;
 }
 
 .contact-wrap .form {
@@ -807,15 +791,15 @@ picture {
 
 #aboutbanner {
 	background-size: contain;
-	background-image: url("../img/about-banner.jpg");
+	background-image: url("../img/banner/about-banner.jpg");
 }
 
 #servicebanner {
-	background-image: url("../img/servicebanner.jpg");
+	background-image: url("../img/banner/servicebanner.jpg");
 }
 
 #contactbanner {
-	background-image: url("../img/contact.jpg");
+	background-image: url("../img/banner/contact.jpg");
 }
 
 #featurebanner {
@@ -904,6 +888,7 @@ picture {
 .card__description {
 	margin-bottom: 10px;
 
+	font-family: var(--secondaryfont);
 	font-size: clamp(0.6rem, 1.25vw, 1.15rem);
 
 	text-align: center;
@@ -914,7 +899,7 @@ picture {
 	aspect-ratio: 1 / 1.25;
 	object-fit: cover;
 
-	filter: brightness(40%);
+	filter: brightness(60%);
 
 	transition: all 500ms linear;
 }
@@ -1196,9 +1181,12 @@ picture {
 	width: 200px;
 	height: 200px;
 
-	margin: auto;
+	margin: 20px auto;
 
+	border: 5px solid var(--seccolor);
 	border-radius: 50%;
+
+	box-shadow: 0px 0px 20px var(--seccolor);
 
 	object-fit: cover;
 }
@@ -1206,6 +1194,10 @@ picture {
 .customer_slider .customer_slider_inner .carousel-item {
 	width: 100%;
 	height: 400px;
+}
+
+.customer_slider .carousel-indicators {
+	/* bottom: -100px; */
 }
 
 .customer_slider .carousel-indicators [data-bs-target] {
@@ -1434,6 +1426,9 @@ picture {
 }
 
 .service_text {
+	padding: 0 2rem;
+	font-size: 1.25rem;
+
 	text-align: justify;
 }
 
@@ -1533,7 +1528,7 @@ label.radio input:checked + span {
 
 /* Payment start */
 
-.form-control {
+.card .inputbox .form-control {
 	border-bottom: 2px solid #eee !important;
 	border: none;
 	font-weight: 600;
@@ -1599,6 +1594,8 @@ input::-webkit-inner-spin-button {
 }
 
 .buy_btn {
+	width: 20%;
+
 	color: #000;
 	background-color: var(--seccolor);
 	border-color: var(--seccolor);

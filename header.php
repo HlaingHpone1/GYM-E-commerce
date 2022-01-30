@@ -17,7 +17,6 @@
 	<link rel="stylesheet" href="./css/mediaquery.css" />
 
 
-	<script src="./js/bootstrap.js"></script>
 
 </head>
 

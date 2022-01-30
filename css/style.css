@@ -9,6 +9,11 @@
 	--secondaryfont: "Crete Round", serif;
 }
 
+*::selection,
+span::selection {
+	background-color: var(--seccolor);
+}
+
 .mybg-dark {
 	padding: min(7%, 3.125rem);
 

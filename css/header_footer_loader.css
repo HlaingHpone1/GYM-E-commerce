@@ -396,19 +396,26 @@ body {
 }
 
 .social-icons a.facebook:hover {
-	background-color: #00aeff;
+	background-color: #3b5998;
 }
 
 .social-icons a.twitter:hover {
-	background-color: #00aeff;
+	background-color: #00acee;
 }
 
 .social-icons a.instagram:hover {
-	background-color: #00aeff;
+	background: radial-gradient(
+		circle at 33% 100%,
+		#fed373 4%,
+		#f15245 30%,
+		#d92e7f 62%,
+		#9b36b7 85%,
+		#515ecf
+	);
 }
 
 .social-icons a.youtube:hover {
-	background-color: #00aeff;
+	background-color: #ff0000;
 }
 
 .footer-links a:active,

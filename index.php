@@ -1,11 +1,11 @@
 <?php require("header.php"); ?>
-	<!-- <div class="container-fluid text-white  d-flex cookie_bar" id="cookieinfo">
-		<p class="text-wrap">The site uses its own technical cookies, anonymous third party analytic cookies and
+	<div class="container-fluid text-white  d-flex cookie_bar" id="cookieinfo">	
+		<p id="demo1" class="text-wrap">The site uses its own technical cookies, anonymous third party analytic cookies and
 			third-party cookies that could be used in profiling: in accessing any element/area of the site outside of
 			this banner, you consent to receiving cookies. If you want to know more or refuse consent to cookies, <a href="./cookie.php" class="text-decoration-none">click here.</a>
 		</p>
-		<button type="button" class="btn accept_btn" id="hide-cookie">Accept</button>
-	</div> -->
+		<button type="button" class="btn accept_btn" id="demo">Accept</button>
+	</div>
 
 
 
@@ -537,5 +537,14 @@
 		<!-- Contact End -->
 
 	</div>
+
+	<script>
+document.getElementById("demo").addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("demo1").style.display = "none";
+  document.getElementById("demo").style.display = "none";
+}
+</script>
 
 <?php require_once("footer.php"); ?>

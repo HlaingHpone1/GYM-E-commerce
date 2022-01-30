@@ -476,15 +476,21 @@
 			</div>
 
 			<div class="col-lg-6 text-white">
-				<h1 class="fs-1 text-center">Our Vision</h1>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae laborum illo tenetur magnam obcaecati, quibusdam distinctio eos dolorem minima consectetur error, ullam sapiente, iure commodi beatae maiores iste expedita! Ex ea nobis quis ut. Recusandae, ratione! Doloribus quasi amet tempore, necessitatibus placeat perferendis laboriosam incidunt error! Dolorum tenetur inventore quos.
+				<h1 class="fs-1 text-center">Our <span class="mytext_shadow_2">Vision</span></h1>
+				<p class="info_text">
+					To help you achieve your objectives, we developed this gym shpp just outside your door. Through our fitness philosophy, facilities, programmes, and products, we aim to improve the quality of life in the communities in which we operate and to inculcate the importance of health and fitness in the lives of people worldwide." To be recognized internationally for the success, skills and socially responsible behaviors of the business leaders who studied with us and the notable contributions they have made to Myanmar and to the world.
 				</p>
 			</div>
 			<div class="col-lg-6 text-white">
-				<h1 class="fs-1 text-center">Our Mission</h1>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae laborum illo tenetur magnam obcaecati, quibusdam distinctio eos dolorem minima consectetur error, ullam sapiente, iure commodi beatae maiores iste expedita! Ex ea nobis quis ut. Recusandae, ratione! Doloribus quasi amet tempore, necessitatibus placeat perferendis laboriosam incidunt error! Dolorum tenetur inventore quos.
+				<h1 class="fs-1 text-center">Our <span class="mytext_shadow_2">Mission</span></h1>
+				<p class="info_text">
+					We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff and
+					premier exercise equipment, which supports our members in meeting their individuafitness
+					goals. We provide these with dedication to the highest quality of customer satisfaction
+					delivered with a sense of friendliness, individual pride and company spirit. Thstrength of
+					our heart-felt identity is utilized to inspire every person that steps foot into ougyms to
+					better themselves. Enabling local business to adopt strategic approaches that delivers a sustainable competitive edge in the globalized marketplace.
+					Developing internationally competitive individuals who are financially successful and at the same time, to conduct themselves and their business responsibly for the society and the environment, while achieving healthy financial returns and sustainable growth.
 				</p>
 			</div>
 		</div>

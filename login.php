@@ -44,13 +44,14 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Remember Me</label>
                         </div>
+
+                        <button type="submit" class="btn login_btn mb-3">Submit</button>
                         
                         <div class="mb-3 d-flex justify-content-between">
                             <a class="text-decoration-none mb-3 singup_link" href="signup.php">Create Account?</a>
                             <a class="text-decoration-none mb-3 singup_link" href="#">Forgot Password?</a>                            
                         </div>
 
-                        <button type="submit" class="btn login_btn">Submit</button>
                         
                     </form>
                 </div>

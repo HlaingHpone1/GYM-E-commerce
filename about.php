@@ -471,7 +471,7 @@
 				<p class="mb-5 info_text">
 				At the end of March 2020, some workers of the Staten Island warehouse staged a walkout in protest of the poor health situation at their workplace amidst the 2020 COVID-19 pandemic. One of the organizers, Chris Smalls, was first put on quarantine without anyone else being quarantined, and soon afterwards fired from the company.
 
-				The pandemic caused a surge in online shopping and resulted in shortages of household staples both online and some brick-and-mortar stores. From March 17 to April 10, 2020, Amazon warehouses stopped accepting non-essential items from third-party sellers. The company hired approximately 175,000 additional warehouse workers and delivery contractors to deal with the surge, and temporarily raised wages by $2/hour.
+				The pandemic caused a surge in online shopping and resulted in shortages of household staples both online and some brick-and-mortar stores. From March 17 to April 10, 2020, HGE warehouses stopped accepting non-essential items from third-party sellers. The company hired approximately 175,000 additional warehouse workers and delivery contractors to deal with the surge, and temporarily raised wages by $2/hour.
 				</p>
 			</div>
 
@@ -660,17 +660,69 @@
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-xl-2 col-lg-4 col-md-6 text-white text-center">
+		<div class="row text-center text-white my-padding py-3  ">
+			<div class="col-lg-4 col-md-6 d-flex justify-content-center mb-5 mb-lg-0">
+				<i class="fal fa-shipping-fast fs-1"></i>
+				<div class="ms-4 content_icon">
+					<h3 class="fs-3">Free Shipping &amp; Return</h3>
+					<p class="mb-0 text-muted text-justify ">
+						Free Shipping over $400
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 d-flex justify-content-center mb-5 mb-lg-0">
+				<i class="fas fa-headset fs-1"></i>
+				<div class="ms-4 content_icon">
+					<h3 class="fs-3">+95-9-456159789</h3>
+					<p class="mb-0 text-muted text-justify ">
+						24/7 Available Support
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-12 d-flex justify-content-center mb-5 mb-lg-0">
+				<i class="fad fa-badge-dollar fs-1"></i>
+				<div class="ms-4 content_icon">
+					<h3 class="fs-3">Moeny Back</h3>
+					<p class="mb-0 text-muted text-justify ">
+						7 Days Money Back 
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row text-center text-white my-padding py-3  ">
+			<div class="col-lg-4 col-md-6 d-flex justify-content-center mb-5 mb-lg-0 offset-lg-2">
+				<i class="fas fa-envelope fs-1"></i>
+				<div class="ms-4 content_icon">
+					<h3 class="fs-3">Electronic Support</h3>
+					<p class="mb-0 text-muted text-justify ">
+						Please Feel Free to write an email to us or to use our electronic ticketing system
+					</p>
+					<p class="text-muted">info@dragonworld.com.mm</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 d-flex justify-content-center mb-5 mb-lg-0">
+				<i class="fas fa-head-side-headphones fs-1"></i>
+				<div class="ms-4 content_icon ">
+					<h3 class="fs-3">Call Center</h3>
+					<p class="mb-0 text-muted text-justify ">
+						24/7 Available Support
+					</p>
+					<p class="text-muted">+95-9-456159789</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row my-padding pt-3 pb-0">
+			<div class="col-md-12 text-white text-center">
 				<p class="fs-1 mt-3">Trusted by companies of all sizes</p>
 			</div>
-			<div class="col-xl-2 col-lg-4 col-md-6 bg-dark"><img class="w-100 my-5" src="./img/partner/partner1.png" alt="this is partner1"></div>
-			<div class="col-xl-2 col-lg-4 col-md-6 bg-light"><img class="w-100 my-5" src="./img/partner/partner2.png" alt="this is partner2"></div>
-			<div class="col-xl-2 col-lg-4 col-md-6 mybg-dark"><img class="w-100 my-5" src="./img/partner/partner3.png" alt="this is partner3"></div>
-			<div class="col-xl-2 col-lg-4 col-md-6 mybg-thircolor"><img class="w-100 my-5" src="./img/partner/partner4.png" alt="this is partner4"></div>
-			<div class="col-xl-2 col-lg-4 col-md-6 bg-light"><img class="w-100 my-5" src="./img/partner/partner5.png" alt="this is partner5"></div>
-
+			<div class="col-xl-3 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 mybg-thircolor"><img class="w-100 my-5" src="./img/partner/partner1.png" alt="this is partner1"></div>
+			<div class="col-xl-3 col-lg-5 col-md-6 bg-light"><img class="w-100 my-5" src="./img/partner/partner2.png" alt="this is partner2"></div>
+			<div class="col-xl-3 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 mybg-dark"><img class="w-100 my-5" src="./img/partner/partner3.png" alt="this is partner3"></div>
+			<div class="col-xl-3 col-lg-5 col-md-6 bg-white"><img class="w-100 my-5" src="./img/partner/partner5.png" alt="this is partner5"></div>
 		</div>
+
 	</div>
 
 

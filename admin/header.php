@@ -41,7 +41,7 @@
 			<a
 			class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fw-bold"
 			href="#"
-			>Frontendfunn</a
+			>Admin Dashboard</a
 			>
 			<button
 			class="navbar-toggler"
@@ -103,7 +103,7 @@
 			<ul class="navbar-nav">
 				<li>
 				<div class="text-muted small fw-bold text-uppercase px-3">
-					CORE
+					Admin
 				</div>
 				</li>
 				<li>

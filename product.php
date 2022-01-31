@@ -36,7 +36,7 @@
 							</li>
 						</ul>
 					<p class="card__description text-muted">Our mini stair stepper - A great partner for indoor-exercises! Simple function combine with high-quality steel material, suitable for all family member's exercise.</p>
-					<a href="./productdetail.php" role="button" class="btn product_btn">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 				</div>
 			</div>
 
@@ -66,7 +66,7 @@
 							</li>
 						</ul>
 					<p class="card__description text-muted">Durable cast iron material coated with Powder Coated finish to prevent rust and corrosion, our adjustable dumbbells will last a lifetime without losing performance.</p>
-					<a href="./productdetail.php" role="button" class="btn product_btn">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 							</li>
 						</ul>
 					<p class="card__description text-muted">550LBS Adjustable Folding Fitness Barbell Rack & Weight Bench-Squat Stand Dipping Station Weight Bench-Home Gym, Strength Training w/Incline & Decline Capability, Padded Faux Leather, Easy Storage</p>
-					<a href="./productdetail.php" role="button" class="btn product_btn">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 
 				</div>
 			</div>
@@ -129,7 +129,7 @@
 						</ul>
 					<p class="card__description text-muted">Pelpo designed this multi-functional weight bench to cater to more types of workout at home. The weight bench is easy to fold and store.
 					The weight bench is made from heavy-duty commercial quality steel</p>
-					<a href="./productdetail.php" role="button" class="btn product_btn">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 
 				</div>
 			</div>
@@ -161,7 +161,7 @@
 							</li>
 						</ul>
 					<p class="card__description text-muted">Introducing the Step Deluxe Dumbbell Set. This high-quality dumbbell set totals 35 lbs. and includes two 16” dumbbell bars, eight collars, and eight weights (extra small–2.75 lbs. and small–5.5lbs.)..</p>
-					<a href="./productdetail.php" role="button" class="btn product_btn">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 
 				</div>
 			</div>
@@ -191,7 +191,7 @@
 							</li>
 						</ul>
 					<p class="card__description text-muted">Hexagon design dumbbells prevent scrolling and for easy storage, with no damage to the floor.</p>
-					<a href="./productdetail.php" role="button" class="btn product_btn">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 
 				</div>
 			</div>
@@ -223,7 +223,7 @@
 					<p class="card__description text-muted">Linear leg press with adjustable back pad
 					Large foot plate for variety of positions
 					Oversized nylon bushing.</p>
-					<a href="./productdetail.php" role="button" class="btn product_btn">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 
 				</div>
 			</div>
@@ -253,7 +253,7 @@
 							</li>
 						</ul>
 					<p class="card__description text-muted">Rebuild your confidence and attitude towards life. Bring a healthy energetic lifestyle for you. The cushion three-dimensional groove design can accelerate air circulation and dissipate heat.</p>
-					<a href="./productdetail.php" role="button" class="btn product_btn">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 
 				</div>
 			</div>
@@ -283,7 +283,7 @@
 							</li>
 						</ul>
 					<p class="card__description text-muted">The Stamina InMotion Compact Strider can be used sitting, standing or by pedaling in reverse motion, making it easy to get a convenient and versatile workout.Whether you're watching television, reading a book, or working out at the office</p>
-					<a href="./productdetail.php" role="button" class="btn product_btn">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 
 				</div>
 			</div>
@@ -314,7 +314,7 @@
 							</li>
 						</ul>
 					<p class="card__description text-muted">Use the Dual action press arms, Lat Bar, ab attachment, and leg developer to work out your pecs, back muscles, leg muscles, abs, and more! The efficient and space saving design allow the user to quickly get in a full body workout in the convenience of your own home. </p>
-					<a href="./productdetail.php" role="button" class="btn product_btn">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 
 				</div>
 			</div>
@@ -345,7 +345,7 @@
 							</li>
 						</ul>
 					<p class="card__description text-muted">Save space and get a killer workout with the Body Power 3-in-1 Trio Trainer. This compact trainer can be used as an elliptical, an upright bike, and a recumbent bike. Each of the exercises possible with this unique machine is low-impact.</p>
-					<a href="./productdetail.php" role="button" class="btn product_btn ">Shop Now</a>
+					<a href="./featured.php" role="button" class="btn product_btn ">Shop Now</a>
 
 				</div>
 			</div>

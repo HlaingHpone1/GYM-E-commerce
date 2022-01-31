@@ -14,6 +14,14 @@ span::selection {
 	background-color: var(--seccolor);
 }
 
+.my-padding {
+	padding: min(7%, 3.125rem);
+}
+
+.text-justify {
+	text-align: justify;
+}
+
 .mybg-dark {
 	padding: min(7%, 3.125rem);
 

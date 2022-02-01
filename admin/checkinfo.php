@@ -5,14 +5,15 @@
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM users";
+    $sql = "SELECT * FROM users WHERE `email`='".$email."' AND `password`='".$password."'";
     $result = $connection->query($sql);
-    // var_dump($result);
-
+    $row = $result->fetch_assoc();
+    var_dump($result);
+    var_dump($row);
+    echo $sql;
 
     // if($result->num_rows > 0)
     // {
-    //     $row = $result->fetch_assoc();
     //     $_SESSION['email'] = $row['email'];
     //     header('location:index.php');
     // }else{

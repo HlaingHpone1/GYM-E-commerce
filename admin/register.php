@@ -33,10 +33,17 @@
 					<img src="../img/img-01.png" alt="IMG">
 				</div>
 
-				<form method="POST" class="login100-form validate-form" action="./checkinfo.php"  enctype="multipart/form-data" >
+				<form method="POST" class="login100-form signup validate-form" action="./registerinfo.php"  enctype="multipart/form-data" >
 					<span class="login100-form-title">
 						Admin Login
 					</span>
+                    <div class="wrap-input100">
+						<input class="input100" type="text" name="username" placeholder="User Name">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+                        <i class="fas fa-user" aria-hidden="true"></i>
+						</span>
+					</div>
 
 					<div class="wrap-input100">
 						<input class="input100" type="email" name="email" placeholder="Email">
@@ -46,8 +53,24 @@
 						</span>
 					</div>
 
+                    <div class="wrap-input100">
+						<input class="input100" type="number" name="phone" placeholder="Phone">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+						</span>
+					</div>
+
 					<div class="wrap-input100 validate-input">
 						<input class="input100" type="password" name="password" placeholder="Password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="password" name="comfirmpassword" placeholder="Comfirm Password">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -60,18 +83,9 @@
 						</button>
 					</div>
 
-					<div class="text-center p-t-12 ">
-						<span class="fs-6 text-white">
-							Forgot
-						</span>
+					<div class="text-center">
 						<a class="fs-6 text-decoration-none text-white" href="#">
-							Username / Password?
-						</a>
-					</div>
-
-					<div class="text-center p-t-136">
-						<a class="fs-6 text-decoration-none text-white" href="#">
-							Create your Account
+							Already Acc? Log In
 							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
 						</a>
 					</div>

@@ -1,22 +1,18 @@
 <?php 
-    // session_start();
+    session_start();
     require_once('./dbconfig.php');
     
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM users WHERE `email`='".$email."' AND `password`='".$password."'";
-    $result = $connection->query($sql);
-    $row = $result->fetch_assoc();
-    var_dump($result);
-    var_dump($row);
-    echo $sql;
+    $sql = "SELECT * FROM `users` WHERE `email` = '$email' AND `password` = '$password' AND `comfirmpassword` = '$password'";
+    $result = mysqli_query($connection, $sql);
+    $row = mysqli_fetch_assoc($result);
 
-    // if($result->num_rows > 0)
-    // {
-    //     $_SESSION['email'] = $row['email'];
-    //     header('location:index.php');
-    // }else{
-    //     header('location:../index.php');
-    // }
+    if($row['email'] == $email AND $row['password'] == $password AND $row['comfirmpassword'])
+    {
+        header('location:index.php');
+    }else{
+        header('location:login.php');
+    }
 ?>

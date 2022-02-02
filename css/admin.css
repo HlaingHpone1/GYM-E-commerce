@@ -3,6 +3,10 @@
 	--topNavbarHeight: 56px;
 }
 
+.offcanvas {
+	z-index: 100;
+}
+
 .sidebar-nav {
 	width: var(--offcanvas-width);
 }

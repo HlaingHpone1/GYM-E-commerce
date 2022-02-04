@@ -24,6 +24,14 @@
 	transform: rotate(180deg);
 }
 
+.textaera > textarea {
+	resize: none;
+}
+
+.textaera.textaera1 > textarea {
+	height: 100px;
+}
+
 @media (min-width: 992px) {
 	body {
 		overflow: auto !important;

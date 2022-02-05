@@ -51,11 +51,11 @@
 								?>
 
 								<tr class="text-center">
-									<td><?php echo $row['id']; ?></td>
-									<td><?php echo $row['user_id']; ?></td>
-									<td><?php echo $row['username']; ?></td>
-									<td><?php echo $row['question']; ?></td>
-									<td><?php echo $row['answer']; ?></td>
+									<td class="text-break"><?php echo $row['id']; ?></td>
+									<td class="text-break"><?php echo $row['user_id']; ?></td>
+									<td class="text-break"><?php echo $row['username']; ?></td>
+									<td class="text-break"><?php echo $row['question']; ?></td>
+									<td class="text-break"><?php echo $row['answer']; ?></td>
 									<td >
 										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>
 									</td>

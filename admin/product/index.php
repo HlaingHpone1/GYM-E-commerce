@@ -50,12 +50,12 @@
 								?>
 
 								<tr>
-									<td><?php echo $row['id']; ?></td>
-									<td><?php echo $row['name']; ?></td>
-									<td><?php echo $row['price']; ?></td>
-									<td><?php echo $row['description']; ?></td>
-									<td><?php echo $row['images']; ?></td>
-									<td >
+									<td ><?php echo $row['id']; ?></td>
+									<td ><?php echo $row['name']; ?></td>
+									<td ><?php echo $row['price']; ?></td>
+									<td ><?php echo $row['description']; ?></td>
+									<td ><?php echo $row['images']; ?></td>
+									<td  >
 										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>
 									</td>
 									<td >

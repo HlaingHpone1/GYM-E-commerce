@@ -49,12 +49,12 @@
 								?>
 
 								<tr class="text-center">
-									<td ><?php echo $row['id']; ?></td>
-									<td ><?php echo $row['username']; ?></td>
-									<td ><?php echo $row['email']; ?></td>
-									<td ><?php echo $row['phone']; ?></td>
-									<td ><?php echo $row['password']; ?></td>
-									<td ><?php echo $row['comfirmpassword']; ?></td>
+									<td class="text-break"><?php echo $row['id']; ?></td>
+									<td class="text-break"><?php echo $row['username']; ?></td>
+									<td class="text-break"><?php echo $row['email']; ?></td>
+									<td class="text-break"><?php echo $row['phone']; ?></td>
+									<td class="text-break"><?php echo $row['password']; ?></td>
+									<td class="text-break"><?php echo $row['comfirmpassword']; ?></td>
 									<td >
 										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>
 									</td>

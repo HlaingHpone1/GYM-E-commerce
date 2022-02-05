@@ -15,12 +15,6 @@
 	<link rel="stylesheet" href="../css/dataTables.bootstrap5.min.css">
 	<link rel="stylesheet" href="../css/admin.css">
 
-	<link rel="stylesheet" href="../css/login.css">
-	<link rel="stylesheet" href="../css/animate.css">
-	<link rel="stylesheet" href="../css/hamburgers.min.css">
-	<link rel="stylesheet" href="../css/select2.min.css">
-	<link rel="stylesheet" href="../css/util.css">
-
 
 
 </head>

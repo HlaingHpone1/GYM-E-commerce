@@ -127,12 +127,12 @@
 					<fieldset>
 						<legend class="mytext_shadow_1"><span class="mytext_shadow_2">Discover</span> Your Products</legend>
 					</fieldset>
-					<div class="search_box rounded-3">
+					<div class="search_box rounded-3 w-100 d-flex justify-content-between align-items-center">
 						<div class="input-field first-wrap">
-							<input class="rounded-3" id="search" type="text" placeholder="What are you looking for?" />
+							<input class="rounded-3 d-block bg-light" id="search" type="text" placeholder="What are you looking for?" />
 						</div>
 						<div class="input-field second-wrap">
-							<input class="rounded-3" id="location" type="text" placeholder="Category" />
+							<input class="rounded-3 d-block bg-light" id="location" type="text" placeholder="Category" />
 						</div>
 						<div class="input-field third-wrap">
 							<button class="btn-search rounded-3" type="button">Search</button>
@@ -342,10 +342,10 @@
 		<!-- Brand Start -->
 		<div class="row">
 			<div class="container-fluid brand_section">
-				<div class="row">
+				<div class="row text-white">
 					<div class="col-lg-3 brand_card col-md-6 text-center mt-5">
 						<i class="fas fa-arrow-alt-circle-down "></i>
-						<div class="brand_content">
+						<div class="brand_content fw-bolder text-capitalize">
 							<h1 class="fs-1">Weight Loss</h1>
 							<p>Lose It. Keep it off.</p>
 							<p class="my-4">
@@ -353,46 +353,46 @@
 								you lose
 								weight and reduce body fat.
 							</p>
-							<a class="rounded-pill" role="button" href="./product.php">Buy Now</a>
+							<a class="rounded-pill text-decoration-none text-white" role="button" href="./product.php">Buy Now</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 brand_card col-md-6 text-center mt-5">
 						<i class="fas fa-tachometer-alt"></i>
-						<div class="brand_content">
+						<div class="brand_content fw-bolder text-capitalize">
 							<h1 class="fs-1">Performance</h1>
 							<p>maximize your results.</p>
 							<p class="my-4">
 								Bump up your intensity and support strength, performance, and muscle gain.
 								Scientifically formulated, and NSF Certified for Sport.
 							</p>
-							<a class="rounded-pill"  role="button"  href="./product.php">Buy Now</a>
+							<a class="rounded-pill text-decoration-none text-white"  role="button"  href="./product.php">Buy Now</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 brand_card col-md-6 text-center mt-5">
 						<i class="fas fa-plus-circle"></i>
-						<div class="brand_content">
+						<div class="brand_content fw-bolder text-capitalize">
 							<h1 class="fs-1">Health</h1>
 							<p>live life better.</p>
 							<p class="my-4">
 								Improve your health and support your active PlaySpan. Scientifically formulated,
 								third-party tested, and NSF Certified for Sport.
 							</p>
-							<a class="rounded-pill"  role="button"  href="./product.php">Buy Now</a>
+							<a class="rounded-pill text-decoration-none text-white"  role="button"  href="./product.php">Buy Now</a>
 						</div>
 					</div>
 
 					<div class="col-lg-3 brand_card col-md-6 text-center mt-5">
 						<i class="fab fa-nutritionix"></i>
-						<div class="brand_content">
+						<div class="brand_content fw-bolder text-capitalize">
 							<h1 class="fs-1">Nutrition</h1>
 							<p>fuel your passion.</p>
 							<p class="my-4">
 								Delicious and healthy meal replacements, bars, and cookies. Packed with whey or vegan
 								protein to support your healthy lifestyle.
 							</p>
-							<a class="rounded-pill"  role="button"  href="./product.php">Buy Now</a>
+							<a class="rounded-pill text-decoration-none text-white"  role="button"  href="./product.php">Buy Now</a>
 						</div>
 					</div>
 				</div>
@@ -402,13 +402,13 @@
 
 		<!-- Video Start -->
 		<div class="row">
-			<div class="container-fluid video_section">
-				<h1 class="col-lg-12 fs-1 text-center text-white mytext_shadow_1"><span class="mytext_shadow_2">Who</span> we are</h1>
+			<div class="container-fluid video_section mybg-dark ">
+				<h1 class="col-lg-12 fs-1 text-center text-white mytext_shadow_1 fw-bolder"><span class="mytext_shadow_2">Who</span> we are</h1>
 				<div class="col-lg-12 video_container">
 					<img src="./img/bg3.jpg" class="img-fluid col-md-10 offset-md-1 video_img "
 						alt="this is video image">
-					<div class="play">
-						<a href="https://youtu.be/kXptPzKNMq4" target="_blank"><i class="fas fa-play"></i></a>
+					<div class="play d-flex justify-content-center align-items-center">
+						<a class="text-white" href="https://youtu.be/kXptPzKNMq4" target="_blank"><i class="fas fa-play"></i></a>
 					</div>
 				</div>
 			</div>
@@ -417,14 +417,14 @@
 
 		<!-- Vision Start -->
 		<div class="row">
-			<div class="container-fluid vision_section">
+			<div class="container-fluid vision_section mybg-dark">
 				<div class="row">
 					<div class="col-lg-12">
-						<h1 class=" fs-1 text-center text-white my-3 mytext_shadow_1">Our <span class="mytext_shadow_2">Vision</span></h1>
+						<h1 class=" fs-1 text-center text-white my-3 mytext_shadow_1 fw-bolder">Our <span class="mytext_shadow_2">Vision</span></h1>
 					</div>
 
 					<div class="col-lg-6 text-white">
-						<p class="my-5 vision_text">
+						<p class="my-5 vision_text text-justify">
 						To help you achieve your objectives, we developed this gym shpp just outside your door. Through our fitness philosophy, facilities, programmes, and products, we aim to improve the quality of life in the communities in which we operate and to inculcate the importance of health and fitness in the lives of people worldwide."
 						<br />
 						<span class="text-center d-block  mt-2 mx-0">Your vision, our vision, and the gym's vision.</span>
@@ -445,7 +445,7 @@
 
 				<div class="row">
 					<div class="col-lg-12">
-						<h1 class=" fs-1 text-center text-white my-3 mytext_shadow_1">Our <span class="mytext_shadow_2">Mission</span></h1>
+						<h1 class=" fs-1 text-center text-white my-3 mytext_shadow_1 fw-bolder">Our <span class="mytext_shadow_2">Mission</span></h1>
 					</div>
 					<div class="col-lg-6  ">
 						<iframe class="w-100" src="https://www.youtube.com/embed/yHDoK930Hr4"
@@ -454,7 +454,7 @@
 							allowfullscreen></iframe>
 					</div>
 					<div class="col-lg-6 text-white  ">
-						<p class="my-5 vision_text">
+						<p class="my-5 vision_text text-justify">
 							We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff and
 							premier exercise equipment, which supports our members in meeting their individual fitness
 							goals. We provide these with dedication to the highest quality of customer satisfaction
@@ -474,11 +474,11 @@
 
 		<!-- Contact Start -->
 		<div class="row">
-			<div class="content_contact">
+			<div class="content_contact my-padding">
 				<div class="container-fluid p-0">
 					<div class="row align-items-stretch no-gutters contact-wrap m-0">
-						<div class="col-lg-12 fs-1  text-center mb-5 contact_header">Get in Touch with us</div>
-						<div class="col-lg-6 col-md-12">
+						<div class="col-lg-12 fs-1  text-center mb-5 fw-bolder contact_header">Get in Touch with us</div>
+						<div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
 							<div class="form h-100">
 								<h2>Send us a message</h2>
 								<form class="mb-5" method="post" id="contactForm" name="contactForm">
@@ -518,12 +518,6 @@
 										</div>
 									</div>
 								</form>
-
-								<div id="form-message-warning mt-4"></div>
-								<div id="form-message-success">
-									Your message was sent, thank you!
-								</div>
-
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-12">
@@ -539,12 +533,12 @@
 	</div>
 
 	<script>
-document.getElementById("demo").addEventListener("click", myFunction);
+		document.getElementById("demo").addEventListener("click", myFunction);
 
-function myFunction() {
-  document.getElementById("demo1").style.display = "none";
-  document.getElementById("demo").style.display = "none";
-}
-</script>
+		function myFunction() {
+		document.getElementById("demo1").style.display = "none";
+		document.getElementById("demo").style.display = "none";
+		}
+	</script>
 
 <?php require_once("footer.php"); ?>

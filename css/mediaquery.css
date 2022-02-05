@@ -126,7 +126,7 @@
 
 		background: linear-gradient(
 				180deg,
-				var(--firstcolor) 60%,
+				var(--firstcolor) 50%,
 				rgba(0, 0, 0, 0.5) 0
 			),
 			url("../img/location.jpg");

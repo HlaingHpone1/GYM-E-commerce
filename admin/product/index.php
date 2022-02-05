@@ -1,5 +1,5 @@
 <?php
-	include('../header.php');
+	include('./header.php');
     require_once("../dbconfig.php");
 
 	$sql = "SELECT * FROM products";
@@ -33,13 +33,14 @@
 								class="table table-striped data-table w-100"
 							>
 								<thead>
-									<tr>
-										<th>Product No.</th>
-										<th>Product Name</th>
-										<th>Price</th>
-										<th>Description</th>
-										<th>Images</th>
-										<th>Action</th>
+									<tr class="text-center">
+										<th >Product No.</th>
+										<th >Product Name</th>
+										<th >Price</th>
+										<th >Description</th>
+										<th >Images</th>
+										<th >Edit</th>
+										<th >Delete</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -54,9 +55,11 @@
 									<td><?php echo $row['price']; ?></td>
 									<td><?php echo $row['description']; ?></td>
 									<td><?php echo $row['images']; ?></td>
-									<td>
-										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary"> <i class="far fa-edit me-2"></i>Edit</a>
-										<a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger"><i class="fas fa-trash me-2"></i> Delete</a>
+									<td >
+										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>
+									</td>
+									<td >
+										<a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash me-2"></i> Delete</a>
 									</td>
 								</tr>
 								
@@ -66,13 +69,14 @@
 
 								</tbody>
 								<tfoot>
-									<tr>
-                                        <th>Product No.</th>
-										<th>Product Name</th>
-										<th>Price</th>
-										<th>Description</th>
-										<th>Images</th>
-										<th>Action</th>
+									<tr class="text-center">
+                                        <th >Product No.</th>
+										<th >Product Name</th>
+										<th >Price</th>
+										<th >Description</th>
+										<th >Images</th>
+										<th >Edit</th>
+										<th >Delete</th>
 									</tr>
 								</tfoot>
 							</table>
@@ -88,10 +92,11 @@
 			</div>
 		</div>
 
-	
+	<script src="../../js/jquery-3.6.0.min.js"></script>
+
 	<script>
 		$(document).ready( function () {
 			$('#datatable').DataTable();
 		} );
 	</script>
-<?php include_once('../footer.php'); ?>
+<?php include_once('./footer.php'); ?>

@@ -26,7 +26,7 @@
 						<li><a href="./product.php">Product</a></li>
 						<li><a href="./about.php">About</a></li>
 						<li><a href="./contact.php">Contact Us</a></li>
-						<li><a href="./featured.php">Featured</a></li>
+						<li><a href="./service.php">Service</a></li>
 					</ul>
 				</div>
 

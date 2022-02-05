@@ -1,6 +1,6 @@
 <?php
-	include('../header.php');
     require_once("../dbconfig.php");
+	include('./header.php');
 
 	// $sql = "SELECT * FROM faq";
 	$sql = "SELECT faq.*, users.username 
@@ -10,7 +10,7 @@
 	
 ?>
 
-		<div class="container-fluid">
+	<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<h1 class="fw-bolder">Dashboard</h1>
@@ -34,13 +34,14 @@
 								class="table table-striped data-table w-100"
 							>
 								<thead>
-									<tr>
-										<th>Question No.</th>
-										<th>User Id</th>
-										<th>User Name</th>
-										<th>Question</th>
-										<th>Answer</th>
-                                        <th>Action</th>
+									<tr class="text-center">
+										<th >Question No.</th>
+										<th >User Id</th>
+										<th >User Name</th>
+										<th >Question</th>
+										<th >Answer</th>
+										<th >Edit</th>
+										<th >Delete</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -49,15 +50,17 @@
 									while($row = mysqli_fetch_assoc($result)){
 								?>
 
-								<tr>
+								<tr class="text-center">
 									<td><?php echo $row['id']; ?></td>
 									<td><?php echo $row['user_id']; ?></td>
 									<td><?php echo $row['username']; ?></td>
 									<td><?php echo $row['question']; ?></td>
 									<td><?php echo $row['answer']; ?></td>
-									<td>
-										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary"> <i class="far fa-edit me-2"></i>Edit</a>
-										<a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger"><i class="fas fa-trash me-2"></i> Delete</a>
+									<td >
+										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>
+									</td>
+									<td >
+										<a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash me-2"></i> Delete</a>
 									</td>
 								</tr>
 								
@@ -67,12 +70,14 @@
 
 								</tbody>
 								<tfoot>
-									<tr>
-                                        <th>Question No.</th>
-										<th>User Id</th>
-										<th>Question</th>
-										<th>Answer</th>
-                                        <th>Action</th>
+									<tr class="text-center">
+                                        <th >Question No.</th>
+										<th >User Id</th>
+										<th >User Name</th>
+										<th >Question</th>
+										<th >Answer</th>
+										<th >Edit</th>
+										<th >Delete</th>
 									</tr>
 								</tfoot>
 							</table>
@@ -86,11 +91,13 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	
+	</div>
+
+	<script src="../../js/jquery-3.6.0.min.js"></script>
+
 	<script>
 		$(document).ready( function () {
 			$('#datatable').DataTable();
 		} );
 	</script>
-<?php include_once('../footer.php'); ?>
+<?php include_once('./footer.php'); ?>

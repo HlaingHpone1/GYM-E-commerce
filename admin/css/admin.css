@@ -1,10 +1,13 @@
-:root {
-	--offcanvas-width: 270px;
-	--topNavbarHeight: 56px;
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto+Slab&display=swap");
+
+body,
+button {
+	font-family: "Roboto Slab", serif;
 }
 
-.offcanvas {
-	z-index: 100;
+:root {
+	--offcanvas-width: 270px;
+	--topNavbarHeight: 80px;
 }
 
 .sidebar-nav {
@@ -24,22 +27,16 @@
 	transform: rotate(180deg);
 }
 
-.textaera > textarea {
-	resize: none;
-}
-
-.textaera.textaera1 > textarea {
-	height: 100px;
-}
-
 @media (min-width: 992px) {
 	body {
 		overflow: auto !important;
 	}
+
 	main {
 		margin-left: var(--offcanvas-width);
 	}
 
+	/* this is to remove the backdrop */
 	.offcanvas-backdrop::before {
 		display: none;
 	}

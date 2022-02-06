@@ -2,9 +2,8 @@
     require_once("../dbconfig.php");
 	include('./header.php');
 
-	// $sql = "SELECT * FROM faq";
 	$sql = "SELECT faq.*, users.username 
-	FROM  `faq` INNER JOIN users ON faq.user_id = users.id;";
+	FROM  `faq` INNER JOIN users ON faq.user_id = users.id";
 
     $result = mysqli_query($connection, $sql);
 	
@@ -17,7 +16,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12"><a href="" class="btn btn-success mb-3 float-end"><i class="fas fa-user me-2"></i>Add FAQ</a></div>
+				<div class="col-md-12"><a href="./faqform.php" class="btn btn-success mb-3 float-end"><i class="fas fa-user me-2"></i>Add FAQ</a></div>
 				<div class="col-md-12 mb-3">
 					<div class="card">
 						<div class="card-header">

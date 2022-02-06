@@ -49,7 +49,7 @@
                         
                         <div class="mb-3 d-flex justify-content-between">
                             <a class="text-decoration-none mb-3 singup_link" href="signup.php">Create Account?</a>
-                            <a class="text-decoration-none mb-3 singup_link" href="#">Forgot Password?</a>                            
+                            <a class="text-decoration-none mb-3 singup_link" href="./verification.php">Forgot Password?</a>                            
                         </div>
 
                         

@@ -720,26 +720,7 @@
 			<div class="col-xl-3 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 mybg-thircolor"><img class="w-100 my-5" src="./img/partner/partner1.png" alt="this is partner1"></div>
 			<div class="col-xl-3 col-lg-5 col-md-6 bg-light"><img class="w-100 my-5" src="./img/partner/partner2.png" alt="this is partner2"></div>
 			<div class="col-xl-3 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 mybg-dark"><img class="w-100 my-5" src="./img/partner/partner3.png" alt="this is partner3"></div>
-			<div class="col-xl-3 col-lg-5 col-md-6 bg-white"><img class="w-100 my-5" src="./img/partner/partner5.png" alt="this is partner5"></div><ul class="list-inline small">
-							<li class="list-inline-item m-0 ">
-								(4.55)
-							</li>
-							<li class="list-inline-item m-0">
-								<i class="fa fa-star mypricolor"></i>
-							</li>
-							<li class="list-inline-item m-0">
-								<i class="fa fa-star mypricolor"></i>
-							</li>
-							<li class="list-inline-item m-0">
-								<i class="fa fa-star mypricolor"></i>
-							</li>
-							<li class="list-inline-item m-0">
-								<i class="fa fa-star mypricolor"></i>
-							</li>
-							<li class="list-inline-item m-0">
-								<i class="fa fa-star-half-alt mypricolor"></i>
-							</li>
-					</ul>
+			<div class="col-xl-3 col-lg-5 col-md-6 bg-white"><img class="w-100 my-5" src="./img/partner/partner5.png" alt="this is partner5"></div>
 		</div>
 
 	</div>

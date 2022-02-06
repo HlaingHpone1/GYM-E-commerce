@@ -5,7 +5,7 @@
 		<p>Home / Pages / Contact Us</p>
 	</div>
 
-    <div class="container-fluid mybg-dark">
+    <div class="container-fluid mybg-dark pb-0">
         <div class="row contant_info">
             <div class="col-lg-6 col-md-12 text-white text-center">
                 <h1 class="fs-1">Information</h1>
@@ -30,8 +30,8 @@
                         </div>
 
                         <div>
-                            <input type="email" name="" required="" />
-                            <label for="name">Email</label>
+                            <input type="text" name="" required="" />
+                            <label for="email">Email</label>
                         </div>
 
                         <div>

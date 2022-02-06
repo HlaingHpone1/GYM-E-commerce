@@ -113,38 +113,19 @@
 					</div>
 				</li>
 				<li>
-					<a
-						class="nav-link px-3 sidebar-link"
-						data-bs-toggle="collapse"
-						href="#layouts"
-					>
-						
-						<span>Module</span>
-						<span class="ms-auto">
-						<span class="right-icon">
-							<i class="fas fa-chevron-down"></i>
-						</span>
-						</span>
-					</a>
-					<div class="collapse" id="layouts">
-						<ul class="navbar-nav ps-3">
-						<li>
-							<a href="../user/index.php" class="nav-link px-3">
-							<span class="me-2"
-								><i class="fas fa-users"></i></span>
-							<span>Users</span>
-							</a>
-						</li>
-						<li>
-							<a href="../product/index.php" class="nav-link px-3">
-							<span class="me-2"
-								><i class="fab fa-product-hunt"></i></span>
-							<span>Product</span>
-							</a>
-						</li>
-						</ul>
-					</div>
-				</li>
+					<a href="../user/index.php" class="nav-link px-3">
+					<span class="me-2">
+						<i class="fas fa-users"></i></span>
+						<span>Users</span>
+						</a>
+					</li>
+					<li>
+						<a href="../product/index.php" class="nav-link px-3">
+						<span class="me-2"
+							><i class="fab fa-product-hunt"></i></span>
+						<span>Product</span>
+						</a>
+					</li>
 				<li>
 					<a href="../faq/index.php" class="nav-link px-3">
 						<span class="me-2"><i class="fas fa-question-circle"></i></span>

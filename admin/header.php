@@ -8,13 +8,9 @@
 	<title>Index page</title>
 
 	<link rel="shortcut icon" href="../img/svg/logo.svg" type="image/x-icon">
-	<link rel="stylesheet" href="../libs/fontawesomepro/css/all.min.css">
 	<link rel="stylesheet" href="../css/bootstrap.css" />
-	<link rel="stylesheet" href="../css/swiper-bundle.min.css">
 
-	<link rel="stylesheet" href="../css/header_footer_loader.css" />
-	<link rel="stylesheet" href="../css/style.css" />
-	<link rel="stylesheet" href="../css/mediaquery.css" />
+	<link rel="stylesheet" href="./css/admin.css" />
 
 </head>
 

@@ -56,11 +56,4 @@
 			</div>
 	</div>
 
-	<script src="../../js/jquery-3.6.0.min.js"></script>
-
-	<script>
-		$(document).ready( function () {
-			$('#datatable').DataTable();
-		} );
-	</script>
 <?php include_once('./footer.php'); ?>

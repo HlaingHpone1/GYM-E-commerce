@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12"><a href="" class="btn btn-success mb-3 float-end"><i class="fas fa-user me-2"></i>Add User</a></div>
+				<div class="col-md-12"><a href="./adduser.php" class="btn btn-success mb-3 float-end"><i class="fas fa-user me-2"></i>Add User</a></div>
 				<div class="col-md-12 mb-3">
 					<div class="card">
 						<div class="card-header">

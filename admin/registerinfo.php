@@ -4,18 +4,21 @@
     $username = $_POST['username'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $password = $_POST['password'];
-    $comfirmpassword = $_POST['comfirmpassword'];
+    $password = SHA1($_POST['password']);
+    $comfirmpassword = SHA1($_POST['comfirmpassword']);
 
 
-    $sql = "INSERT INTO users(`username`,`email`,`phone`,`password`, `comfirm password`)
-    VALUES('".$username."','".$email."','".$phone."','".$password."','".$comfirmpassword."')";
+    $sql = "INSERT INTO users(`username`,`email`,`phone`,`password`, `comfirmpassword`)
+    VALUES('$username', '$email','$phone', '$password','$comfirmpassword')";
 
+    $result = mysqli_query($connection,$sql);
 
-    if($connection->query($sql) == TRUE){
-        header('location:login.php');
-    }else{
+    if(!$result){
         echo $connection->error;
+    }else{
+        header('location:index.php');
     }
     $connection->close();
+
+    
 ?>

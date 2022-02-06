@@ -1301,14 +1301,6 @@ picture {
 	background: #eee;
 }
 
-.form_login {
-	background-color: #fff;
-}
-
-.h-custom {
-	color: var(--thirdcolor);
-}
-
 .h-custom label,
 .h-custom .signinheader {
 	color: #000;
@@ -1376,18 +1368,6 @@ picture {
 }
 
 /* service End */
-
-/* Admin Dashboard start*/
-
-.table tr:nth-of-type(odd) {
-	background-color: #eee;
-}
-
-.table tr:nth-of-type(even) {
-	background-color: var(--thirdcolor);
-}
-
-/* Admin Dashboard end*/
 
 /* feature or product deatail start */
 

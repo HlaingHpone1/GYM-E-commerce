@@ -10,7 +10,7 @@
     $result = mysqli_query($connection, $sql);
     $row = mysqli_fetch_assoc($result);
 
-    if($row['email'] == $email AND $row['password'] == $password AND $row['password'])
+    if($row['email'] == $email AND $row['password'] == $password AND $row['comfirmpassword'] == $password )
     {
         header('location:index.php');
     }else{

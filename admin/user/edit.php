@@ -29,8 +29,6 @@
                 WHERE id=".$_GET['id'];
 
             mysqli_query($connection, $sqlpass);
-        
-            
         }
         
 		header('location:index.php');

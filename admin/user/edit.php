@@ -12,25 +12,27 @@
 		$username = $_POST['username'];
 		$email = $_POST['email'];
 		$phone = $_POST['phone'];
-		$password = SHA1($_POST['password']);
-        $comfirmpassword = SHA1($_POST['comfirmpassword']);
+		$password = $_POST['password'];
+        $comfirmpassword = $_POST['comfirmpassword'];
 
-        if($password ===  $row['password'] AND $comfirmpassword === $row['comfirmpassword']){
-
-        }else{
-            $sql = "UPDATE users 
-                SET `password` = '$password', `comfirmpassword` = '$comfirmpassword'
-                WHERE id=".$_GET['id'];
-            
-		mysqli_query($connection, $sql);
-        }
-
-		$sql = "UPDATE users 
+		$updatesql = "UPDATE users 
                 SET `username` = '$username', `email` = '$email', `phone` = '$phone'
                 WHERE id=".$_GET['id'];
 		
-		mysqli_query($connection, $sql);
-	
+		mysqli_query($connection, $updatesql);
+
+        if($password ===  $row['password'] AND $comfirmpassword === $row['comfirmpassword']){
+            
+        }else{
+            $sqlpass = "UPDATE users 
+                SET `password` = SHA1('$password'), `comfirmpassword` = SHA1('$comfirmpassword')
+                WHERE id=".$_GET['id'];
+
+            mysqli_query($connection, $sqlpass);
+        
+            
+        }
+        
 		header('location:index.php');
 	}
 

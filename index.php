@@ -196,7 +196,7 @@
 							</li>
 						</ul>
 
-						<a class="btn btn-primary w-100" href="./featured.php" role="button">Buy now</a>
+						<a class="btn w-100" href="./featured.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -241,7 +241,7 @@
 								<i class="fas fa-star-half-alt mypricolor"></i>
 							</li>
 						</ul>
-						<a class="btn btn-primary w-100" href="./featured.php" role="button">Buy now</a>
+						<a class="btn w-100" href="./featured.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -286,7 +286,7 @@
 								<i class="fa fa-star mypricolor"></i>
 							</li>
 						</ul>
-						<a class="btn btn-primary w-100" href="./featured.php" role="button">Buy now</a>
+						<a class="btn w-100" href="./featured.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -332,7 +332,7 @@
 								<i class="far fa-star mypricolor"></i>
 							</li>
 						</ul>
-						<a class="btn btn-primary w-100" href="./featured.php" role="button">Buy now</a>
+						<a class="btn w-100" href="./featured.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -514,7 +514,7 @@
 										<div class="col-md-12 form-group">
 											<input type="submit" value="Send Message"
 												class="btn rounded-0 py-2 px-4 contact_btn">
-											<span class="submitting"></span>
+											
 										</div>
 									</div>
 								</form>

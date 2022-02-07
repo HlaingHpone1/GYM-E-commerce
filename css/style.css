@@ -40,6 +40,14 @@ span::selection {
 	background-color: var(--thirdcolor);
 }
 
+.btn:focus {
+	box-shadow: none;
+}
+
+.btn-primary {
+	border: 0;
+}
+
 .mypricolor {
 	color: var(--firstcolor);
 }
@@ -581,10 +589,6 @@ body {
 	border-radius: 0;
 }
 
-.content_contact .btn:hover {
-	color: #fff;
-}
-
 .contact_btn {
 	background-color: var(--thirdcolor);
 }
@@ -592,6 +596,10 @@ body {
 .contact_btn:hover {
 	color: #fff;
 	background-color: var(--firstcolor);
+}
+
+.contact_btn:focus {
+	background: none;
 }
 
 .content_contact .btn:active,

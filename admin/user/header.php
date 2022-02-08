@@ -15,7 +15,6 @@
 	<link rel="stylesheet" type="text/css" href="../../css/datatable/jquery.dataTables.min.css">
 
 	<link rel="stylesheet" type="text/css" href="../css/admin.css">
-	<link rel="stylesheet" href="">
 	
 </head>
 
@@ -35,7 +34,7 @@
 			</button>
 			<a
 			class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fs-1 fw-bold"
-			href="#"
+			href="../user/index.php"
 			>Admin Dashboard</a
 			>
 			<button

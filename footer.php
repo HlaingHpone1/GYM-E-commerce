@@ -85,6 +85,19 @@
 	
 		
 	</script>
+
+	<script type="text/javascript" id="cookieinfo"
+		src="//cookieinfoscript.com/js/cookieinfo.min.js"
+		data-height="75px"
+		data-bg="#1c1d20"
+		data-fg="#FFFFFF"
+		data-link="#f9f871"
+		data-divlinkbg="#f9f871"
+		data-message="The site uses its own technical cookies, anonymous third party analytic cookies  and third-party cookies that could be used in profiling: in accessing any element/area of the site outside of this banner, you consent to receiving cookies. If you want to know more or refuse consent to cookies."
+		
+		data-close-text="Got it!"
+		data-font-family="'Roboto Slab', serif">
+	</script>
 </body>
 
 </html>

@@ -1,14 +1,35 @@
 <?php
     require_once("../dbconfig.php");
-	include('./header.php');
-
+    
     $id = $_GET['id'];
 	$sql = "SELECT faq.*, users.username 
 	FROM  `faq` INNER JOIN users ON faq.user_id = users.id WHERE faq.id=".$id;
 
     $result = mysqli_query($connection, $sql);
     $row = mysqli_fetch_assoc($result);
-	
+
+    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+        $id = $_GET['id']; 
+
+        $user_id = $_POST['user_id'];
+        $question = $_POST['question'];
+        $answer = $_POST['answer'];
+
+        $sql = "UPDATE `faq` SET `user_id` = '$user_id', `question` = '$question', `answer` = '$answer'
+        WHERE `faq`.`id` = ".$id;
+
+        $result = mysqli_query($connection, $sql);
+
+        if(!$result){
+            echo $connection->error;
+        }else{
+            header('location:index.php');
+        }
+
+        $connection->close();
+    }
+
+include('./header.php');
 ?>
 
 	<div class="container-fluid">
@@ -19,7 +40,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-8 offset-md-2">
-                    <form action="./update.php?id=<?php echo $row['id']; ?>" method="POST" enctype="multipart/form-data">
+                    <form action="?id=<?php echo $row['id']; ?>" method="POST" enctype="multipart/form-data">
                         <?php
                             $user_sql = "SELECT * FROM users";
                             $user_result = $connection->query($user_sql); 
@@ -45,7 +66,7 @@
                             <label for="floatingTextarea">Question</label>
                         </div>
                         <div class="form-floating mb-3 textaera textaera1">
-                            <textarea name="answer" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2">
+                            <textarea name="answer" class="form-control h-100" placeholder="Leave a comment here" id="floatingTextarea2">
                                 <?php echo $row['answer']; ?>
                             </textarea>
                             <label for="floatingTextarea2">Answer</label>

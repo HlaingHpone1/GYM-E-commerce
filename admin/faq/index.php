@@ -1,12 +1,12 @@
 <?php
     require_once("../dbconfig.php");
-	include('./header.php');
 
 	$sql = "SELECT faq.*, users.username 
 	FROM  `faq` INNER JOIN users ON faq.user_id = users.id";
 
     $result = mysqli_query($connection, $sql);
-	
+
+	include('./header.php');
 ?>
 
 	<div class="container-fluid">
@@ -30,7 +30,7 @@
 							<div class="table-responsive">
 							<table
 								id="datatable"
-								class="table table-striped data-table w-100"
+								class="table table-striped data-table"
 							>
 								<thead>
 									<tr class="text-center">
@@ -49,12 +49,12 @@
 									while($row = mysqli_fetch_assoc($result)){
 								?>
 
-								<tr class="text-center">
-									<td class="text-break"><?php echo $row['id']; ?></td>
-									<td class="text-break"><?php echo $row['user_id']; ?></td>
-									<td class="text-break"><?php echo $row['username']; ?></td>
-									<td class="text-break"><?php echo $row['question']; ?></td>
-									<td class="text-break"><?php echo $row['answer']; ?></td>
+								<tr>
+									<td><?php echo $row['id']; ?></td>
+									<td><?php echo $row['user_id']; ?></td>
+									<td><?php echo $row['username']; ?></td>
+									<td><?php echo $row['question']; ?></td>
+									<td><?php echo $row['answer']; ?></td>
 									<td >
 										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>
 									</td>
@@ -68,17 +68,6 @@
 								?>
 
 								</tbody>
-								<tfoot>
-									<tr class="text-center">
-                                        <th >Question No.</th>
-										<th >User Id</th>
-										<th >User Name</th>
-										<th >Question</th>
-										<th >Answer</th>
-										<th >Edit</th>
-										<th >Delete</th>
-									</tr>
-								</tfoot>
 							</table>
 							</div>
 						<?php } else{

@@ -1,14 +1,4 @@
 <?php require("header.php"); ?>
-	<div class="container-fluid text-white  d-flex cookie_bar" id="cookieinfo">	
-		<p id="demo1" class="text-wrap">The site uses its own technical cookies, anonymous third party analytic cookies and
-			third-party cookies that could be used in profiling: in accessing any element/area of the site outside of
-			this banner, you consent to receiving cookies. If you want to know more or refuse consent to cookies, <a href="./cookie.php" class="text-decoration-none">click here.</a>
-		</p>
-		<button type="button" class="btn accept_btn" id="demo">Accept</button>
-	</div>
-
-
-
 	<!-- Img slider start -->
 
 	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -529,6 +519,19 @@
 			</div>
 		</div>
 		<!-- Contact End -->
+		
+		<!-- View Count Start-->
+		<div class="row py-5">
+			<div class="col-md-6">
+				<button type="button" class="btn btn-primary position-relative">
+					View Count
+					<span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
+						<div class="website-counter badge"></div>
+					</span>
+				</button>
+			</div>
+		</div>
+		<!-- View Count End-->
 
 	</div>
 
@@ -539,6 +542,26 @@
 		document.getElementById("demo1").style.display = "none";
 		document.getElementById("demo").style.display = "none";
 		}
+
+		var counterContainer = document.querySelector(".website-counter");
+		var resetButton = document.querySelector("#reset");
+		var visitCount = localStorage.getItem("page_view");
+		// Check if page_view entry is present
+		if(visitCount) {
+						
+			visitCount = Number(visitCount) + 1; 
+			localStorage.setItem("page_view", visitCount);
+		} else {
+			visitCount = 1;
+			localStorage. setItem("page_view", 1);
+		}
+		counterContainer.innerHTML = visitCount;
+		// Adding onClick event listener
+		resetButton.addEventListener("click", () => {
+			visitCount = 1;
+			localStorage.setItem("page_view", 1);
+			counterContainer.innerHTML = visitCount; 
+		});
 	</script>
 
 <?php require_once("footer.php"); ?>

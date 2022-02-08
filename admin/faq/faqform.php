@@ -35,7 +35,7 @@
                     <label for="floatingTextarea">Question</label>
                 </div>
                 <div class="form-floating mb-3 textaera textaera1">
-                    <textarea name="answer" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+                    <textarea name="answer" class="form-control h-100" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
                     <label for="floatingTextarea2">Answer</label>
                 </div>
                 <input class="btn btn-primary" type="submit" value="Submit">

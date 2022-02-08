@@ -11,6 +11,7 @@
 
 *::selection,
 span::selection {
+	color: #000;
 	background-color: var(--seccolor);
 }
 
@@ -656,10 +657,9 @@ body {
 	background-repeat: no-repeat;
 }
 
-label.error {
-	font-size: 12px;
-
-	color: red;
+input.btn.rounded-0.py-2.px-4.contact_btn:focus {
+	color: #fff;
+	background: var(--firstcolor);
 }
 
 #message {
@@ -1579,3 +1579,57 @@ input::-webkit-inner-spin-button {
 }
 
 /* Verification End */
+
+/* FAQ start */
+
+details > summary {
+	padding: 8px;
+	padding-left: 2.2rem;
+	border: none;
+	cursor: pointer;
+	list-style-position: inside;
+	border-bottom: 2px solid var(--seccolor);
+	color: #fff;
+
+	position: relative;
+	display: block;
+	transition: all 1s;
+}
+
+details[open] > summary {
+	color: #000;
+	background-color: var(--seccolor);
+	border-bottom: 2px solid #fff;
+}
+
+details > p {
+	padding: 8px;
+	border-bottom: 2px solid var(--seccolor);
+	line-height: 2rem;
+
+	color: #fff;
+}
+
+summary:before {
+	content: "";
+	border-width: 0.4rem;
+	border-style: solid;
+	border-color: transparent transparent transparent var(--seccolor);
+	position: absolute;
+	top: 0.6rem;
+	left: 1rem;
+	transform: rotate(0);
+	transform-origin: 0.2rem 50%;
+	transition: 0.25s transform ease;
+}
+
+details summary::-webkit-details-marker {
+	display: none;
+}
+
+details[open] > summary:before {
+	transform: rotate(90deg);
+	border-color: transparent transparent transparent var(--firstcolor);
+}
+
+/* FAQ end */

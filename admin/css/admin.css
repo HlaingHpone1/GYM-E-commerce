@@ -96,6 +96,10 @@ button {
 	-moz-appearance: textfield;
 }
 
+.textaera1 {
+	height: 200px;
+}
+
 @media (min-width: 992px) {
 	body {
 		overflow: auto !important;

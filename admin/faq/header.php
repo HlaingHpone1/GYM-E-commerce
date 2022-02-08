@@ -34,7 +34,7 @@
 			</button>
 			<a
 			class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fs-1 fw-bold"
-			href="#"
+			href="../user/index.php"
 			>Admin Dashboard</a
 			>
 			<button

@@ -46,24 +46,24 @@
                 <h1 class="fs-1 text-center text-dark mb-5">Edit User</h1>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">User Name</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username"  value="<?php echo $row['username']; ?> " autocomplete="off">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username"  value="<?php echo $row['username']; ?> " autocomplete="off" required>
                 </div>
 
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" value="<?php echo $row['email']; ?>" autocomplete="off">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" value="<?php echo $row['email']; ?>" autocomplete="off" required>
                 </div>
                 <div class="input_phone mb-3">
                     <label for="exampleInputEmail1" class="form-label">Phone</label>
-                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="phone" value="<?php echo $row['phone']; ?>" autocomplete="off">
+                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="phone" value="<?php echo $row['phone']; ?>" autocomplete="off" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" name="password" value="<?php echo $row['password']; ?>"id="exampleInputPassword1" autocomplete="off">
+                    <input type="password" class="form-control" name="password" value="<?php echo $row['password']; ?>"id="exampleInputPassword1" autocomplete="off" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Comfirm Password</label>
-                    <input type="password" class="form-control" name="comfirmpassword" value="<?php echo $row['comfirmpassword']; ?>" id="exampleInputPassword1" autocomplete="off">
+                    <input type="password" class="form-control" name="comfirmpassword" value="<?php echo $row['comfirmpassword']; ?>" id="exampleInputPassword1" autocomplete="off" required>
                 </div>
                 <button type="submit" class="btn login_btn mb-3">Submit</button>
             </form>

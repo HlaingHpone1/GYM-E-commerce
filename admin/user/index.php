@@ -36,8 +36,6 @@
 										<th >Username</th>
 										<th >Email</th>
 										<th >Phone</th>
-										<th >Password</th>
-										<th >Comfirm Password</th>
 										<th >Edit</th>
 										<th >Delete</th>
 									</tr>
@@ -53,8 +51,6 @@
 									<td class="text-break"><?php echo $row['username']; ?></td>
 									<td class="text-break"><?php echo $row['email']; ?></td>
 									<td class="text-break"><?php echo $row['phone']; ?></td>
-									<td class="text-break"><?php echo $row['password']; ?></td>
-									<td class="text-break"><?php echo $row['comfirmpassword']; ?></td>
 									<td >
 										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>
 									</td>

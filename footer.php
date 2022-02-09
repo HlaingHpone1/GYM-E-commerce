@@ -48,7 +48,7 @@
 			<div class="row">
 				<div class="col-md-8 col-sm-6 col-xs-12">
 					<p class="copyright-text">
-						Copyright &copy; <span id="year"></span> All Rights Reserved | <a class="copyright_link" href="./privacy.php">privacy policy</a> | <a class="copyright_link" href="./cookie.php">cookie policy</a>
+						Copyright &copy; <span id="year"></span> All Rights Reserved | <a class="copyright_link" href="./privacy.php">privacy policy</a> | <a class="copyright_link" href="./cookie.php">cookie policy</a>| <a class="copyright_link" href="./faq.php">FAQs</a>
 					</p>
 				</div>
 
@@ -94,7 +94,6 @@
 		data-link="#f9f871"
 		data-divlinkbg="#f9f871"
 		data-message="The site uses its own technical cookies, anonymous third party analytic cookies  and third-party cookies that could be used in profiling: in accessing any element/area of the site outside of this banner, you consent to receiving cookies. If you want to know more or refuse consent to cookies."
-		
 		data-close-text="Got it!"
 		data-font-family="'Roboto Slab', serif">
 	</script>

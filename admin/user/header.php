@@ -1,3 +1,10 @@
+<?php session_start();
+if(empty($_SESSION ['email']))
+{
+    header('location:../index.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,7 +56,7 @@
 			<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="topNavBar">
-			<form class="d-flex ms-auto my-3 my-lg-0">
+			<!-- <form class="d-flex ms-auto my-3 my-lg-0">
 				<div class="input-group">
 				<input
 					class="form-control"
@@ -61,8 +68,8 @@
 					<i class="fas fa-search"></i>
 				</button>
 				</div>
-			</form>
-			<ul class="navbar-nav">
+			</form> -->
+			<ul class="navbar-nav d-flex ms-auto my-3 my-lg-0">
 				<li class="nav-item dropdown">
 				<a
 					class="nav-link dropdown-toggle ms-2"
@@ -71,13 +78,11 @@
 					data-bs-toggle="dropdown"
 					aria-expanded="false"
 				>
-					<i class="fas fa-user-circle"></i>
+					<i class="fas fa-user-circle me-2"></i><?php echo $_SESSION['username']; ?>
 				</a>
 				<ul class="dropdown-menu dropdown-menu-end">
-					<li><a class="dropdown-item" href="#">Action</a></li>
-					<li><a class="dropdown-item" href="#">Another action</a></li>
 					<li>
-					<a class="dropdown-item" href="#">Something else here</a>
+					<a class="dropdown-item" href="../logout.php">Log Out</a>
 					</li>
 				</ul>
 				</li>
@@ -133,7 +138,16 @@
 					</a>
 				</li>
 				<li class="my-4"><hr class="dropdown-divider bg-light" /></li>
-				
+				<li>
+					<a
+						href="../logout.php"
+						class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"
+						><i class="fas fa-power-off me-2"></i>Logout</a
+					>
+				</li>
+
+				<li class="my-4"><hr class="dropdown-divider bg-light" /></li>
+
 			</ul>
 			</nav>
 		</div>

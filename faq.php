@@ -1,4 +1,8 @@
 <?php require('./header.php'); ?>
+    <div class="banner" id="faqbanner">
+		<h1 class="fs-1">FAQs</h1>
+		<p>Home / Pages / FAQs</p>
+	</div>
         <div class="container-fluid mybg-dark">
             <div class="row">
                 <div class="col-md-6 offset-md-3">

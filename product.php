@@ -1,4 +1,3 @@
-
 <?php include("./header.php"); ?>
 
 
@@ -7,11 +6,58 @@
 		<p>Home / Pages / Product</p>
 	</div>
 
-	<!-- Gallery start -->
+	<!-- product card container start -->
 	<div class="gallery_container py-5">
 		<div class="product-grid">
+			<?php 
+                require('./admin/dbconfig.php');
+				$sql = "SELECT * FROM products";
+
+                $result = mysqli_query($connection, $sql);
+            ?>
+            <?php
+                if($result->num_rows > 0){
+            ?>
+				<?php
+                    while($row = mysqli_fetch_assoc($result)){
+                ?>
 			<div class="productcard stacked">
-				<img src="img/product/product10.jpg" alt="this is product photo" class="card__img" />
+			<img class="w-100 product_img" src="admin/product/f_img/<?php echo $row['f_img'] ?>" alt="this is product_image" class="card__img">
+				<div class="card__content text-center">
+					<h2 class="card__title mb-1"><?php echo $row['name']; ?></h2>
+					<p class="card__price"><?php echo $row['price']; ?></p>
+					<ul class="list-inline small">
+							<li class="list-inline-item m-0 ">
+								(4.55)
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star mypricolor"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star mypricolor"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star mypricolor"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star mypricolor"></i>
+							</li>
+							<li class="list-inline-item m-0">
+								<i class="fa fa-star-half-alt mypricolor"></i>
+							</li>
+						</ul>
+					<p class="card__description text-muted"><?php echo $row['description']; ?></p>
+					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
+				</div>
+			</div>
+				<?php
+					}
+				?>
+			<?php
+				}
+			?>
+			
+			<!-- <img class="w-100 product_img" src="admin/product/f_img/" alt="this is product_image" class="card__img">
 				<div class="card__content text-center">
 					<h2 class="card__title mb-1">Sportsroyals Stair Stepper with Resistance Band and Vertical Climber</h2>
 					<p class="card__price">$1550</p>
@@ -38,9 +84,8 @@
 					<p class="card__description text-muted">Our mini stair stepper - A great partner for indoor-exercises! Simple function combine with high-quality steel material, suitable for all family member's exercise.</p>
 					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
 				</div>
-			</div>
-
-			<div class="productcard stacked">
+			</div> -->
+			<!-- <div class="productcard stacked">
 				<img src="img/product/product11.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
 					<h2 class="card__title">Adjustable Dumbbells 40, 50, 52.5, 60, 105 to 200 lbs with Connector Options</h2>
@@ -137,7 +182,6 @@
 			<div class="productcard stacked">
 				<img src="img/product/product15.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
-					<!-- 30em 50em -->
 					<h2 class="card__title text-center">Club Quality 4-Weight Deluxe Barbell Set, 35 lbs</h2>
 					<p class="card__price">$725</p>
 					<ul class="list-inline small">
@@ -165,6 +209,7 @@
 
 				</div>
 			</div>
+
 			<div class="productcard stacked">
 				<img src="img/product/product16.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
@@ -195,6 +240,7 @@
 
 				</div>
 			</div>
+
 			<div class="productcard stacked">
 				<img src="img/product/product17.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
@@ -227,6 +273,7 @@
 
 				</div>
 			</div>
+
 			<div class="productcard stacked">
 				<img src="img/product/product18.png" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
@@ -257,6 +304,7 @@
 
 				</div>
 			</div>
+
 			<div class="productcard stacked">
 				<img src="img/product/product19.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">
@@ -348,10 +396,10 @@
 					<a href="./featured.php" role="button" class="btn product_btn ">Shop Now</a>
 
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
-	<!-- Gallery end -->
+	<!-- product card container end -->
 
 	<!-- load f role="button"or more btn start -->
 	<div class="container-fluid">

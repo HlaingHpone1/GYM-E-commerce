@@ -1,3 +1,10 @@
+<?php session_start();
+if(empty($_SESSION ['email']))
+{
+    header('location:../index.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +41,7 @@
 			</button>
 			<a
 			class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fs-1 fw-bold"
-			href="../user/index.php"
+			href="#"
 			>Admin Dashboard</a
 			>
 			<button
@@ -133,7 +140,15 @@
 					</a>
 				</li>
 				<li class="my-4"><hr class="dropdown-divider bg-light" /></li>
-				
+				<li>
+					<a
+						href="../logout.php"
+						class="list-group-item list-group-item-action bg-transparent text-danger fw-bold"
+						><i class="fas fa-power-off me-2"></i>Logout</a
+					>
+				</li>
+				<li class="my-4"><hr class="dropdown-divider bg-light" /></li>
+
 			</ul>
 			</nav>
 		</div>

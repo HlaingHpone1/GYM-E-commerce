@@ -753,6 +753,11 @@ picture {
 	background-image: url("../img/bg2.jpg");
 }
 
+#faqbanner {
+	background-image: url("../img/banner/faq-banner.jpg");
+	background-size: contain;
+}
+
 .gallery_container {
 	max-width: 100%;
 	margin-inline: auto;
@@ -1346,17 +1351,6 @@ picture {
 }
 /* Log in and Sign up end */
 
-/* policy Start */
-
-.policy h2 {
-	text-transform: capitalize;
-}
-
-.policy_text {
-	text-align: justify;
-}
-/* policy End */
-
 /* service start */
 .service_img {
 	margin: 0 2rem 0.5rem 0;
@@ -1633,3 +1627,51 @@ details[open] > summary:before {
 }
 
 /* FAQ end */
+
+/* View Counter start */
+
+.website-counter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.website-counter {
+	margin-top: 10px;
+
+	font-weight: 700;
+	font-size: 25px;
+
+	height: 50px;
+	width: 100%;
+
+	border-radius: 30px;
+
+	color: #000;
+	background-color: var(--seccolor);
+}
+
+#reset {
+	margin-top: 20px;
+	padding: 8px 20px;
+
+	font-size: 18px;
+
+	border: 0;
+	border-radius: 20px;
+
+	color: white;
+	background-color: var(--thirdcolor);
+
+	cursor: pointer;
+
+	transition: all 500ms linear;
+}
+
+#reset:hover {
+	color: #000;
+	background-color: #eee;
+}
+
+/* View Counter End */

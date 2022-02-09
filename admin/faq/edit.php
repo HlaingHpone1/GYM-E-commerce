@@ -71,7 +71,7 @@ include('./header.php');
                             </textarea>
                             <label for="floatingTextarea2">Answer</label>
                         </div>
-                        <input class="btn btn-primary" type="submit" value="Submit">
+                        <input class="btn login_btn" type="submit" value="Submit">
                     </form>
                 </div>
 			</div>

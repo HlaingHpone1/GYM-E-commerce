@@ -11,8 +11,11 @@
     $row = mysqli_fetch_assoc($result);
 
     if($row['email'] == $email AND $row['password'] == $password AND $row['comfirmpassword'] == $password )
-    {
-        header('location:index.php');
+    {   
+        $_SESSION['email'] = $row['email'];
+        $_SESSION['username'] = $row['username'];
+
+        header('location:user/index.php');
     }else{
         echo "Error";
         header('location:login.php');

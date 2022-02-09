@@ -521,46 +521,36 @@
 		<!-- Contact End -->
 		
 		<!-- View Count Start-->
-		<div class="row py-5">
-			<div class="col-md-6">
-				<button type="button" class="btn btn-primary position-relative">
-					View Count
-					<span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
-						<div class="website-counter badge"></div>
-					</span>
-				</button>
+		<div class="row py-5 justify-content=center mybg-dark">
+			<div class="col-md-12 text-center text-white">
+				<div class="fs-1">Website visit count:</div>
+				<div class="website-counter mx-auto"></div>
+				<button id="reset">Reset</button>
 			</div>
 		</div>
 		<!-- View Count End-->
-
 	</div>
 
-	<script>
-		document.getElementById("demo").addEventListener("click", myFunction);
-
-		function myFunction() {
-		document.getElementById("demo1").style.display = "none";
-		document.getElementById("demo").style.display = "none";
-		}
-
+	<script type="text/javascript">
 		var counterContainer = document.querySelector(".website-counter");
 		var resetButton = document.querySelector("#reset");
 		var visitCount = localStorage.getItem("page_view");
+
 		// Check if page_view entry is present
-		if(visitCount) {
-						
-			visitCount = Number(visitCount) + 1; 
-			localStorage.setItem("page_view", visitCount);
+		if (visitCount) {
+		visitCount = Number(visitCount) + 1;
+		localStorage.setItem("page_view", visitCount);
 		} else {
-			visitCount = 1;
-			localStorage. setItem("page_view", 1);
+		visitCount = 1;
+		localStorage.setItem("page_view", 1);
 		}
 		counterContainer.innerHTML = visitCount;
+
 		// Adding onClick event listener
 		resetButton.addEventListener("click", () => {
-			visitCount = 1;
-			localStorage.setItem("page_view", 1);
-			counterContainer.innerHTML = visitCount; 
+		visitCount = 1;
+		localStorage.setItem("page_view", 1);
+		counterContainer.innerHTML = visitCount;
 		});
 	</script>
 

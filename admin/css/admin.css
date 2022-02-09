@@ -122,3 +122,9 @@ button {
 		top: var(--topNavbarHeight);
 	}
 }
+
+#datatable .product_img {
+	height: 150px;
+
+	object-fit: contain;
+}

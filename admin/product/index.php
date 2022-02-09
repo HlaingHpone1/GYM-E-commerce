@@ -12,11 +12,11 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h1 class="fw-bolder">Dashboard</h1>
+					<h1 class="fw-bolder">Product Dashboard</h1>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12"><a href="" class="btn btn-success mb-3 float-end"><i class="fas fa-user me-2"></i>Add Products</a></div>
+				<div class="col-md-12"><a href="./upload.php" class="btn btn-success mb-3 float-end"><i class="fas fa-user me-2"></i>Add Products</a></div>
 				<div class="col-md-12 mb-3">
 					<div class="card">
 						<div class="card-header">
@@ -38,7 +38,10 @@
 										<th >Product Name</th>
 										<th >Price</th>
 										<th >Description</th>
-										<th >Images</th>
+										<th >First Image</th>
+										<th >Second Image</th>
+										<th >Created Date</th>
+										<th >Updated Date</th>
 										<th >Edit</th>
 										<th >Delete</th>
 									</tr>
@@ -50,15 +53,26 @@
 								?>
 
 								<tr>
-									<td><?php echo $row['id']; ?></td>
-									<td><?php echo $row['name']; ?></td>
-									<td><?php echo $row['price']; ?></td>
-									<td><?php echo $row['description']; ?></td>
-									<td><?php echo $row['images']; ?></td>
-									<td  >
+									<td class="text-center"><?php echo $row['id']; ?></td>
+									<td class="text-center"><?php echo $row['name']; ?></td>
+									<td class="text-center"><?php echo $row['price']; ?></td>
+									<td class="text-center"><?php echo $row['description']; ?></td>
+									<td class="text-center">
+										<img class="w-100 product_img" src="f_img/<?php echo $row['f_img'] ?>" alt="this is product_image">
+									</td>
+									<td class="text-center">
+										<img class="w-100 product_img" src="s_img/<?php echo $row['s_img'] ?>" alt="this is product_image">
+									</td>
+									<td class="text-center">
+										<?php echo $row['created_at']; ?>
+									</td>
+									<td class="text-center">
+										<?php echo $row['updated_at']; ?>
+									</td>
+									<td class="text-center">
 										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>
 									</td>
-									<td >
+									<td class="text-center">
 										<a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash me-2"></i> Delete</a>
 									</td>
 								</tr>
@@ -68,7 +82,6 @@
 								?>
 
 								</tbody>
-								
 							</table>
 							</div>
 						<?php } else{

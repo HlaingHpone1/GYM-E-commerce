@@ -1,7 +1,7 @@
 <?php
     include('../dbconfig.php');
 
-    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    if($_SERVER['REQUEST_METHOD'] == 'POST' AND !empty($_POST)){
 
         $username = $_POST['username'];
         $email = $_POST['email'];
@@ -9,18 +9,52 @@
         $password = SHA1($_POST['password']);
         $comfirmpassword = SHA1($_POST['comfirmpassword']);
 
-        $sql = "INSERT INTO users(`username`,`email`,`phone`,`password`, `comfirmpassword`)
-        VALUES('$username', '$email','$phone', '$password','$comfirmpassword')";
+        if(empty($username)){
+            $errors[] = "User Name Field is Required<br/>";
+        }
 
-        $result = mysqli_query($connection,$sql);
+        if(empty($email)){ 
+            $errors[] = "Email Field is Required<br/>";
+        }
 
-        if(!$result){
-            echo $connection->error;
-        }else{
-            header('location:index.php');
+        if(empty($phone)){
+            $errors[] =  "Phone Field is Required<br/>";
+        }
+
+        if(empty($password)){ 
+            $errors[] =  "Password Field is Required<br/>";
+        }
+
+        if(empty($comfirmpassword)){ 
+            $errors[] =  "Comfirm Password Field is Required<br/>";
+        }
+
+        if($password !== $comfirmpassword){
+            $errors[] =  "Password And Comfirm Password are not Macth<br/>";
+        }
+
+        $select_email = "SELECT * FROM users WHERE email='$email'";
+        $select = mysqli_query($connection,$select_email );
+
+        if(mysqli_num_rows($select)) {
+            $errors[] = "This email address is already used!<br/>";
+        }
+
+        if(empty($errors)){
+            $sql = "INSERT INTO users(`username`,`email`,`phone`,`password`, `comfirmpassword`)
+                VALUES('$username', '$email','$phone', '$password','$comfirmpassword')";
+        
+                $result = mysqli_query($connection,$sql);
+        
+                if(!$result){
+                    echo $connection->error;
+                }else{
+                    header('location:index.php');
+                }
+            $messages[] = "Successful!!!";
+            
         }
         $connection->close();
-
     }
 
 	include('./header.php');
@@ -32,10 +66,25 @@
         <div class="col-md-8">
             <form class="form_login" action="#" method="POST" enctype="multipart/form-data">
                 <h1 class="fs-1 text-center text-dark mb-5">Add User</h1>
+                <?php
+                    if(!empty($errors)){
+                        foreach($errors as $error){
+                            echo "<p class='text-danger'>". $error ."</p>";
+                        }
+                    }
+
+                    if(!empty($messages)){
+                        foreach ($messages as $message) {
+                            $success = "<p class='text-success fs-4'>". $message."</p>";
+                        }
+                        $_SESSION['success_add_message'] = $success;
+                    }
+                    ?>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">User Name</label>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username" autocomplete="off">
                 </div>
+
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" autocomplete="off">

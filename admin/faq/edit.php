@@ -65,11 +65,11 @@ include('./header.php');
                             </textarea>
                             <label for="floatingTextarea">Question</label>
                         </div>
-                        <div class="form-floating mb-3 textaera textaera1">
-                            <textarea name="answer" class="form-control h-100" placeholder="Leave a comment here" id="floatingTextarea2">
+                        <div class="form-group mb-3">
+                            <label for="floatingTextarea">Answer</label>
+                            <textarea class="form-control" placeholder="Product Deatails" id="ckeditor" name="answer">
                                 <?php echo $row['answer']; ?>
                             </textarea>
-                            <label for="floatingTextarea2">Answer</label>
                         </div>
                         <input class="btn login_btn" type="submit" value="Submit">
                     </form>

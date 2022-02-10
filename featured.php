@@ -1,31 +1,41 @@
-<?php require("./header.php"); ?>
+<?php 
+	require('./admin/dbconfig.php');
+
+	$id = $_GET['id'];
+	$sql = "SELECT * FROM products WHERE id=".$id;
+
+	$result = mysqli_query($connection, $sql);
+
+require("./header.php");
+?>
 
     <div class="banner" id="featurebanner">
 		<h1 class="fs-1">Featured</h1>
 		<p>Home / Pages / Featured</p>
 	</div>
 
-	<!-- <div class="container-fluid">
-		<div class="row">
-			<div class="col-md-8 offset-md-2 border "></div>
-		</div>
-	</div> -->
-
 	<div class="container-fluid mybg-dark">
+            
 		<div class="row d-flex justify-content-center">
 			<div class="col-lg-8">
 				<div class="container-fluid">
 					<div class="row">
+					<?php
+						if($result->num_rows > 0){
+					?>
+						<?php
+							while($row = mysqli_fetch_assoc($result)){
+						?>
 						<div class="card p-0">
 							<div class="row w-100 m-0">
 								<div class="col-xl-6 col-lg-12">
 									<div class="images p-3">
 										<div class="text-center p-4">
-											<img id="main-image" src="https://i.imgur.com/Dhebu4F.jpg" />
+											<img id="main-image" src="admin/product/f_img/<?php echo $row['f_img'] ?>" alt="this is product_image">
 										</div>
 										<div class="thumbnail text-center d-flex justify-content-center">
-											<img onclick="change_image(this)" class="w-25" src="https://i.imgur.com/Rx7uKd0.jpg" >
-											<img onclick="change_image(this)" class="w-25" src="https://i.imgur.com/Dhebu4F.jpg" > 
+											<img onclick="change_image(this)" class="w-25" src="admin/product/f_img/<?php echo $row['f_img'] ?>" alt="this is product_image">
+											<img onclick="change_image(this)" class="w-25" src="admin/product/s_img/<?php echo $row['s_img'] ?>" alt="this is product_image">
 										</div>
 									</div>
 								</div>
@@ -36,9 +46,8 @@
 											<a href="./product.php" class="text-decoration-none text-dark"><span class="ms-2">Back</span> </div> <i class="fa fa-shopping-cart text-muted"></i></a>
 										</div>
 										<div class="mt-4 mb-3">
-											<h5 class="text-uppercase">Men's slim fit t-shirt</h5>
-											<div class="price d-flex flex-row align-items-center"> <span class="act-price">$20</span>
-												<div class="ms-2"> <small class="dis-price ">$59</small> <span>40% OFF</span> </div>
+											<h5 class="text-uppercase"><?php echo $row['name']; ?></h5>
+											<div class="price d-flex flex-row align-items-center"> 		<span class="act-price"><?php echo $row['price']; ?></span>
 											</div>
 										</div>
 										<ul class="list-inline small">
@@ -61,7 +70,7 @@
 												<i class="far fa-star mypricolor"></i>
 											</li>
 										</ul>
-										<p class="about">Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
+										<p class="about"><?php echo $row['description']; ?></p>
 										
 										<div class="cart mt-4 align-items-center">
 											<a class="btn btn-danger text-uppercase me-3 px-4 " href="./payment.php">Buy Now</a> 
@@ -72,6 +81,12 @@
 								</div>
 							</div>
 						</div>
+						<?php
+							}
+						?>
+					<?php
+						}
+					?>
 					</div>
 					<div class="row text-white bg-danger rounded-3 mt-5 p-2">
 						<div class="col-md-12">

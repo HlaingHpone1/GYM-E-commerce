@@ -24,16 +24,6 @@
         if($s_img){
             move_uploaded_file($tmp1, "s_img/$s_img");
         }
-        // else{
-        //     $imgsql = "SELECT * FROM products WHERE id=".$id;
-        //     $imgresult = mysqli_query($connection,$imgsql);
-        //     $imgrow = mysqli_fetch_assoc($imgresult);
-            
-        //     $sec_img = $imgrow['s_img'];
-            
-        //     $img_sec_sql = "";
-        // exit();
-        // }
         
         $sql = "UPDATE `products` SET `name` = '$name', `price` = '$price', `description` = '$description', `f_img` = '$f_img', `s_img` = '$s_img', `updated_at` = now()
         WHERE `id`=".$id;
@@ -72,11 +62,16 @@ include('./header.php');
                             <input type="text" class="form-control" id="floatingInput" name="price" value="<?php echo $row['price']; ?>" placeholder="price">
                             <label for="floatingInput">Price</label>
                         </div>
-                        <div class="form-floating mb-3">
+                        <!-- <div class="form-floating mb-3">
                             <textarea class="form-control" placeholder="Product Deatails" id="floatingTextarea" name="description">
-                            <?php echo $row['description'];?>
                             </textarea>
                             <label for="floatingTextarea">Product Details</label>
+                        </div> -->
+                        <div class="form-group">
+                            <label for="floatingTextarea">Product Details</label>
+                            <textarea class="form-control" placeholder="Product Deatails" id="ckeditor" name="description">
+                                <?php echo $row['description'];?>
+                            </textarea>
                         </div>
                         <div class="input-group mb-3">
                             <input type="file" class="form-control" id="inputGroupFile01" name="f_img" >

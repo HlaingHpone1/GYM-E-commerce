@@ -12,7 +12,7 @@
 	<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h1 class="fw-bolder">Dashboard</h1>
+					<h1 class="fw-bolder">FAQs Dashboard</h1>
 				</div>
 			</div>
 			<div class="row">

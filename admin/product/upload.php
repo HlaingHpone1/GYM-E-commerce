@@ -17,9 +17,9 @@
                     <input type="text" class="form-control" id="floatingInput" name="price" placeholder="price">
                     <label for="floatingInput">Price</label>
                 </div>
-                <div class="form-floating mb-3">
-                    <textarea class="form-control" placeholder="Product Deatails" id="floatingTextarea" name="description"></textarea>
+                <div class="form-group mb-3">
                     <label for="floatingTextarea">Product Details</label>
+                    <textarea class="form-control" placeholder="Product Deatails" id="ckeditor" name="description"></textarea>
                 </div>
                 <div class="input-group mb-3">
                     <input type="file" class="form-control" id="inputGroupFile01" name="f_img">
@@ -34,16 +34,6 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="gallery">
-            <div class="gcon">
-                
-
-            </div>    
-        </div>
-    </div>
-</div>
-
-
+    
 
 <?php require('./footer.php'); ?>

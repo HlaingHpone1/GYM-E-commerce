@@ -4,6 +4,7 @@
     $name = $_POST['name'];
     $price = $_POST['price'];
     $description = $_POST['description'];
+    $review = $_POST['review'];
     $f_img = $_FILES['f_img']['name'];
     $tmp = $_FILES['f_img'] [ 'tmp_name'];//for store image
     $s_img = $_FILES['s_img']['name'];
@@ -18,7 +19,7 @@
         move_uploaded_file($tmp1, "s_img/$s_img");
     }
 
-    $sql = "INSERT INTO `products`(`name`, `price`, `description`, `f_img`, `s_img`, `created_at`, `updated_at`) VALUES ('$name','$price','$description','$f_img','$s_img', now(),now())";
+    $sql = "INSERT INTO `products`(`name`, `price`, `description`, `review`, `f_img`, `s_img`, `created_at`, `updated_at`) VALUES ('$name','$price','$description', '$review','$f_img','$s_img', now(),now())";
     // echo $sql;
     mysqli_query($connection, $sql);
 

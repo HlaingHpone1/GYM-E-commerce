@@ -784,8 +784,6 @@ picture {
 .productcard {
 	border-radius: 5px;
 
-	aspect-ratio: 1 / 1.25;
-
 	position: relative;
 
 	overflow: hidden;

@@ -22,7 +22,7 @@
                     while($row = mysqli_fetch_assoc($result)){
                 ?>
 			<div class="productcard stacked">
-				<img class="w-100 product_img" src="admin/product/f_img/<?php echo $row['f_img'] ?>" alt="this is product_image" class="card__img">
+			<img class="w-100 product_img" src="admin/product/f_img/<?php echo $row['f_img'] ?>" alt="this is product_image" class="card__img">
 				<div class="card__content text-center">
 					<h2 class="card__title mb-1"><?php echo $row['name']; ?></h2>
 					<p class="card__price"><?php echo $row['price']; ?></p>
@@ -46,8 +46,8 @@
 								<i class="fa fa-star-half-alt mypricolor"></i>
 							</li>
 						</ul>
-						<?php echo substr($row['description'],0, 30); ?>
-					<!-- <p class="card__description text-muted"></p> -->
+					<?php echo substr($row['description'],0, 30); ?>
+					<p class="card__description text-muted"></p>
 					<a href="./featured.php?id=<?php echo $row['id']; ?>" role="button" class="btn product_btn">Shop Now</a>
 				</div>
 			</div>

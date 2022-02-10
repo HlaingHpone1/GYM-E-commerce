@@ -38,10 +38,9 @@
 										<th >Product Name</th>
 										<th >Price</th>
 										<th >Description</th>
+										<th >Review</th>
 										<th >First Image</th>
 										<th >Second Image</th>
-										<th >Created Date</th>
-										<th >Updated Date</th>
 										<th >Edit</th>
 										<th >Delete</th>
 									</tr>
@@ -57,17 +56,12 @@
 									<td class="text-center"><?php echo $row['name']; ?></td>
 									<td class="text-center"><?php echo $row['price']; ?></td>
 									<td class="text-center"><?php echo $row['description']; ?></td>
+									<td class="text-center"><?php echo $row['review']; ?></td>
 									<td class="text-center">
 										<img class="w-100 product_img" src="f_img/<?php echo $row['f_img'] ?>" alt="this is product_image">
 									</td>
 									<td class="text-center">
 										<img class="w-100 product_img" src="s_img/<?php echo $row['s_img'] ?>" alt="this is product_image">
-									</td>
-									<td class="text-center">
-										<?php echo $row['created_at']; ?>
-									</td>
-									<td class="text-center">
-										<?php echo $row['updated_at']; ?>
 									</td>
 									<td class="text-center">
 										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>

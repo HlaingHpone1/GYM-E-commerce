@@ -16,6 +16,12 @@
 				</div>
 			</div>
 			<div class="row">
+				<?php
+					if(!empty($_SESSION['success_faq_message'])){
+						echo $_SESSION['success_faq_message'];
+					}
+					unset($_SESSION['success_faq_message']);
+				?>
 				<div class="col-md-12"><a href="./faqform.php" class="btn btn-success mb-3 float-end"><i class="fas fa-user me-2"></i>Add FAQ</a></div>
 				<div class="col-md-12 mb-3">
 					<div class="card">

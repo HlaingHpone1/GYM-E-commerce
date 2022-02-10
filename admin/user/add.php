@@ -51,7 +51,7 @@
                 }else{
                     header('location:index.php');
                 }
-            $messages[] = "Successful!!!";
+            $messages[] = "Create Successful!!!";
             
         }
         $connection->close();

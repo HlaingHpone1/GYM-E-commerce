@@ -17,6 +17,10 @@
                     <input type="text" class="form-control" id="floatingInput" name="price" placeholder="price">
                     <label for="floatingInput">Price</label>
                 </div>
+                <div class="form-floating mb-3">
+                    <textarea name="review" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Product Review</label>
+                </div>
                 <div class="form-group mb-3">
                     <label for="floatingTextarea">Product Details</label>
                     <textarea class="form-control" placeholder="Product Deatails" id="ckeditor" name="description"></textarea>

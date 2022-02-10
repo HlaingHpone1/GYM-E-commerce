@@ -1,8 +1,46 @@
 <?php require('./header.php');
     require('../dbconfig.php');
 
+    error_reporting(0);
+
     $sql = "SELECT * FROM `users`";
     $result = mysqli_query($connection, $sql);
+
+    if($_SERVER['REQUEST_METHOD'] == 'POST' AND !empty($_POST)){
+        $user_id = $_POST['user_id'];
+        $question = $_POST['question'];
+        $answer = $_POST['answer'];
+
+        if(empty($user_id)){
+                $errors[] = "User Name Field is Required<br/>";
+        }
+
+        if(empty($question)){ 
+            $errors[] = "Question Field is Required<br/>";
+        }
+
+        if(empty($answer)){
+            $errors[] =  "Answer Field is Required<br/>";
+        }
+
+        if(empty($errors)){
+            $sql = "INSERT INTO `faq` (`user_id`, `question`, `answer`)
+            VALUES ('$user_id', '$question', '$answer');
+            ";
+
+            $result = mysqli_query($connection,$sql);
+        
+            if(!$result){
+                echo $connection->error;
+            }else{
+                header('location:index.php');
+            }
+
+            $messages[] = "Create FAQ Successful!!!";
+            
+        }
+        $connection->close();
+    }
 
 ?>
 
@@ -11,8 +49,23 @@
         <div class="col-md-12 text-center fw-bolder fs-1">FAQ Entry</div>
     </div>
     <div class="row">
+        
         <div class="col-md-8 offset-md-2">
-            <form action="./create.php" method="POST" enctype="multipart/form-data">
+                <?php
+                    if(!empty($errors)){
+                        foreach($errors as $error){
+                            echo "<p class='text-danger'>". $error ."</p>";
+                        }
+                    }
+
+                    if(!empty($messages)){
+                        foreach ($messages as $message) {
+                            $success = "<p class='text-success fs-4'>". $message."</p>";
+                        }
+                        $_SESSION['success_faq_message'] = $success;
+                    }
+                    ?>
+            <form action="" method="POST" enctype="multipart/form-data">
                 
                 <div class="form-floating mb-3">
                     <select class="form-select" name="user_id" id="floatingSelect" aria-label="Floating label select example">

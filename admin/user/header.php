@@ -118,21 +118,40 @@ if(empty($_SESSION ['email']))
 					</div>
 				</li>
 				<li>
-					<a href="../user/index.php" class="nav-link px-3">
+					<a 
+						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/admin/user/index.php") { ?> 
+							class="nav-link px-3 active" 
+						<?php   } else {  ?>
+							class="nav-link px-3"
+						<?php } ?>
+						href="../user/index.php">
 					<span class="me-2">
 						<i class="fas fa-users"></i></span>
 						<span>Users</span>
 						</a>
 					</li>
 					<li>
-						<a href="../product/index.php" class="nav-link px-3">
+						<a 
+						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/admin/product/index.php") { ?> 
+							class="nav-link px-3 active" 
+						<?php   } else {  ?>
+							class="nav-link px-3"
+						<?php } ?>
+						
+						href="../product/index.php">
 						<span class="me-2"
 							><i class="fab fa-product-hunt"></i></span>
 						<span>Product</span>
 						</a>
 					</li>
 				<li>
-					<a href="../faq/index.php" class="nav-link px-3">
+					<a 
+					<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/admin/faq/index.php") { ?> 
+							class="nav-link px-3 active" 
+						<?php   } else {  ?>
+							class="nav-link px-3"
+						<?php } ?>
+					href="../faq/index.php">
 						<span class="me-2"><i class="fas fa-question-circle"></i></span>
 						<span>FAQs</span>
 					</a>

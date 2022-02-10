@@ -46,22 +46,59 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="./index.php">Home</a>
+						<a 
+						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/index.php") { ?> 
+							class="nav-link active" 
+						<?php   } else {  ?>
+							class="nav-link"
+						<?php } ?>
+						aria-current="page" href="./index.php">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./product.php">Products</a>
+						<a
+
+						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/product.php") { ?> 
+							class="nav-link active" 
+						<?php   } else {  ?>
+							class="nav-link"
+						<?php } ?>
+
+						href="./product.php">Products</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./service.php">Service</a>
+						<a 
+						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/service.php") { ?> 
+							class="nav-link active" 
+						<?php   } else {  ?>
+							class="nav-link"
+						<?php } ?>
+						href="./service.php">Service</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./about.php">About Us</a>
+						<a 
+						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/home.php") { ?> 
+							class="nav-link active" 
+						<?php   } else {  ?>
+							class="nav-link"
+						<?php } ?>
+						href="./about.php">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./contact.php">Contact Us</a>
+						<a <?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/contact.php") { ?> 
+							class="nav-link active" 
+						<?php   } else {  ?>
+							class="nav-link"
+						<?php } ?>
+						href="./contact.php">Contact Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./faq.php">FAQ</a>
+						<a
+						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/faq.php") { ?> 
+							class="nav-link active" 
+						<?php   } else {  ?>
+							class="nav-link"
+						<?php } ?>
+						href="./faq.php">FAQ</a>
 					</li>
 				</ul>
 			</div>

@@ -153,6 +153,14 @@ body {
 	color: #fff;
 }
 
+.navbar .nav-item.active {
+	font-weight: 900;
+
+	color: #fff;
+
+	background-color: #00acee;
+}
+
 .navbar .joinbtn {
 	padding: 5px 1.875rem;
 
@@ -378,13 +386,6 @@ body {
 	display: inline-block;
 
 	transition: all 0.2s linear;
-}
-
-.social-icons a:active,
-.social-icons a:focus,
-.social-icons a:hover {
-	color: #fff;
-	background-color: #29aafe;
 }
 
 .social-icons.size-sm a {

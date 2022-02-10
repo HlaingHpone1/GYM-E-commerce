@@ -13,6 +13,7 @@
         $name = $_POST['name'];
         $price = $_POST['price'];
         $description = $_POST['description'];
+        $review = $_POST['review'];
         $f_img = $_FILES['f_img']['name'];
         $tmp = $_FILES['f_img'] [ 'tmp_name'];//for store image
         $s_img = $_FILES['s_img']['name'];
@@ -25,7 +26,7 @@
             move_uploaded_file($tmp1, "s_img/$s_img");
         }
         
-        $sql = "UPDATE `products` SET `name` = '$name', `price` = '$price', `description` = '$description', `f_img` = '$f_img', `s_img` = '$s_img', `updated_at` = now()
+        $sql = "UPDATE `products` SET `name` = '$name', `price` = '$price', `review` = '$review', `description` = '$description', `f_img` = '$f_img', `s_img` = '$s_img', `updated_at` = now()
         WHERE `id`=".$id;
 
         $result = mysqli_query($connection, $sql);
@@ -62,12 +63,11 @@ include('./header.php');
                             <input type="text" class="form-control" id="floatingInput" name="price" value="<?php echo $row['price']; ?>" placeholder="price">
                             <label for="floatingInput">Price</label>
                         </div>
-                        <!-- <div class="form-floating mb-3">
-                            <textarea class="form-control" placeholder="Product Deatails" id="floatingTextarea" name="description">
-                            </textarea>
-                            <label for="floatingTextarea">Product Details</label>
-                        </div> -->
-                        <div class="form-group">
+                        <div class="form-floating mb-3">
+                            <textarea name="review" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"><?php echo $row['review']; ?></textarea>
+                            <label for="floatingTextarea">Product Review</label>
+                        </div>
+                        <div class="form-group mb-3">
                             <label for="floatingTextarea">Product Details</label>
                             <textarea class="form-control" placeholder="Product Deatails" id="ckeditor" name="description">
                                 <?php echo $row['description'];?>

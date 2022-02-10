@@ -25,7 +25,7 @@
 			<img class="w-100 product_img" src="admin/product/f_img/<?php echo $row['f_img'] ?>" alt="this is product_image" class="card__img">
 				<div class="card__content text-center">
 					<h2 class="card__title mb-1"><?php echo $row['name']; ?></h2>
-					<p class="card__price"><?php echo $row['price']; ?></p>
+					<p class="card__price"><?php echo "$ ".$row['price']; ?></p>
 					<ul class="list-inline small">
 							<li class="list-inline-item m-0 ">
 								(4.55)

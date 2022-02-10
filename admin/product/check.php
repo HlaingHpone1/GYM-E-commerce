@@ -9,9 +9,7 @@
     $tmp = $_FILES['f_img'] [ 'tmp_name'];//for store image
     $s_img = $_FILES['s_img']['name'];
     $tmp1 = $_FILES['s_img'] [ 'tmp_name'];//for store image
-
-    // echo $s_img;
-
+    
     if($f_img) {
         move_uploaded_file($tmp, "f_img/$f_img");
     }
@@ -21,6 +19,8 @@
 
     $sql = "INSERT INTO `products`(`name`, `price`, `description`, `review`, `f_img`, `s_img`, `created_at`, `updated_at`) VALUES ('$name','$price','$description', '$review','$f_img','$s_img', now(),now())";
     // echo $sql;
+    // exit();
+    
     mysqli_query($connection, $sql);
 
     header("location: index.php");

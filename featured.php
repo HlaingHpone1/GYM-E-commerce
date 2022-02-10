@@ -6,9 +6,9 @@
 
 	$result = mysqli_query($connection, $sql);
 
-	$sidesql = "SELECT * FROM products WHERE id = ".rand(24, 29);
-	$sidesql1 = "SELECT * FROM products WHERE id = ".rand(24, 29);
-	$sidesql2 = "SELECT * FROM products WHERE id = ".rand(24, 29);
+	$sidesql = "SELECT * FROM products WHERE id = ".rand(1, 2);
+	$sidesql1 = "SELECT * FROM products WHERE id = ".rand(1, 2);
+	$sidesql2 = "SELECT * FROM products WHERE id = ".rand(1, 2);
 
 	$sideresult = mysqli_query($connection,$sidesql);
 	$sideresult1 = mysqli_query($connection,$sidesql1);

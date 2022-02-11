@@ -67,16 +67,16 @@
 					</li>
 					<li class="nav-item">
 						<a 
-						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/service.php") { ?> 
+						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/workshopservices.php") { ?> 
 							class="nav-link active" 
 						<?php   } else {  ?>
 							class="nav-link"
 						<?php } ?>
-						href="./service.php">Service</a>
+						href="./workshopservices.php">WorkShop Services</a>
 					</li>
 					<li class="nav-item">
 						<a 
-						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/home.php") { ?> 
+						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/about.php") { ?> 
 							class="nav-link active" 
 						<?php   } else {  ?>
 							class="nav-link"

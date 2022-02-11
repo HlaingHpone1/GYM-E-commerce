@@ -4,7 +4,7 @@
 	$sql = "SELECT faq.*, users.username 
 	FROM  `faq` INNER JOIN users ON faq.user_id = users.id";
 
-    $result = mysqli_query($connection, $sql);
+    $result = $connection->query($sql);
 
 	include('./header.php');
 ?>
@@ -52,7 +52,7 @@
 								<tbody>
 								
 								<?php
-									while($row = mysqli_fetch_assoc($result)){
+									while($row = $result->fetch_assoc()){
 								?>
 
 								<tr class="text-justify">

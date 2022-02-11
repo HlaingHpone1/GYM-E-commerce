@@ -3,7 +3,7 @@
     require_once("../dbconfig.php");
 
 	$sql = "SELECT * FROM users";
-    $result = mysqli_query($connection, $sql);
+    $result = $connection->query($sql);
 
 ?>
 	<div class="container-fluid">
@@ -56,7 +56,7 @@
 								<tbody>
 								
 								<?php
-									while($row = mysqli_fetch_assoc($result)){
+									while($row = $result->fetch_assoc()){
 								?>
 
 								<tr class="text-center">

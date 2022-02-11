@@ -11,11 +11,11 @@
 					</p>
 
 					<p class="text-justify footer_text">
-						<i class="fas fa-phone-alt"></i> +95-9-753159789, +95-9-456159789
+						<i class="fas fa-phone-alt"></i> <a href="tel:+959753159789" class="text-decoration-none text-white">+95-9-753159789</a>, <a href="tel:+959753159788" class="text-decoration-none text-white">+95-9-753159788</a>
 					</p>
 
 					<p class="text-justify footer_text">
-						<i class="fas fa-envelope"></i> info@dragonworld.com.mm
+						<i class="fas fa-envelope"></i> <a href="mailto:info@hge.com.mm" class="text-decoration-none text-white">info@hge.com.mm</a>
 					</p>
 
 				</div>
@@ -26,7 +26,7 @@
 						<li><a href="./product.php">Product</a></li>
 						<li><a href="./about.php">About</a></li>
 						<li><a href="./contact.php">Contact Us</a></li>
-						<li><a href="./service.php">Service</a></li>
+						<li><a href="./workshopservices.php">WorkShop Services</a></li>
 					</ul>
 				</div>
 

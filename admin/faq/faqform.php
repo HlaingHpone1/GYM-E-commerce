@@ -4,7 +4,7 @@
     error_reporting(0);
 
     $sql = "SELECT * FROM `users`";
-    $result = mysqli_query($connection, $sql);
+    $result = $connection->query($sql);
 
     if($_SERVER['REQUEST_METHOD'] == 'POST' AND !empty($_POST)){
         $user_id = $_POST['user_id'];
@@ -12,7 +12,7 @@
         $answer = $_POST['answer'];
 
         if(empty($user_id)){
-                $errors[] = "User Name Field is Required<br/>";
+            $errors[] = "User Name Field is Required<br/>";
         }
 
         if(empty($question)){ 
@@ -24,20 +24,18 @@
         }
 
         if(empty($errors)){
-            $sql = "INSERT INTO `faq` (`user_id`, `question`, `answer`)
+            $insertsql = "INSERT INTO `faq` (`user_id`, `question`, `answer`)
             VALUES ('$user_id', '$question', '$answer');
             ";
 
-            $result = mysqli_query($connection,$sql);
+            $insertresult = $connection->query($insertsql);
         
-            if(!$result){
+            if(!$insertresult){
                 echo $connection->error;
             }else{
                 header('location:index.php');
             }
-
             $messages[] = "Create FAQ Successful!!!";
-            
         }
         $connection->close();
     }

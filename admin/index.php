@@ -18,8 +18,8 @@
         if(empty($errors)){
             $sql = "SELECT * FROM `users` WHERE `email` = '$email' AND `password` = '$password' AND `comfirmpassword` = '$password'";
         
-            $result = mysqli_query($connection,$sql);
-            $row = mysqli_fetch_assoc($result);
+            $result = $connection->query($sql);
+            $row = $result->fetch_assoc();
     
             $messages[] = "Welcome!!!!";
     

@@ -6,9 +6,9 @@
 
 	$result = mysqli_query($connection, $sql);
 
-	$sidesql = "SELECT * FROM products WHERE id = ".rand(1, 4);
-	$sidesql1 = "SELECT * FROM products WHERE id = ".rand(1, 4);
-	$sidesql2 = "SELECT * FROM products WHERE id = ".rand(1, 4);
+	$sidesql = "SELECT * FROM products WHERE id = ".rand(1, 3);
+	$sidesql1 = "SELECT * FROM products WHERE id = ".rand(5, 8);
+	$sidesql2 = "SELECT * FROM products WHERE id = ".rand(1, 8);
 
 	$sideresult = mysqli_query($connection,$sidesql);
 	$sideresult1 = mysqli_query($connection,$sidesql1);
@@ -19,8 +19,8 @@ require("./header.php");
 ?>
 
     <div class="banner" id="featurebanner">
-		<h1 class="fs-1">Featured</h1>
-		<p>Home / Pages / Featured</p>
+		<h1 class="fs-1">Product Deatails</h1>
+		<p>Home / Pages / Product Deatails</p>
 	</div>
 
 	<div class="container-fluid mybg-dark">
@@ -84,9 +84,7 @@ require("./header.php");
 										<p class="about"><?php echo $row['description']; ?></p>
 										
 										<div class="cart mt-4 align-items-center">
-											<a class="btn btn-danger text-uppercase me-3 px-4 " href="./payment.php">Buy Now</a> 
-											<i class="fa fa-heart text-muted"></i>
-											<i class="fa fa-share-alt text-muted"></i> 
+											<a class="btn btn_sec text-uppercase me-3 px-4 " href="./payment.php">Buy Now</a>
 										</div>
 									</div>
 								</div>
@@ -94,7 +92,7 @@ require("./header.php");
 						</div>
 						
 					</div>
-					<div class="row text-white bg-danger rounded-3 mt-5 p-2">
+					<div class="row text-dark text-justify mybg-seccolor rounded-3 mt-5 p-2">
 						<div class="col-md-12">
 							<h1 class="fs-1 text-center">Review</h1>
 							<p><?php echo $row['review']; ?></p>
@@ -104,6 +102,8 @@ require("./header.php");
 							}
 						?>
 					<?php
+						}else{
+							echo"There is no record";
 						}
 					?>
 				</div>
@@ -118,26 +118,28 @@ require("./header.php");
 					<?php
 						while($siderow = mysqli_fetch_assoc($sideresult)){
 					?>
-					<div class="card p-0">
-						<div class="row w-100 m-0">
-							<div class="col-xl-6 col-lg-12 p-0">
-								<div class="images">
-									<div class="text-center">
-										<img id="main-image w-100" src="admin/product/f_img/<?php echo $siderow['f_img']; ?>" alt="this is product_image">
+					<a href="./productdetail.php?id=<?php echo $siderow['id']; ?>" class="text-decoration-none text-dark fw-bolder">
+						<div class="card p-0">
+							<div class="row w-100 m-0">
+								<div class="col-xl-6 col-lg-12 p-0">
+									<div class="images">
+										<div class="text-center">
+											<img id="main-image w-100" src="admin/product/f_img/<?php echo $siderow['f_img']; ?>" alt="this is product_image">
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-xl-6 col-lg-12 product">
-								<div class=" p-2 h-100">
-									<div class="mt-3 mb-1">
-										<h5 class="text-uppercase"><?php echo $siderow['name']; ?></h5>
-										<div class="price d-flex flex-row align-items-center"> <span class="act-price"><?php echo "$ ".$siderow['price']; ?></span>
+								<div class="col-xl-6 col-lg-12 product">
+									<div class=" p-2 h-100">
+										<div class="mt-3 mb-1">
+											<h5 class="text-uppercase"><?php echo $siderow['name']; ?></h5>
+											<div class="price d-flex flex-row align-items-center"> <span class="act-price"><?php echo "$ ".$siderow['price']; ?></span>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 					<?php
 						}
 					?>
@@ -146,26 +148,28 @@ require("./header.php");
 					<?php
 						while($siderow1 = mysqli_fetch_assoc($sideresult1)){
 					?>
-					<div class="card p-0">
-						<div class="row w-100 m-0">
-							<div class="col-xl-6 col-lg-12 p-0">
-								<div class="images">
-									<div class="text-center">
-										<img id="main-image w-100" src="admin/product/f_img/<?php echo $siderow1['f_img']; ?>" alt="this is product_image">
+					<a href="./productdetail.php?id=<?php echo $siderow1['id']; ?>" class="text-decoration-none text-dark fw-bolder">
+						<div class="card p-0">
+							<div class="row w-100 m-0">
+								<div class="col-xl-6 col-lg-12 p-0">
+									<div class="images">
+										<div class="text-center">
+											<img id="main-image w-100" src="admin/product/f_img/<?php echo $siderow1['f_img']; ?>" alt="this is product_image">
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-xl-6 col-lg-12 product">
-								<div class=" p-2 h-100">
-									<div class="mt-3 mb-1">
-										<h5 class="text-uppercase"><?php echo $siderow1['name']; ?></h5>
-										<div class="price d-flex flex-row align-items-center"> <span class="act-price"><?php echo "$ ".$siderow1['price']; ?></span>
+								<div class="col-xl-6 col-lg-12 product">
+									<div class=" p-2 h-100">
+										<div class="mt-3 mb-1">
+											<h5 class="text-uppercase"><?php echo $siderow1['name']; ?></h5>
+											<div class="price d-flex flex-row align-items-center"> <span class="act-price"><?php echo "$ ".$siderow1['price']; ?></span>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 					<?php
 						}
 					?>
@@ -174,32 +178,36 @@ require("./header.php");
 					<?php
 						while($siderow2 = mysqli_fetch_assoc($sideresult2)){
 					?>
-					<div class="card p-0">
-						<div class="row w-100 m-0">
-							<div class="col-xl-6 col-lg-12 p-0">
-								<div class="images">
-									<div class="text-center">
-										<img id="main-image w-100" src="admin/product/f_img/<?php echo $siderow2['f_img']; ?>" alt="this is product_image">
+					<a href="./productdetail.php?id=<?php echo $siderow2['id']; ?>" class="text-decoration-none text-dark fw-bolder">
+						<div class="card p-0">
+							<div class="row w-100 m-0">
+								<div class="col-xl-6 col-lg-12 p-0">
+									<div class="images">
+										<div class="text-center">
+											<img id="main-image w-100" src="admin/product/f_img/<?php echo $siderow2['f_img']; ?>" alt="this is product_image">
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-xl-6 col-lg-12 product">
-								<div class=" p-2 h-100">
-									<div class="mt-3 mb-1">
-										<h5 class="text-uppercase"><?php echo "$ ".$siderow2['name']; ?></h5>
-										<div class="price d-flex flex-row align-items-center"> <span class="act-price"><?php echo "$ ".$siderow2['price']; ?></span>
+								<div class="col-xl-6 col-lg-12 product">
+									<div class=" p-2 h-100">
+										<div class="mt-3 mb-1">
+											<h5 class="text-uppercase"><?php echo "$ ".$siderow2['name']; ?></h5>
+											<div class="price d-flex flex-row align-items-center"> <span class="act-price"><?php echo "$ ".$siderow2['price']; ?></span>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 					<?php
 						}
 					?>
 				</div>
 					
 					<?php
+						} else{
+							echo"There is no record";
 						}
 					?>
 			</div>

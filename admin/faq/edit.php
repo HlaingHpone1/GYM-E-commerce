@@ -5,8 +5,8 @@
 	$sql = "SELECT faq.*, users.username 
 	FROM  `faq` INNER JOIN users ON faq.user_id = users.id WHERE faq.id=".$id;
 
-    $result = mysqli_query($connection, $sql);
-    $row = mysqli_fetch_assoc($result);
+    $result = $connection->query($sql);
+    $row = $result->fetch_assoc();
 
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $id = $_GET['id']; 
@@ -16,11 +16,11 @@
         $answer = $_POST['answer'];
 
 
-        $sql = "UPDATE `faq` SET `user_id` = '$user_id', `question` = '$question', `answer` ='$answer' WHERE `faq`.`id` = ".$id;
+        $updatesql = "UPDATE `faq` SET `user_id` = '$user_id', `question` = '$question', `answer` ='$answer' WHERE `faq`.`id` = ".$id;
 
-        $result = mysqli_query($connection, $sql);
+        $updateresult = $connection->query($updatesql);
 
-        if(!$result){
+        if(!$updateresult){
             echo $connection->error;
         }else{
             header('location:index.php');

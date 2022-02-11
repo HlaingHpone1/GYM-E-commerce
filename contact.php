@@ -14,10 +14,9 @@
 				</p>
 				<i class="me-2 my-3 fas fa-map-marker-alt"></i>
 				<span> No.9 Kabar Aye Pagoda Rd, Yangon, Myanmar (Burma)</span><br />
-				<i class="me-2 my-3 fas fa-phone"></i> <span>Call Free: +95-9-753159789, +95-9-456159789</span><br />
+				<i class="me-2 my-3 fas fa-phone"></i><a href="tel:+959753159789" class="text-decoration-none text-white">+95-9-753159789</a>, <a href="tel:+959753159788" class="text-decoration-none text-white">+95-9-753159788</a><br />
 				<i class="me-2 my-3 fas fa-clock"></i> <span>Mon - Sat 8:00 - 18:00</span><br />
-				<i class="me-2 my-3 fas fa-envelope"></i> <span>info@heg.com.mm</span
-				><br/>
+				<i class="me-2 my-3 fas fa-envelope"></i> <a href="mailto:info@hge.com.mm" class="text-decoration-none text-white">info@hge.com.mm</a><br/>
                 <a href="./privacy.php" class="text-white text-decoration-none">Privacy Policy</a>
             </div>
             <div class="col-lg-6 col-md-12 mt-5 mt-lg-0">

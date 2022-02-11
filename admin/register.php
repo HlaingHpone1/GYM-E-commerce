@@ -34,9 +34,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' AND !empty($_POST)){
     }
 
     $select_email = "SELECT * FROM users WHERE email='$email'";
-    $select = mysqli_query($connection,$select_email );
+    $select = $connection->query($select_email);
 
-    if(mysqli_num_rows($select)) {
+    if($select->num_rows) {
         $errors[] = "This email address is already used!<br/>";
     }
 
@@ -44,7 +44,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' AND !empty($_POST)){
         $sql = "INSERT INTO users(`username`,`email`,`phone`,`password`, `comfirmpassword`)
             VALUES('$username', '$email','$phone', '$password','$comfirmpassword')";
     
-            $result = mysqli_query($connection,$sql);
+            $result = $connection->query($sql);
     
             if(!$result){
                 echo $connection->error;

@@ -1435,17 +1435,16 @@ label.radio input:checked + span {
 	color: #fff;
 }
 
-.btn-danger {
-	background-color: #ff0000 !important;
-	border-color: #ff0000 !important;
+.btn_sec {
+	font-weight: 900;
+	background-color: var(--seccolor);
 }
 
-.btn-danger:hover {
-	background-color: #da0606 !important;
-	border-color: #da0606 !important;
+.btn_sec:hover {
+	background-color: var(--thirdcolor);
 }
 
-.btn-danger:focus {
+.btn_sec:focus {
 	box-shadow: none;
 }
 

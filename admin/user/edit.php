@@ -5,8 +5,8 @@
 	$sql = "SELECT * FROM users
             WHERE id =". $id;
 
-    $result = mysqli_query($connection, $sql);
-    $row = mysqli_fetch_assoc($result);
+    $result = $connection->query($sql);
+    $row = $result->fetch_assoc();
 
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
 		$username = $_POST['username'];
@@ -44,8 +44,8 @@
                 SET `username` = '$username', `email` = '$email', `phone` = '$phone'
                 WHERE id=".$_GET['id'];
 		
-            mysqli_query($connection, $updatesql);
-
+            $updateresult = $connection->query($updatesql);
+            
             if($password ===  $row['password'] AND $comfirmpassword === $row['comfirmpassword']){
                 
             }else{
@@ -53,13 +53,16 @@
                     SET `password` = SHA1('$password'), `comfirmpassword` = SHA1('$comfirmpassword')
                     WHERE id=".$_GET['id'];
 
-                mysqli_query($connection, $sqlpass);
+                $sqlpassresult = $connection->query($sqlpass);
             }
 
             $messages[] = "Update Successful!!!!!";
 
-            
-            header('location:index.php');
+            if(!$updateresult){
+                echo $connection->error;
+            }else{
+                header('location:index.php');
+            }
         }
 
 	}

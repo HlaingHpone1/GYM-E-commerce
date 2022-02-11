@@ -1,8 +1,8 @@
 <?php require("./header.php"); ?>
 
     <div class="banner" id="servicebanner">
-		<h1 class="fs-1">Service</h1>
-		<p>Home / Pages / Service</p>
+		<h1 class="fs-1">WorkShop Services</h1>
+		<p>Home / Pages / WorkShop Services</p>
 	</div>
 
 	<div class="container-fluid service_section mybg-dark">

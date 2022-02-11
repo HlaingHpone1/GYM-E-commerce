@@ -6,9 +6,9 @@
 
 	$result = mysqli_query($connection, $sql);
 
-	$sidesql = "SELECT * FROM products WHERE id = ".rand(1, 2);
-	$sidesql1 = "SELECT * FROM products WHERE id = ".rand(1, 2);
-	$sidesql2 = "SELECT * FROM products WHERE id = ".rand(1, 2);
+	$sidesql = "SELECT * FROM products WHERE id = ".rand(1, 4);
+	$sidesql1 = "SELECT * FROM products WHERE id = ".rand(1, 4);
+	$sidesql2 = "SELECT * FROM products WHERE id = ".rand(1, 4);
 
 	$sideresult = mysqli_query($connection,$sidesql);
 	$sideresult1 = mysqli_query($connection,$sidesql1);
@@ -51,8 +51,10 @@ require("./header.php");
 								<div class="col-xl-6 col-lg-12 product">
 									<div class="p-4">
 										<div class="d-flex justify-content-between align-items-center">
-											<div class="d-flex align-items-center"> <i class="fa fa-long-arrow-left"></i> 
-											<a href="./product.php" class="text-decoration-none text-dark"><span class="ms-2">Back</span> </div> <i class="fa fa-shopping-cart text-muted"></i></a>
+											<div class="d-flex align-items-center">
+												
+												<a href="./product.php" class="text-decoration-none text-dark"><i class="fa fa-long-arrow-left"></i> <span class="ms-2">Back</span> </a>
+											</div> 
 										</div>
 										<div class="mt-4 mb-3">
 											<h5 class="text-uppercase"><?php echo $row['name']; ?></h5>
@@ -118,7 +120,7 @@ require("./header.php");
 					?>
 					<div class="card p-0">
 						<div class="row w-100 m-0">
-							<div class="col-xl-6 col-lg-12">
+							<div class="col-xl-6 col-lg-12 p-0">
 								<div class="images">
 									<div class="text-center">
 										<img id="main-image w-100" src="admin/product/f_img/<?php echo $siderow['f_img']; ?>" alt="this is product_image">
@@ -146,7 +148,7 @@ require("./header.php");
 					?>
 					<div class="card p-0">
 						<div class="row w-100 m-0">
-							<div class="col-xl-6 col-lg-12">
+							<div class="col-xl-6 col-lg-12 p-0">
 								<div class="images">
 									<div class="text-center">
 										<img id="main-image w-100" src="admin/product/f_img/<?php echo $siderow1['f_img']; ?>" alt="this is product_image">
@@ -174,7 +176,7 @@ require("./header.php");
 					?>
 					<div class="card p-0">
 						<div class="row w-100 m-0">
-							<div class="col-xl-6 col-lg-12">
+							<div class="col-xl-6 col-lg-12 p-0">
 								<div class="images">
 									<div class="text-center">
 										<img id="main-image w-100" src="admin/product/f_img/<?php echo $siderow2['f_img']; ?>" alt="this is product_image">

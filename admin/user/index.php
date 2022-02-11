@@ -3,9 +3,8 @@
     require_once("../dbconfig.php");
 
 	$sql = "SELECT * FROM users";
-
     $result = mysqli_query($connection, $sql);
-	
+
 ?>
 	<div class="container-fluid">
 			<div class="row">
@@ -18,7 +17,15 @@
 					if(!empty($_SESSION['success_add_message'])){
 						echo $_SESSION['success_add_message'];
 					}
+					if(!empty($_SESSION['Welcome'])){
+						echo $_SESSION['Welcome'];
+					}
+					if(!empty($_SESSION['success_update'])){
+						echo $_SESSION['success_update'];
+					}
+					unset($_SESSION['success_update']);
 					unset($_SESSION['success_add_message']);
+					unset($_SESSION['Welcome']);
 				?>
 				<div class="col-md-12"><a href="./add.php" class="btn btn-success mb-3 float-end"><i class="fas fa-user me-2"></i>Add User</a></div>
 				<div class="col-md-12 mb-3">
@@ -53,10 +60,10 @@
 								?>
 
 								<tr class="text-center">
-									<td class="text-break"><?php echo $row['id']; ?></td>
-									<td class="text-break"><?php echo $row['username']; ?></td>
-									<td class="text-break"><?php echo $row['email']; ?></td>
-									<td class="text-break"><?php echo $row['phone']; ?></td>
+									<td class="text-break text-wrap"><?php echo $row['id']; ?></td>
+									<td class="text-break text-wrap"><?php echo $row['username']; ?></td>
+									<td class="text-break text-wrap"><?php echo $row['email']; ?></td>
+									<td class="text-break text-wrap"><?php echo $row['phone']; ?></td>
 									<td >
 										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>
 									</td>

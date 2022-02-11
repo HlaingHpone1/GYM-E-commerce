@@ -15,8 +15,8 @@
         $question = $_POST['question'];
         $answer = $_POST['answer'];
 
-        $sql = "UPDATE `faq` SET `user_id` = '$user_id', `question` = '$question', `answer` = '$answer'
-        WHERE `faq`.`id` = ".$id;
+
+        $sql = "UPDATE `faq` SET `user_id` = '$user_id', `question` = '$question', `answer` ='$answer' WHERE `faq`.`id` = ".$id;
 
         $result = mysqli_query($connection, $sql);
 
@@ -25,7 +25,6 @@
         }else{
             header('location:index.php');
         }
-
         $connection->close();
     }
 
@@ -46,8 +45,10 @@ include('./header.php');
                             $user_result = $connection->query($user_sql); 
                         ?>
                         <div class="form-floating mb-3">
+                            
                             <select class="form-select" name="user_id" id="floatingSelect" aria-label="Floating label select example">
                             <?php
+                                if($user_result->num_rows > 0){
                                     while($user_row = mysqli_fetch_assoc($user_result)){
                                     ?>
                                 <option value="<?php echo $user_row['id']; ?>" <?php echo ($user_row['id'] == $row['user_id'])?"selected":"" ?> >
@@ -55,6 +56,9 @@ include('./header.php');
                                 </option>
                                 <?php
                                     }
+                                }else{
+                                    echo"There is No record";
+                                }
                                 ?>
                             </select>
                             <label for="floatingSelect">User Name</label>

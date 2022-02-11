@@ -46,8 +46,10 @@
 								<i class="fa fa-star-half-alt mypricolor"></i>
 							</li>
 						</ul>
-					<?php echo substr($row['description'],0, 30); ?>
-					<p class="card__description text-muted"></p>
+					
+					<p class="card__description text-muted">
+						<?php echo substr($row['description'],0, 150)."...."; ?>
+					</p>
 					<a href="./featured.php?id=<?php echo $row['id']; ?>" role="button" class="btn product_btn">Shop Now</a>
 				</div>
 			</div>
@@ -55,37 +57,10 @@
 					}
 				?>
 			<?php
+				}else{
+					echo"There is No Record";
 				}
 			?>
-			
-			<!-- <img class="w-100 product_img" src="admin/product/f_img/" alt="this is product_image" class="card__img">
-				<div class="card__content text-center">
-					<h2 class="card__title mb-1">Sportsroyals Stair Stepper with Resistance Band and Vertical Climber</h2>
-					<p class="card__price">$1550</p>
-					<ul class="list-inline small">
-							<li class="list-inline-item m-0 ">
-								(4.55)
-							</li>
-							<li class="list-inline-item m-0">
-								<i class="fa fa-star mypricolor"></i>
-							</li>
-							<li class="list-inline-item m-0">
-								<i class="fa fa-star mypricolor"></i>
-							</li>
-							<li class="list-inline-item m-0">
-								<i class="fa fa-star mypricolor"></i>
-							</li>
-							<li class="list-inline-item m-0">
-								<i class="fa fa-star mypricolor"></i>
-							</li>
-							<li class="list-inline-item m-0">
-								<i class="fa fa-star-half-alt mypricolor"></i>
-							</li>
-						</ul>
-					<p class="card__description text-muted">Our mini stair stepper - A great partner for indoor-exercises! Simple function combine with high-quality steel material, suitable for all family member's exercise.</p>
-					<a href="./featured.php" role="button" class="btn product_btn">Shop Now</a>
-				</div>
-			</div> -->
 			<!-- <div class="productcard stacked">
 				<img src="img/product/product11.jpg" alt="this is product photo" class="card__img" />
 				<div class="card__content text-center">

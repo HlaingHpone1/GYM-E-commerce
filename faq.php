@@ -38,6 +38,8 @@
                 
 
                 <?php  
+                    }else{
+                        echo"No Records.";
                     }
                 ?>
             </div>

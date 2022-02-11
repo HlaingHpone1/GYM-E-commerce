@@ -24,6 +24,10 @@ button {
 	width: var(--offcanvas-width);
 }
 
+.text-justify {
+	text-align: justify;
+}
+
 .sidebar-link {
 	display: flex;
 	align-items: center;
@@ -35,6 +39,19 @@ button {
 
 .sidebar-link[aria-expanded="true"] .right-icon {
 	transform: rotate(180deg);
+}
+
+table.dataTable tbody tr {
+	background-color: #9fa0a2;
+}
+
+table.dataTable.table-striped > tbody > tr.odd {
+	background-color: #ffffb2;
+}
+
+table.dataTable tbody tr:hover,
+table.dataTable.table-striped > tbody > tr.odd:hover {
+	background-color: #b0b1a5;
 }
 
 .form_login {

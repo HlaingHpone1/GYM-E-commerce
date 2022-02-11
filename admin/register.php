@@ -51,7 +51,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' AND !empty($_POST)){
             }else{
                 header('location:index.php');
             }
-        $messages[] = "Successful!!!";
+        $messages[] = "Acc Successful!!!. Plz log in";
         
     }
     $connection->close();
@@ -76,7 +76,7 @@ include('./header.php');
                                 foreach ($messages as $message) {
                                     $success = "<p class='text-success fs-4'>". $message."</p>";
                                 }
-                                $_SESSION['success_add_message'] = $success;
+                                $_SESSION['success_create'] = $success;
                             }
                             ?>
                         <div class="mb-3">
@@ -112,7 +112,7 @@ include('./header.php');
                         <button type="submit" class="btn login_btn mb-3">Submit</button>
                         
                         <div class="mb-3 d-flex justify-content-between">
-                            <a class="text-decoration-none mb-3 singup_link" href="./login.php">Already Acc?</a>                      
+                            <a class="text-decoration-none mb-3 singup_link" href="./index.php">Already Acc?</a>                      
                         </div>
                     </form>
                 </div>

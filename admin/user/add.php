@@ -52,7 +52,6 @@
                     header('location:index.php');
                 }
             $messages[] = "Create Successful!!!";
-            
         }
         $connection->close();
     }

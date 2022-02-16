@@ -1,4 +1,3 @@
-
 	<!-- Footer Start -->
 	<footer class="footer_section">
 		<div class="container">
@@ -9,17 +8,13 @@
 						<i class="fal fa-map-marker-alt"></i>
 						No.9 Kabar Aye Pagoda Rd, Yangon, Myanmar (Burma)
 					</p>
-
 					<p class="text-justify footer_text">
 						<i class="fas fa-phone-alt"></i> <a href="tel:+959753159789" class="text-decoration-none text-white">+95-9-753159789</a>, <a href="tel:+959753159788" class="text-decoration-none text-white">+95-9-753159788</a>
 					</p>
-
 					<p class="text-justify footer_text">
 						<i class="fas fa-envelope"></i> <a href="mailto:info@hge.com.mm" class="text-decoration-none text-white">info@hge.com.mm</a>
 					</p>
-
 				</div>
-
 				<div class="col-xs-6 col-lg-3">
 					<h6>Quick Links</h6>
 					<ul class="footer-links">
@@ -29,7 +24,6 @@
 						<li><a href="./workshopservices.php">WorkShop Services</a></li>
 					</ul>
 				</div>
-
 				<div class="col-xs-6 col-lg-5">
 					<h6>Get Regular Update From us</h6>
 					<form action="#" class="subscribe-form">
@@ -51,7 +45,6 @@
 						Copyright &copy; <span id="year"></span> All Rights Reserved | <a class="copyright_link" href="./privacy.php">privacy policy</a> | <a class="copyright_link" href="./cookie.php">cookie policy</a>| <a class="copyright_link" href="./faq.php">FAQs</a>
 					</p>
 				</div>
-
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<ul class="social-icons">
 						<li>
@@ -82,10 +75,7 @@
 		let date = new Date();
 		let utcyear = date.getUTCFullYear();
 		document.getElementById("year").textContent = utcyear;
-	
-		
 	</script>
-
 	<script type="text/javascript" id="cookieinfo"
 		src="//cookieinfoscript.com/js/cookieinfo.min.js"
 		data-height="75px"
@@ -98,5 +88,4 @@
 		data-font-family="'Roboto Slab', serif">
 	</script>
 </body>
-
 </html>

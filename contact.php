@@ -1,10 +1,8 @@
 <?php require("./header.php"); ?>
-
     <div class="banner" id="contactbanner">
 		<h1 class="fs-1">Contact Us</h1>
 		<p>Home / Pages / Contact Us</p>
 	</div>
-
     <div class="container-fluid mybg-dark pb-0">
         <div class="row contant_info">
             <div class="col-lg-6 col-md-12 text-white text-center">
@@ -27,17 +25,14 @@
                             <input type="text" name="" required="" />
                             <label for="name">Name</label>
                         </div>
-
                         <div>
                             <input type="text" name="" required="" />
                             <label for="email">Email</label>
                         </div>
-
                         <div>
                             <input type="text" name="" required="" />
                             <label for="name">Phone</label>
                         </div>
-
                         <div>
                             <textarea required=""></textarea>
                             <label>Message</label>
@@ -47,7 +42,6 @@
                 </div>
             </div>
         </div>
-
         <div class="row m-0  ">
             <div class="col-md-12 location_section">
                 <h1 class="pt-5 fw-bolder">HEG Shopping Center</h1>
@@ -57,5 +51,4 @@
             </div>
         </div>
     </div>
-
 <?php require_once("./footer.php"); ?>

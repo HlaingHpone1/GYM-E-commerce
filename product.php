@@ -1,11 +1,8 @@
 <?php include("./header.php"); ?>
-
-
 	<div class="banner" id="productbanner">
 		<h1 class="fs-1">Product</h1>
 		<p>Home / Pages / Product</p>
 	</div>
-
 	<!-- product card container start -->
 	<div class="gallery_container py-5">
 		<div class="product-grid">
@@ -46,7 +43,6 @@
 								<i class="fa fa-star-half-alt mypricolor"></i>
 							</li>
 						</ul>
-					
 					<p class="card__description text-muted">
 						<?php echo substr($row['description'],0, 150)."...."; ?>
 					</p>
@@ -61,11 +57,9 @@
 					echo"There is No Record";
 				}
 			?>
-			
 		</div>
 	</div>
 	<!-- product card container end -->
-
 	<!-- load f role="button"or more btn start -->
 	<div class="container-fluid">
 		<div class="row mybg-dark">
@@ -74,8 +68,5 @@
 			</div>
 		</div>
 	</div>
-
 	<!-- load f role="button"or more btn start -->
-
 <?php include("./footer.php"); ?>
-	

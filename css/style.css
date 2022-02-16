@@ -89,8 +89,6 @@ body {
 .cookie_bar {
 	padding: 1rem 5rem;
 
-	/* width: 100%; */
-
 	background-color: rgba(28, 29, 32, 0.75);
 
 	justify-content: space-between;
@@ -870,7 +868,7 @@ picture {
 .productcard:hover .card__img {
 	filter: brightness(80%);
 }
-
+/*  */
 .gallery_container .product_btn {
 	padding: 5px 15px;
 
@@ -892,232 +890,6 @@ picture {
 /* Product page End */
 
 /* About us page start */
-
-.infoproduct_header {
-	margin: 20px 0;
-
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 26px;
-	font-weight: 300;
-
-	color: #000;
-
-	position: relative;
-}
-
-.infoproduct_header::after {
-	content: "";
-
-	margin: 0 auto;
-
-	width: 100px;
-	height: 4px;
-
-	border-radius: 1px;
-
-	background: var(--seccolor);
-
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: -20px;
-}
-
-.product_slider {
-	margin: 50px auto;
-	padding: 0 70px;
-}
-
-.product_slider .item {
-	min-height: 450px;
-
-	text-align: center;
-
-	color: #000000;
-	overflow: hidden;
-}
-
-.product_slider .thumb-wrapper {
-	padding: 20px 15px;
-
-	text-align: center;
-
-	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
-
-	border-radius: 6px;
-
-	background: #fff;
-
-	position: relative;
-}
-
-.product_slider .carousel-indicators {
-	margin-bottom: -3.5rem;
-}
-
-.product_slider .carousel-indicators [data-bs-target] {
-	width: 15px;
-	height: 10px;
-}
-
-.product_slider .carousel-indicators > .active {
-	width: 75px;
-	height: 10px;
-
-	opacity: 1;
-}
-
-.product_slider .item .img-box {
-	margin-bottom: 20px;
-
-	width: 100%;
-	height: 250px;
-
-	position: relative;
-}
-
-.product_slider .item img {
-	width: 100%;
-	height: 100%;
-
-	object-fit: cover;
-
-	display: inline-block;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-
-.product_slider .item h4 {
-	font-size: 1.5rem;
-}
-
-.product_slider .item h4,
-.product_slider .item p,
-.product_slider .item ul {
-	margin-bottom: 5px;
-}
-
-.product_slider .thumb-content .btn {
-	padding: 6px 14px;
-	margin-top: 5px;
-
-	line-height: 16px;
-
-	font-size: 11px;
-	text-transform: uppercase;
-	font-weight: bold;
-
-	border: 1px solid #000000;
-	border-radius: 20px;
-
-	color: #000000;
-
-	background: none;
-}
-
-.product_slider .thumb-content .btn:hover,
-.product_slider .thumb-content .btn:focus {
-	box-shadow: none;
-
-	color: #fff;
-	background: #000;
-}
-
-.product_slider .thumb-content .btn i {
-	margin-left: 5px;
-
-	font-size: 14px;
-	font-weight: bold;
-}
-
-.product_slider .item-price {
-	padding: 2px 0;
-
-	font-size: 0.9rem;
-	font-weight: 900;
-
-	color: #b22222;
-}
-
-.product_slider .item-price strike {
-	opacity: 0.7;
-	margin-right: 5px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-	margin: auto 0;
-
-	height: 44px;
-	width: 40px;
-
-	border-radius: 4px;
-
-	background: var(--thirdcolor);
-	opacity: 0.8;
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-	background: #c7c769;
-	opacity: 1;
-}
-
-.carousel-control-prev i,
-.carousel-control-next i {
-	margin: -19px 0 0 0;
-
-	font-size: 36px;
-	font-weight: bold;
-
-	text-shadow: none;
-
-	color: #fff;
-
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-
-	z-index: 5;
-
-	display: inline-block;
-}
-
-.carousel-control-prev i {
-	margin-left: -2px;
-}
-
-.carousel-control-next i {
-	margin-right: -4px;
-}
-
-.product_slider .wish-icon {
-	position: absolute;
-	right: 10px;
-	top: 10px;
-	z-index: 99;
-	cursor: pointer;
-	font-size: 16px;
-	color: #abb0b8;
-}
-
-.product_slider .wish-icon .fa-heart {
-	color: #ff6161;
-}
-
-.star-rating li {
-	padding: 0;
-}
-
-.star-rating i {
-	font-size: 14px;
-	color: #ffc000;
-}
-
 .info_row {
 	padding: min(7%, 3.125rem);
 }
@@ -1172,7 +944,6 @@ picture {
 /* About us page End */
 
 /* Contact Us Start */
-
 .box {
 	padding: 20px 40px 40px 40px;
 
@@ -1378,7 +1149,6 @@ picture {
 /* service End */
 
 /* feature or product deatail start */
-
 .card {
 	border: none;
 
@@ -1457,7 +1227,6 @@ label.radio input:checked + span {
 /* feature or product deatail End */
 
 /* Payment start */
-
 .card .inputbox .form-control {
 	border-bottom: 2px solid #eee !important;
 	border: none;
@@ -1541,11 +1310,9 @@ input::-webkit-inner-spin-button {
 	text-decoration: none;
 	color: #fdcc49;
 }
-
 /* Payment end */
 
 /* FAQ start */
-
 details > summary {
 	padding: 8px;
 	padding-left: 2.2rem;
@@ -1595,11 +1362,9 @@ details[open] > summary:before {
 	transform: rotate(90deg);
 	border-color: transparent transparent transparent var(--firstcolor);
 }
-
 /* FAQ end */
 
 /* View Counter start */
-
 .website-counter {
 	display: flex;
 	justify-content: center;

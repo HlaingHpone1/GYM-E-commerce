@@ -15,13 +15,9 @@
 	<link rel="stylesheet" href="./css/header_footer_loader.css" />
 	<link rel="stylesheet" href="./css/style.css" />
 	<link rel="stylesheet" href="./css/mediaquery.css" />
-
-
-
 </head>
 
 <body>
-
 	<!-- loader start -->
 	<div class="loader_container" id="loader">
 		<div class="loading" id="loader">
@@ -29,10 +25,7 @@
 		</div>
 	</div>
 	<!-- loader end -->
-
-	
 	<!-- Nav bar start -->
-
 	<nav class="navbar navbar-expand-lg py-2">
 		<div class="container-fluid">
 			<a class="navbar-brand fs-1" href="./index.php">
@@ -56,13 +49,11 @@
 					</li>
 					<li class="nav-item">
 						<a
-
 						<?php if ($_SERVER['SCRIPT_NAME'] == "/hlainghpone_dw5/product.php") { ?> 
 							class="nav-link active" 
 						<?php   } else {  ?>
 							class="nav-link"
 						<?php } ?>
-
 						href="./product.php">Products</a>
 					</li>
 					<li class="nav-item">
@@ -102,9 +93,7 @@
 					</li>
 				</ul>
 			</div>
-
 			<a href="./signup.php" class="btn joinbtn">Sign Up</a>
 		</div>
 	</nav>
-
 	<!-- Nav bar End -->

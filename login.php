@@ -25,33 +25,25 @@
                                 </li>
                             </ul>
                         </div>
-
                         <div class="divider d-flex align-items-center my-4">
                             <p class="text-center fw-bold mx-3 mb-0">Or</p>
                         </div>
-
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" autocomplete="off">
                         </div>
-
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1" autocomplete="off">
                         </div>
-
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Remember Me</label>
                         </div>
-
                         <button type="submit" class="btn login_btn mb-3">Submit</button>
-                        
                         <div class="mb-3 d-flex justify-content-between">
                             <a class="text-decoration-none mb-3 singup_link" href="signup.php">Create Account?</a>                    
                         </div>
-
-                        
                     </form>
                 </div>
             </div>

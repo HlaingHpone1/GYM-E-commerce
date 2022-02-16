@@ -1,5 +1,4 @@
 <?php require("./header.php"); ?>
-
     <div class="container-fluid px-5 mybg-dark">
         <div class="mb-4 text-white">
             <h2>Confirm order and pay</h2> <span>please make the payment, after that you can enjoyyour product in few days</span>
@@ -59,7 +58,5 @@
                 <div class="mt-4 mb-4 d-flex justify-content-center "> <button class="btn buy_btn px-3 fs-4 fw-blod">Pay Now</button> </div>
             </div>
         </div>
-
     </div>
-
 <?php require("./footer.php"); ?>

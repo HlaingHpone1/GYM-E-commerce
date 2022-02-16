@@ -97,7 +97,6 @@ body {
 /* loader end */
 
 /* Nav bar start */
-
 .navbar {
 	padding: min(7%, 3.125rem);
 	padding-top: 5px;
@@ -180,11 +179,9 @@ body {
 	color: #222;
 	background-color: var(--seccolor);
 }
-
 /* Nav bar End */
 
 /* Footer Start */
-
 .footer_section {
 	padding: min(7%, 3.125rem);
 

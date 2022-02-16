@@ -1,10 +1,8 @@
 <?php require("./header.php"); ?>
-
     <div class="banner" id="aboutbanner">
 		<h1 class="fs-1">Privacy Policy Page</h1>
 		<p>Home / Pages / Privacy Policy Page</p>
 	</div>
-
 	<div class="container-fluid text-white mybg-dark">
 		<div class="row">
 			<div class="col-md-8 offset-md-2 ">
@@ -16,21 +14,18 @@
 						When you purchase, we need to know your name, e-mail address, mailing address, credit card number, and expiration date. This allows us to process and fulfill your order and to notify you of your order status. When you enter a contest or other promotional feature, we may ask for your name, address, and e-mail address so we can administer the contest and notify winners.
 					</p>
 				</details>
-
 				<details class="mb-5 w-100">
 					<summary class="fw-bolder fs-2 text-capitalize text-center">How Does Hge International, Llc Protect Customer Information?</summary>
 					<p class="text-justify">
 						We use a Secure Server for collecting personal and credit card information. The secure server layer (SSL) encrypts (scrambles) all of the information you enter before it is transmitted over the internet and sent to us. Furthermore, all of the customer data we collect is protected against unauthorized access
 					</p>
 				</details>
-
 				<details class="mb-5 w-100">
 					<summary class="fw-bolder fs-2 text-capitalize text-center">How do we use your information?</summary>
 					<p class="text-justify">
 						We may use your information for purposes, including, to provide and service your Crunch membership, to provide member support, to provide and service the Crunch website and app, to communicate special offers, promotions and information about our company to you via email and/or via text message, and to compile usage statistics and other data regarding the use of the Web site services.
 					</p>
 				</details>
-
 				<details class="mb-5 w-100">
 					<summary class="fw-bolder fs-2 text-capitalize text-center">How do we use your email information?</summary>
 					<p class="text-justify">

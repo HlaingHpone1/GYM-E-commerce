@@ -1,8 +1,6 @@
 <?php require("header.php"); ?>
 	<!-- Img slider start -->
-
 	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
 		<div class="carousel-inner index_slider">
 			<div class="carousel-item active">
 				<img src="./img/product/product1.jpg" class="d-block w-100" alt="this is slider">
@@ -12,12 +10,10 @@
 					<p class="mb-5">
 						it represents a common area where people, from all ranges of experience, exercise and work out
 						their muscles. You can also usually find people doing cardio exercises or pilates.
-
 					</p>
 					<a class="getstartbtn"  role="button" href="login.php">Get started</a>
 				</div>
 			</div>
-
 			<div class="carousel-item">
 				<img src="./img/product/product2.jpg" class="d-block w-100" alt="this is slider">
 				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
@@ -31,10 +27,8 @@
 						can boost your confidence and improve your self-esteem.
 					</p>
 					<a class="getstartbtn" href="login.php">Get started</a>
-
 				</div>
 			</div>
-
 			<div class="carousel-item">
 				<img src="./img/product/product3.jpg" class="d-block w-100" alt="this is slider">
 				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
@@ -42,16 +36,13 @@
 					<p class="mb-5">
 						Winded by grocery shopping or household chores? Regular physical activity can improve your
 						muscle strength and boost your endurance.
-
 						Exercise delivers oxygen and nutrients to your tissues and helps your cardiovascular system work
 						more efficiently. And when your heart and lung health improve, you have more energy to tackle
 						daily chores.
 					</p>
 					<a class="getstartbtn" href="login.php">Get started</a>
-
 				</div>
 			</div>
-
 			<div class="carousel-item">
 				<img src="./img/product/product4.jpg" class="d-block w-100" alt="this is slider">
 				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
@@ -64,7 +55,6 @@
 					<a class="getstartbtn" href="login.php">Get started</a>
 				</div>
 			</div>
-
 			<div class="carousel-item">
 				<img src="./img/product/product5.jpg" class="d-block w-100" alt="this is slider">
 				<div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
@@ -75,11 +65,9 @@
 						connect with family or friends in a fun social setting.
 					</p>
 					<a class="getstartbtn" href="login.php">Get started</a>
-
 				</div>
 			</div>
 		</div>
-
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
 				aria-current="true" aria-label="Slide 1"></button>
@@ -92,7 +80,6 @@
 			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
 				aria-label="Slide 5"></button>
 		</div>
-
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
 			data-bs-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -104,12 +91,9 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-
 	<!-- Img slider End -->
 
-
 	<div class="container-fluid">
-
 		<!-- Search bar start -->
 		<div class="row">
 			<div class="col-md-12 search_section py-5">
@@ -132,17 +116,13 @@
 			</div>
 		</div>
 		<!-- Search bar End -->
-
 		<!-- Marquee start -->
 		<div class="row">
 			<div class="col-lg-12 text-white bg-dark">
 				<marquee class="slide_text" direction="" scrollamount="15">Create Your Own Modern Private Gym</marquee>
-
 			</div>
 		</div>
 		<!-- marquee End -->
-
-
 		<!-- Products start -->
 		<div class="row pb-5 mybg-dark">
 			<h1 class="fs-1 text-center text-white mb-5 mytext_shadow_1 fw-bolder">Best Selling <span class="mytext_shadow_2">Products</span></h1>
@@ -185,7 +165,6 @@
 								<i class="far fa-star mypricolor"></i>
 							</li>
 						</ul>
-
 						<a class="btn w-100" href="./payment.php" role="button">Buy now</a>
 					</div>
 				</div>
@@ -235,7 +214,6 @@
 					</div>
 				</div>
 			</div>
-
 			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
 				<!-- Card-->
 				<div class="card rounded h-100 shadow-sm border-0 card_background">
@@ -280,7 +258,7 @@
 					</div>
 				</div>
 			</div>
-
+			
 			<div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
 				<!-- Card-->
 				<div class="card rounded h-100 shadow-sm border-0 card_background">

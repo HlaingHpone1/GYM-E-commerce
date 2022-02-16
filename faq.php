@@ -15,9 +15,7 @@
                         require('./admin/dbconfig.php');
                         $sql = "SELECT faq.*, users.username
                         FROM  `faq` INNER JOIN users ON faq.user_id = users.id";
-
                         $result = mysqli_query($connection, $sql);
-
                     ?>
                     <?php
                         if($result->num_rows > 0){
@@ -35,8 +33,6 @@
                     }
                 ?>
                 </div>
-                
-
                 <?php  
                     }else{
                         echo"No Records.";
@@ -44,7 +40,4 @@
                 ?>
             </div>
         </div>
-
-
-
 <?php require("./footer.php") ?>

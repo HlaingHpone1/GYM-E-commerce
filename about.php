@@ -1,12 +1,9 @@
 <?php require("./header.php"); ?>
-
 	<div class="banner" id="aboutbanner">
 		<h1 class="fs-1">About Us</h1>
 		<p>Home / Pages / About Us</p>
 	</div>
-
 	<div class="container-fluid bg-dark ">
-
 		<div class="row info_row">
 			<div class="col-lg-6 text-white text-justify py-5 infostory">
 				<h2 class="fs-2 mb-4 fw-bold text-center">Story of Dragon World</h2>
@@ -32,7 +29,6 @@
 				The pandemic caused a surge in online shopping and resulted in shortages of household staples both online and some brick-and-mortar stores. From March 17 to April 10, 2020, HGE warehouses stopped accepting non-essential items from third-party sellers. The company hired approximately 175,000 additional warehouse workers and delivery contractors to deal with the surge, and temporarily raised wages by $2/hour.
 				</p>
 			</div>
-
 			<div class="col-lg-6 text-white">
 				<h1 class="fs-1 text-center">Our <span class="mytext_shadow_2">Vision</span></h1>
 				<p class="info_text">
@@ -52,7 +48,6 @@
 				</p>
 			</div>
 		</div>
-
 		<div class="row">
 			<h1 class="fs-1 text-white text-center mb-5 fw-bolder mytext_shadow_1">
 				Our Happy <span class="mytext_shadow_2">Customer</span>  Say
@@ -217,7 +212,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="row text-center text-white my-padding py-3  ">
 			<div class="col-lg-4 col-md-6 d-flex justify-content-center mb-5 mb-lg-0">
 				<i class="fal fa-shipping-fast fs-1"></i>
@@ -247,7 +241,6 @@
 				</div>
 			</div>
 		</div>
-		
 		<div class="row text-center text-white my-padding py-3  ">
 			<div class="col-lg-4 col-md-6 d-flex justify-content-center mb-5 mb-lg-0 offset-lg-2">
 				<i class="fas fa-envelope fs-1"></i>
@@ -270,7 +263,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="row pt-3 pb-0">
 			<div class="col-md-12 text-white text-center">
 				<p class="fs-1 mt-3">Trusted by companies of all sizes</p>
@@ -280,10 +272,5 @@
 			<div class="col-xl-3 col-lg-5 offset-lg-1 offset-xl-0 col-md-6 mybg-dark"><img class="w-100 my-5" src="./img/partner/partner3.png" alt="this is partner3"></div>
 			<div class="col-xl-3 col-lg-5 col-md-6 bg-white"><img class="w-100 my-5" src="./img/partner/partner5.png" alt="this is partner5"></div>
 		</div>
-
 	</div>
-
-
-	
-
 <?php require_once("./footer.php"); ?>

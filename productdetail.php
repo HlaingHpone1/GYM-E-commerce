@@ -16,12 +16,10 @@
 
 	require("./header.php");
 ?>
-
     <div class="banner" id="featurebanner">
 		<h1 class="fs-1">Product Deatails</h1>
 		<p>Home / Pages / Product Deatails</p>
 	</div>
-
 	<div class="container-fluid mybg-dark">
             
 		<div class="row d-flex justify-content-center">
@@ -81,7 +79,6 @@
 											</li>
 										</ul>
 										<p><?php echo $row['description']; ?></p>
-										
 										<div class="cart mt-4 align-items-center">
 											<a class="btn btn_sec text-uppercase me-3 px-4 " href="./payment.php">Buy Now</a>
 										</div>
@@ -89,7 +86,6 @@
 								</div>
 							</div>
 						</div>
-						
 					</div>
 					<div class="row text-dark text-justify mybg-seccolor rounded-3 mt-5 p-2">
 						<div class="col-md-12">
@@ -107,10 +103,7 @@
 					?>
 				</div>
 			</div>
-
 			<div class="col-lg-4 d-none d-lg-block">
-				
-					
 				<div class="row mb-5">
 					<?php
 						if($sideresult->num_rows > 0){
@@ -225,8 +218,6 @@
 						}
 					?>
 				</div>
-					
-					
 			</div>
 		</div>
 	</div>

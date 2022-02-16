@@ -68,10 +68,10 @@
 									<td class="text-break text-wrap"><?php echo $row['description']; ?></td>
 									<td class="text-break text-wrap "><?php echo $row['review']; ?></td>
 									<td>
-										<img class="w-100 product_img" src="f_img/<?php echo $row['f_img'] ?>" alt="this is product_image">
+										<img class="w-100 product_img" src="f_img/<?php echo $row['f_img']; ?>" alt="this is product_image">
 									</td>
 									<td>
-										<img class="w-100 product_img" src="s_img/<?php echo $row['s_img'] ?>" alt="this is product_image">
+										<img class="w-100 product_img" src="s_img/<?php echo $row['s_img']; ?>" alt="this is product_image">
 									</td>
 									<td>
 										<a href="edit.php?id=<?php echo $row['id']; ?>" class="btn btn-primary btn-sm"> <i class="far fa-edit me-2"></i>Edit</a>

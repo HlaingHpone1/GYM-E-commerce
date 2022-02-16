@@ -13,16 +13,16 @@
                 require('./admin/dbconfig.php');
 				$sql = "SELECT * FROM products";
 
-                $result = mysqli_query($connection, $sql);
+                $result = $connection->query($sql);
             ?>
             <?php
                 if($result->num_rows > 0){
             ?>
 				<?php
-                    while($row = mysqli_fetch_assoc($result)){
+                    while($row = $result->fetch_assoc()){
                 ?>
 			<div class="productcard stacked">
-			<img class="w-100 product_img" src="admin/product/f_img/<?php echo $row['f_img'] ?>" alt="this is product_image" class="card__img">
+			<img class="w-100 product_img card__img" src="admin/product/f_img/<?php echo $row['f_img']; ?>" alt="this is product_image">
 				<div class="card__content text-center">
 					<h2 class="card__title mb-1"><?php echo $row['name']; ?></h2>
 					<p class="card__price"><?php echo "$ ".$row['price']; ?></p>

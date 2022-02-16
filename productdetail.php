@@ -4,18 +4,17 @@
 	$id = $_GET['id'];
 	$sql = "SELECT * FROM products WHERE id=".$id;
 
-	$result = mysqli_query($connection, $sql);
+	$result = $connection->query($sql);
 
 	$sidesql = "SELECT * FROM products WHERE id = ".rand(1, 3);
 	$sidesql1 = "SELECT * FROM products WHERE id = ".rand(5, 8);
 	$sidesql2 = "SELECT * FROM products WHERE id = ".rand(1, 8);
 
-	$sideresult = mysqli_query($connection,$sidesql);
-	$sideresult1 = mysqli_query($connection,$sidesql1);
-	$sideresult2 = mysqli_query($connection,$sidesql2);
+	$sideresult = $connection->query($sidesql);
+    $sideresult1 = $connection->query($sidesql1);
+    $sideresult2 = $connection->query($sidesql2);
 
-
-require("./header.php");
+	require("./header.php");
 ?>
 
     <div class="banner" id="featurebanner">
@@ -32,7 +31,7 @@ require("./header.php");
 						if($result->num_rows > 0){
 					?>
 						<?php
-							while($row = mysqli_fetch_assoc($result)){
+							while($row = $result->fetch_assoc()){
 						?>
 					<div class="row">
 						<div class="card p-0">
@@ -81,7 +80,7 @@ require("./header.php");
 												<i class="far fa-star mypricolor"></i>
 											</li>
 										</ul>
-										<p class="about"><?php echo $row['description']; ?></p>
+										<p><?php echo $row['description']; ?></p>
 										
 										<div class="cart mt-4 align-items-center">
 											<a class="btn btn_sec text-uppercase me-3 px-4 " href="./payment.php">Buy Now</a>
@@ -94,7 +93,7 @@ require("./header.php");
 					</div>
 					<div class="row text-dark text-justify mybg-seccolor rounded-3 mt-5 p-2">
 						<div class="col-md-12">
-							<h1 class="fs-1 text-center">Review</h1>
+							<h1 class="fs-1 text-center">Product Review</h1>
 							<p><?php echo $row['review']; ?></p>
 						</div>
 					</div>
@@ -110,13 +109,14 @@ require("./header.php");
 			</div>
 
 			<div class="col-lg-4 d-none d-lg-block">
-				<?php
-					if($sideresult->num_rows > 0){
-				?>
+				
 					
 				<div class="row mb-5">
 					<?php
-						while($siderow = mysqli_fetch_assoc($sideresult)){
+						if($sideresult->num_rows > 0){
+					?>
+					<?php
+						while($siderow = $sideresult->fetch_assoc()){
 					?>
 					<a href="./productdetail.php?id=<?php echo $siderow['id']; ?>" class="text-decoration-none text-dark fw-bolder">
 						<div class="card p-0">
@@ -143,10 +143,18 @@ require("./header.php");
 					<?php
 						}
 					?>
+					<?php
+						} else{
+							echo"There is no record";
+						}
+					?>
 				</div>
 				<div class="row mb-5">
 					<?php
-						while($siderow1 = mysqli_fetch_assoc($sideresult1)){
+						if($sideresult->num_rows > 0){
+					?>
+					<?php
+						while($siderow1 = $sideresult1->fetch_assoc()){
 					?>
 					<a href="./productdetail.php?id=<?php echo $siderow1['id']; ?>" class="text-decoration-none text-dark fw-bolder">
 						<div class="card p-0">
@@ -173,10 +181,18 @@ require("./header.php");
 					<?php
 						}
 					?>
+					<?php
+						} else{
+							echo"There is no record";
+						}
+					?>
 				</div>
 				<div class="row mb-5">
 					<?php
-						while($siderow2 = mysqli_fetch_assoc($sideresult2)){
+						if($sideresult->num_rows > 0){
+					?>
+					<?php
+						while($siderow2 = $sideresult2->fetch_assoc()){
 					?>
 					<a href="./productdetail.php?id=<?php echo $siderow2['id']; ?>" class="text-decoration-none text-dark fw-bolder">
 						<div class="card p-0">
@@ -203,13 +219,14 @@ require("./header.php");
 					<?php
 						}
 					?>
-				</div>
-					
 					<?php
 						} else{
 							echo"There is no record";
 						}
 					?>
+				</div>
+					
+					
 			</div>
 		</div>
 	</div>

@@ -156,7 +156,7 @@
 							class=" d-block mx-auto mb-3"
 						/>
 						<h5>
-							<a href="./featured.php" class="text-dark text-decoration-none"
+							<a href="./payment.php" class="text-dark text-decoration-none"
 								>Advanced Home Gym Equipment</a
 							>
 						</h5>
@@ -186,7 +186,7 @@
 							</li>
 						</ul>
 
-						<a class="btn w-100" href="./featured.php" role="button">Buy now</a>
+						<a class="btn w-100" href="./payment.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -201,7 +201,7 @@
 							class=" d-block mx-auto mb-3"
 						/>
 						<h5>
-							<a href="./featured.php" class="text-dark text-decoration-none"
+							<a href="./payment.php" class="text-dark text-decoration-none"
 								>Matrix Fitness S-Force</a
 							>
 						</h5>
@@ -231,7 +231,7 @@
 								<i class="fas fa-star-half-alt mypricolor"></i>
 							</li>
 						</ul>
-						<a class="btn w-100" href="./featured.php" role="button">Buy now</a>
+						<a class="btn w-100" href="./payment.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -246,7 +246,7 @@
 							class=" d-block mx-auto mb-3"
 						/>
 						<h5>
-							<a href="./featured.php" class="text-dark text-decoration-none"
+							<a href="./payment.php" class="text-dark text-decoration-none"
 								>Elliptical machine </a
 							>
 						</h5>
@@ -276,7 +276,7 @@
 								<i class="fa fa-star mypricolor"></i>
 							</li>
 						</ul>
-						<a class="btn w-100" href="./featured.php" role="button">Buy now</a>
+						<a class="btn w-100" href="./payment.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>
@@ -291,7 +291,7 @@
 							class=" d-block mx-auto mb-3"
 						/>
 						<h5>
-							<a href="./featured.php" class="text-dark text-decoration-none"
+							<a href="./payment.php" class="text-dark text-decoration-none"
 								>Sunny Health & Fitness P8700 Pink</a
 							>
 						</h5>
@@ -322,7 +322,7 @@
 								<i class="far fa-star mypricolor"></i>
 							</li>
 						</ul>
-						<a class="btn w-100" href="./featured.php" role="button">Buy now</a>
+						<a class="btn w-100" href="./payment.php" role="button">Buy now</a>
 					</div>
 				</div>
 			</div>

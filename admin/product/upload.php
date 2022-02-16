@@ -42,7 +42,7 @@
         if(empty($errors)){
             $sql = "INSERT INTO `products`(`name`, `price`, `description`, `review`, `f_img`, `s_img`, `created_at`, `updated_at`) VALUES ('$name','$price','$description', '$review','$f_img','$s_img', now(),now())";
         
-            $result = mysqli_query($connection, $sql);
+            $result = $connection->query($sql);
 
             if(!$result){
                 echo $connection->error;

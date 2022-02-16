@@ -1,11 +1,11 @@
 <?php
     include('./admin/dbconfig.php');
 
-    $sql = "SELECT * FROM products";
+    $sql = "SELECT * FROM faq";
     $result = $connection->query($sql);
-    while($r = mysqli_fetch_assoc ($result)){
-    $msg [] = array ("name" => $r['name'], "price" => $r['price'], "description" => $r
-    ['description'],"f_img"=>$r['f_img']);
+    while($row = $result->fetch_assoc()){
+    $msg[] = array ("no" => $row['id'], "user_id" => $row['user_id'], "question" => $row
+    ['question'],"answer"=>$row['answer']);
     }
     $json = $msg;
     header('content-type: application/json');

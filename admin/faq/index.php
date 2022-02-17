@@ -28,16 +28,12 @@
 						<div class="card-header">
 							<span><i class="fas fa-th me-2"></i></span>FAQ Data Table
 						</div>
-
 						<div class="card-body">
 							<?php 
 								if($result->num_rows > 0){
 							?>
 							<div class="table-responsive">
-							<table
-								id="datatable"
-								class="table table-striped data-table"
-							>
+							<table id="datatable" class="table table-striped data-table">
 								<thead>
 									<tr class="text-center">
 										<th >Question No.</th>
@@ -50,11 +46,9 @@
 									</tr>
 								</thead>
 								<tbody>
-								
 								<?php
 									while($row = $result->fetch_assoc()){
 								?>
-
 								<tr class="text-justify">
 									<td><?php echo $row['id']; ?></td>
 									<td><?php echo $row['user_id']; ?></td>
@@ -68,18 +62,15 @@
 										<a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash me-2"></i> Delete</a>
 									</td>
 								</tr>
-								
 								<?php
 									}
 								?>
-
 								</tbody>
 							</table>
 							</div>
 						<?php } else{
 							echo"There is no records.";
 						}
-
 						?>
 						</div>
 					</div>

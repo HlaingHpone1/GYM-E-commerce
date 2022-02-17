@@ -5,10 +5,7 @@
 	$sql = "SELECT * FROM products";
 
     $result = mysqli_query($connection, $sql);
-	
 ?>
-	
-
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 text-center">

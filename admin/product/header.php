@@ -57,19 +57,6 @@ if(empty($_SESSION ['email']))
 			<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="topNavBar">
-			<!-- <form class="d-flex ms-auto my-3 my-lg-0">
-				<div class="input-group">
-				<input
-					class="form-control"
-					type="search"
-					placeholder="Search"
-					aria-label="Search"
-				/>
-				<button class="btn btn-primary" type="submit">
-					<i class="fas fa-search"></i>
-				</button>
-				</div>
-			</form> -->
 			<ul class="navbar-nav d-flex ms-auto my-3 my-lg-0">
 				<li class="nav-item dropdown">
 				<a

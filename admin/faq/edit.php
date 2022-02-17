@@ -15,7 +15,6 @@
         $question = $_POST['question'];
         $answer = $_POST['answer'];
 
-
         $updatesql = "UPDATE `faq` SET `user_id` = '$user_id', `question` = '$question', `answer` ='$answer' WHERE `faq`.`id` = ".$id;
 
         $updateresult = $connection->query($updatesql);
@@ -80,5 +79,4 @@ include('./header.php');
                 </div>
 			</div>
 	</div>
-
 <?php include_once('./footer.php'); ?>

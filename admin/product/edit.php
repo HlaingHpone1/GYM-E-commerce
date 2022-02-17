@@ -50,7 +50,6 @@
         if(empty($errors)){
             $sql = "UPDATE `products` SET `name` = '$name', `price` = '$price', `review` = '$review', `description` = '$description', `f_img` = '$f_img', `s_img` = '$s_img', `updated_at` = now()
             WHERE `id`=".$id;
-
             $result = mysqli_query($connection, $sql);
 
             if(!$result){
@@ -59,17 +58,10 @@
                 header('location:index.php');
             }
         }
-        
-        
-
         $connection->close();
     }
-    
-    
-
 include('./header.php');
 ?>
-
 	<div class="container-fluid">
 			<div class="row mb-5">
 				<div class="col-md-12 text-center">
@@ -85,7 +77,6 @@ include('./header.php');
                                 echo "<p class='text-danger'>". $error ."</p>";
                             }
                         }
-
                         if(!empty($messages)){
                             foreach ($messages as $message) {
                                 $success = "<p class='text-success fs-4'>". $message."</p>";
@@ -93,7 +84,6 @@ include('./header.php');
                             $_SESSION['success_upload'] = $success;
                         }
                     ?>
-                        
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingInput" name="name" value="<?php echo $row['name']; ?>" placeholder="price">
                             <label for="floatingInput">Name</label>
@@ -121,10 +111,8 @@ include('./header.php');
                             <label class="input-group-text" for="inputGroupFile02">Select Second Image File to Upload:</label>
                         </div>                
                         <input class="btn login_btn" type="submit" name="submit" value="Submit">
-
                     </form>
                 </div>
 			</div>
 	</div>
-
 <?php include_once('./footer.php'); ?>

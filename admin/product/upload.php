@@ -41,7 +41,6 @@
 
         if(empty($errors)){
             $sql = "INSERT INTO `products`(`name`, `price`, `description`, `review`, `f_img`, `s_img`, `created_at`, `updated_at`) VALUES ('$name','$price','$description', '$review','$f_img','$s_img', now(),now())";
-        
             $result = $connection->query($sql);
 
             if(!$result){
@@ -55,14 +54,10 @@
     }
     require('./header.php');
 ?>
-
-
-
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 text-center fs-1 fw-bolder mb-3">Product Upload</div>
         <div class="col-md-8 offset-md-2">
-            
             <form action="" method="post" enctype="multipart/form-data">
                 <?php
                     if(!empty($errors)){
@@ -70,7 +65,6 @@
                             echo "<p class='text-danger'>". $error ."</p>";
                         }
                     }
-
                     if(!empty($messages)){
                         foreach ($messages as $message) {
                             $success = "<p class='text-success fs-4'>". $message."</p>";
@@ -106,7 +100,4 @@
             </form>
         </div>
     </div>
-
-    
-
 <?php require('./footer.php'); ?>

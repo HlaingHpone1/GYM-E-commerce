@@ -39,7 +39,6 @@
         }
         $connection->close();
     }
-
 ?>
 
 <div class="container-fluid">
@@ -47,7 +46,6 @@
         <div class="col-md-12 text-center fw-bolder fs-1">FAQ Entry</div>
     </div>
     <div class="row">
-        
         <div class="col-md-8 offset-md-2">
                 <?php
                     if(!empty($errors)){
@@ -64,11 +62,9 @@
                     }
                     ?>
             <form action="" method="POST" enctype="multipart/form-data">
-                
                 <div class="form-floating mb-3">
                     <select class="form-select" name="user_id" id="floatingSelect" aria-label="Floating label select example">
                         <option selected disabled>Open this select users</option>
-
                         <?php
                             while($row = mysqli_fetch_assoc($result)){
 							?>
@@ -94,8 +90,4 @@
         </div>
     </div>
 </div>
-
-
-
-
 <?php require('./footer.php'); ?>

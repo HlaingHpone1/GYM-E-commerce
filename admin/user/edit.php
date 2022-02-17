@@ -55,7 +55,6 @@
 
                 $sqlpassresult = $connection->query($sqlpass);
             }
-
             $messages[] = "Update Successful!!!!!";
 
             if(!$updateresult){
@@ -64,12 +63,9 @@
                 header('location:index.php');
             }
         }
-
 	}
 
 	include('./header.php');
-
-	
 ?>
 
 <div class="container-fluid editsection">
